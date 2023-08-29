@@ -2,31 +2,43 @@
 
 import { Footer } from 'flowbite-react';
 import s10Image from '../assets/s10.jpg';
+import {  BsGithub, BsTwitter, BsMedium, BsFacebook , BsLinkedin } from 'react-icons/bs';
 
 const  FooterWithLogo= ()=> {
   return (
-    <Footer container>
-      <div className="w-full text-center">
+    <Footer container bgDark>
+      <div className="w-full text-center ">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
-          <Footer.Brand
+          <Footer.Brand 
             alt="Soulemanou Logo"
             href="/"
             name="Soulemanou"
             src={s10Image}
+            className='border-none'
           />
-          <Footer.LinkGroup>
-            <Footer.Link href="#">
-              About
-            </Footer.Link>
-            <Footer.Link href="#">
-              Privacy Policy
-            </Footer.Link>
-            <Footer.Link href="#">
-              Licensing
-            </Footer.Link>
-            <Footer.Link href="#">
-              Contact
-            </Footer.Link>
+          <Footer.LinkGroup className="text-white gap-5">
+            <Footer.Icon 
+            href="https://github.com/soulemanou-software" 
+            icon={BsGithub}
+            />
+             
+            <Footer.Icon 
+            href="https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou/"
+            icon={BsLinkedin}
+            />
+            <Footer.Icon 
+            href="https://twitter.com/Mr_Babanou_237"
+            icon={BsTwitter}
+            />
+            <Footer.Icon 
+            href="https://medium.com/@soulemanou-kunchiefuh-babanou"
+            icon={BsMedium}
+            />
+            <Footer.Icon 
+            href="https://www.facebook.com/kingofnewyork"
+            icon={BsFacebook}
+            />
+              
           </Footer.LinkGroup>
         </div>
         <Footer.Divider />
@@ -34,6 +46,7 @@ const  FooterWithLogo= ()=> {
           by="Soulemanou kunchiefuh babanou™"
           href="#"
           year="2023-2024"
+          className="text-white"
         />
       </div>
     </Footer>
