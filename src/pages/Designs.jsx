@@ -4,7 +4,7 @@ import Gallery from '../components/gallery';
 const Designs = () => {
   return (
     <>
-      <div className="grid justify-center h-screen p-4 text-white bg-gradient-to-b from-[#99B898] via-[#99B898]  to-[#2A343B] place-items-center">
+      <div className="grid justify-center h-full pt-20 text-white bg-gradient-to-b from-[#99B898] via-[#99B898]  to-[#2A343B] place-items-center">
         <div className="grid justify-center text-center place-items-center">
           <h2 data-aos="fade-in"
             data-aos-easing="linear"

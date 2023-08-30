@@ -2,13 +2,44 @@
 const ProjectsData = [
  {
       id: "B1",
-      thumbnails: "src/assets/profile1.png",
-      title: "My Portfolio",
-      livedemo: "https://www.linkedin.com/feed/?trk=404_page",
-      github: "https://github.com/fastdevz/Textify-js",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores voluptas harum quas officiis aliquid natus, atque laudantium est pariatur quidem cumque ut rem voluptatibus quo facilis eaque! Velit, repellendus?",
-    languages:["Javascript","Css3","Tailwind"]
+      thumbnails: "src/assets/ProjectsImages/1.png",
+      title: "Crypto Exchanger",
+      livedemo: "https://deploy-preview-2--effulgent-blancmange-961cdb.netlify.app/",
+      github: "https://github.com/soulemanou-software/React-capstone-crypto-Exchange-",
+    description: "The crypto exchange tracker is a capstone project build with React/Redux. It's web app that helps users, espacially traders, to keep track on actual state of crypto currency",
+    languages:["React","Javascript","sass","html5","linter","netlify-deployment"]
+    
     },
+ {
+      id: "B2",
+      thumbnails: "src/assets/ProjectsImages/2.png",
+      title: "My Portfolio",
+      livedemo: "/",
+      github: "https://github.com/soulemanou-software/my_portfolio",
+    description: "This portfolio is the embodiment of my passion for technology and my continuous dedication to learning, improving, and delivering high-quality projects. I invite you to explore it, understand my coding abilities, and perceive the value I can bring to your enterprise.",
+    languages:["React","Javascript","Flowbite-react","linter","netlify-deployment"]
+    
+    },
+ {
+      id: "B3",
+      thumbnails: "https://github.com/aamirkhan2478/space-traveler-hub/raw/master/src/Layout/assets/Images/Screen%20Shots/rockets-page.png",
+      title: "space-traveler-hub",
+      livedemo: "https://github.com/aamirkhan2478/space-traveler-hub",
+      github: "https://github.com/aamirkhan2478/space-traveler-hub",
+    description: "This is simple react web application you can see new rockets and also reserved rockets. You can also see different missions and also join missions and also you can see you profile and check it how many missions you joined and how many rockets you reserved.",
+    languages:["React","redex-toolkit","redux"]
+    
+    },
+ {
+      id: "B4",
+      thumbnails: "src/assets/ProjectsImages/3.png",
+      title: "Bookstore",
+      livedemo: "https://deploy-preview-5--bookstore-2112.netlify.app/",
+      github: "https://github.com/soulemanou-software/bookstore-",
+    description: "The Bookstore is a website where the user can view a list of books, add a book by entering a title, an author, and a category, and remove a book.",
+    languages:["React","redex-toolkit","redux"]
+    
+    }
 ];
 
 const ProjectRefData = [
@@ -18,7 +49,8 @@ const ProjectRefData = [
   Text: "As a full stack developer, this compilation represents my extensive work in the field. From front-end development to back-end programming, each project showcases my expertise and proficiency in building robust and dynamic web applications. With a keen eye for design and a strong foundation in coding languages, this portfolio demonstrates my ability to create seamless user experiences and efficient functionality. Explore this collection to witness the breadth and depth of my skills as a full stack developer.",
   Image: "src/assets/DesignsImages/fastdezlogo.png",
   ImageAlt: "ProjectsImg",
-    color: "black"
+  color: "black",
+  Nav: "/Projects"
 },
 {
   id: 2 ,
@@ -26,7 +58,8 @@ const ProjectRefData = [
   Text: "As a graphic designer, this collection showcases all of my artwork. Each piece is a reflection of my creativity and expertise in the field. From stunning visuals to captivating designs, this portfolio represents the culmination of my skills and passion for graphic design. Explore this collection to witness the artistry and innovation that defines my work as a graphic designer.",
   Image: "src/assets/DesignsImages/fastdezlogo.png",
   ImageAlt: "DesignImg",
-  color: "red-700"
+  color: "red-700",
+  Nav: "/Designs"
 }
 ];
 

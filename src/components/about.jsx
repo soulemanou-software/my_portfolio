@@ -16,7 +16,7 @@ const About = () => {
 
   const renderLogos = (logos) => {
     return logos.map((logo, index) => (
-      <li key={index} data-aos="zoom-out" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration={7000 * index }>
+      <li key={index} data-aos="zoom-out" >
         <img src={logo} alt="" className="w-16" />
       </li>
     ));

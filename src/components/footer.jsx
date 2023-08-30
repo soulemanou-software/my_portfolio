@@ -6,7 +6,7 @@ import {  BsGithub, BsTwitter, BsMedium, BsFacebook , BsLinkedin } from 'react-i
 
 const  FooterWithLogo= ()=> {
   return (
-    <Footer container bgDark>
+    <Footer container >
       <div className="w-full text-center ">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <Footer.Brand 
@@ -16,7 +16,7 @@ const  FooterWithLogo= ()=> {
             src={s10Image}
             className='border-none'
           />
-          <Footer.LinkGroup className="text-white gap-5">
+          <Footer.LinkGroup className=" gap-5">
             <Footer.Icon 
             href="https://github.com/soulemanou-software" 
             icon={BsGithub}
@@ -46,7 +46,6 @@ const  FooterWithLogo= ()=> {
           by="Soulemanou kunchiefuh babanou™"
           href="#"
           year="2023-2024"
-          className="text-white"
         />
       </div>
     </Footer>

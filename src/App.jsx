@@ -1,37 +1,31 @@
-// import Projects from './pages/projects';
 import FooterWithLogo from './components/footer';
-import Skills from '../src/components/skills';
-import About from './components/about';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import Projectsection from '../src/components/projectSection';
-import Presentation from './components/presentation';
-// import HorizontalCard from './pages/projects';
-// import Projects from './pages/projects';
-
-import Contact from "./components/contact";
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import Navigator from "./components/navigator";
-import Projectsection from './components/projectSection';
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
-
+import MainPage from './pages/mainPage';
+import Designs from './pages/Designs';
+import Project from './pages/Projects';
 
 function App() {
   useEffect(() => {
     AOS.init();
-  }, [])
-  return (
-    <>
-      <Navigator />
-      <Presentation />
-      <About />
-      <Skills />
-      <Projectsection />
-      <Contact />
-      <FooterWithLogo />
+  }, []);
 
-      {/* <Project /> */}
-    </>
-  )
+  return (
+    <Router>
+      <Navigator />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/Designs" element={<Designs />} />
+        <Route path="/Projects" element={<Project />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+      <FooterWithLogo />
+    </Router>
+  );
 }
 
 export default App;

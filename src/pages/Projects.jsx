@@ -32,16 +32,16 @@ const Project = () => {
 
                 <div id={`modal-${El.id}`} tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full m-5">
                   <div className="relative w-full max-w-max max-h-max">
-                    <div className="relative w-full bg-white border-red-800 rounded-lg shadow border-y-4 ">
-                      <button type="button" className="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-red-800 hover:text-red-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-red-600 dark:hover:text-white" data-modal-hide={`modal-${El.id}`}>
+                    <div className="relative w-full bg-white h-min border-red-800 rounded-lg shadow border-y-4 ">
+                      <button type="button" className="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-red-800 hover:text-red-900 rounded-lg text-sm w-8 h-8  ml-auto inline-flex justify-center items-center dark:hover:bg-red-600 dark:hover:text-white" data-modal-hide={`modal-${El.id}`}>
                         <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                         </svg>
                         <span className="sr-only">Close modal</span>
                       </button>
                       {/* content */}
-                      <div className="px-6 pt-4 my-0 ">
-                        <div className="flex items-center justify-between pt-10 flex-rows">
+                      <div className="px-6 pt-12 my-0 ">
+                        <div className="flex items-center justify-between  flex-rows">
                           <a href={El.livedemo} target="_blank" className="flex flex-row-reverse justify-center h-10 gap-2 p-2 font-semibold border-2 border-gray-700 rounded-md item-center w-max hover:bg-blue-700 hover:text-white hover:border-none" rel="noreferrer">
                             <span>Live Demo</span>
                           </a>
@@ -51,14 +51,14 @@ const Project = () => {
                         </div>
                       </div>
                       <div className="flex flex-row items-center justify-center place-content-center ">
-                        <img src={El.thumbnails} alt="" className="md:w-[24rem] w-[30rem]" />
+                        <img src={El.thumbnails} alt="" className="md:w-[24rem] my-2" />
                       </div>
-                      <div className="p-2 text-center">
+                      <div className="flex flex-row justify-center flex-wrap-reverse gap-2 px-2 text-center w-fit">
                         {
                           El.languages.map((language) => (
                             <span
                               key={language}
-                              className="bg-blue-700 text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-white"
+                              className=" bg-blue-700 text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-white"
                             >
                               {language}
                             </span>
