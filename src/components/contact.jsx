@@ -1,17 +1,17 @@
 const Contact = () => {
   return (
     <>
-      <section id="Contacts" className="flex flex-col h-screen bg-black text-white w-full justify-center items-center bg-[url('src/assets/kody_skiing_flying_yellow.webp')] md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:250px] bg-[length:130px]">
+      <section id="Contacts" className="flex flex-col h-screen bg-black text-white w-full justify-center items-center bg-[url('https://raw.githubusercontent.com/soulemanou-software/my_portfolio/master/src/assets/kody_skiing_flying_yellow.webp')] md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:250px] bg-[length:130px]">
         <div className="grid justify-center place-items-center ">
           <h2 data-aos="fade-in"
             data-aos-easing="linear"
-            data-aos-duration="4000" className="bg-[url('src/assets/A02.jpg')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] mb-20">
+            data-aos-duration="4000" className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] mb-20">
             #Contact Me
           </h2>
-          <p className="px-5 text-sm md:text-xl text-center" >Feel free to reach out to me through the Contact Me section in my portfolio.
+          <p className="px-5 text-sm text-center md:text-xl" >Feel free to reach out to me through the Contact Me section in my portfolio.
             <br />I look forward to connecting with you!</p>
         </div>
-        <div className="py-9 w-full md:px-80 px-10 ">
+        <div className="w-full px-10 py-9 md:px-80 ">
 
           <form action="https://formspree.io/f/xpzgdrbj"
             method="POST">
