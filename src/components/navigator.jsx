@@ -9,7 +9,7 @@ const Navigator = () => {
         <img
           alt="soulemanou Logo"
           className="h-6 mr-3 sm:h-9"
-          src="src/assets/profile1.png"
+          src="https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile1.png?raw=true"
         />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
           Soulemanou Kunchiefuh
