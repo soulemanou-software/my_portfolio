@@ -11,7 +11,7 @@ const Project = () => {
             data-aos-duration="4000" className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
             ./Projects
           </h2>
-          <p className="text-xl">Selected projects I've worked on in the past</p>
+          <p className="text-xl">Selected projects I&apos;ve worked on in the past</p>
         </div>
         <div className="grid justify-center w-full grid-cols-1 gap-4 py-10 md:grid-cols-4 grid-rows-auto">
           {ProjectsData.map((El) => (

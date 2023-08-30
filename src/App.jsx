@@ -21,6 +21,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/Designs" element={<Designs />} />
         <Route path="/Projects" element={<Project />} />
+        <Route path="/About" element={<Navigate to="#About" />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <FooterWithLogo />
