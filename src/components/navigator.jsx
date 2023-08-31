@@ -7,12 +7,12 @@ const Navigator = () => {
     <Navbar fluid rounded className="fixed z-[1000] w-full px-4 text-white border-gray-200 bg-gray-900 dark:border-gray-700">
       <Link to="/" className="flex items-center">
         <img
-          alt="soulemanou Logo"
+          alt="BABANOU ICON"
           className="h-6 mr-3 sm:h-9"
           src="https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile1.png?raw=true"
         />
-        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-          Soulemanou Kunchiefuh
+        <span className="self-center text-sm font-semibold md:text-xl whitespace-nowrap dark:text-white">
+          Kunchiefuh
         </span>
       </Link>
       <div className="flex md:order-2">
@@ -29,11 +29,11 @@ const Navigator = () => {
         <Navbar.Link active href="/">
           Home
         </Navbar.Link>
-        <Link to="/#About">
-        <Navbar.Link href="" className='text-white'>
+        {/* <Link to="/#About"> */}
+        <Navbar.Link href="#About" className='text-white'>
           About
         </Navbar.Link>
-        </Link>
+        {/* </Link> */}
         <Navbar.Link href="#Skills" className='text-white'>
           Skills
         </Navbar.Link>
