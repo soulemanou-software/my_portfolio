@@ -1,7 +1,7 @@
 // 'use client';
 
 import { Footer } from 'flowbite-react';
-import s10Image from '../assets/s10.jpg';
+import s10Image from '../assets/profile1.png';
 import {  BsGithub, BsTwitter, BsMedium, BsFacebook , BsLinkedin } from 'react-icons/bs';
 
 const  FooterWithLogo= ()=> {

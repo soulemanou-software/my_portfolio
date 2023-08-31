@@ -24,7 +24,7 @@ const About = () => {
 
   return (
     <section id="About" className="flex items-center justify-center pt-5 text-black bg-white md:h-screen md:pt-9 md:px-4 dark:bg-slate-300">
-      <div className="md:bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile1.png?raw=true')] bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile2.png?raw=true')] h-full bg-no-repeat md:bg-[length:600px] bg-[length:28rem]  md:bg-[center_bottom] bg-[center_bottom_20rem] md:text-center flex flex-col md:justify-center justify-start md:items-center md:gap-10 px-4">
+      <div className="md:bg-[url('src/assets/profile1.png')] bg-[url('src/assets/profile2.png')] h-full bg-no-repeat md:bg-[length:600px] bg-[length:28rem]  md:bg-[center_bottom] bg-[center_bottom_20rem] md:text-center flex flex-col md:justify-center justify-start md:items-center md:gap-10 px-4">
         <div>
           <h2 data-aos="fade-in"
      data-aos-easing="linear"
