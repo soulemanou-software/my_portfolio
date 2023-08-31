@@ -27,7 +27,7 @@ const Presentation = () => {
 
   return (
     <>
-      <section id="landing" className="relative bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/illustration.png?raw=true')] md:bg-[right_bottom_1rem] bg-[right_bottom_1rem] bg-[length:200px] bg-no-repeat md:bg-[length:700px] flex flex-col h-screen bg-black text-white w-full justify-center items-center">
+      <section id="landing" className="relative bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/illustration.png?raw=true')] md:bg-[right_bottom_1rem] bg-[right_bottom_1rem] bg-[length:200px] bg-no-repeat md:bg-[length:30rem] flex flex-col h-screen bg-black text-white w-full justify-center items-center">
         <div className="flex flex-col-reverse justify-start w-full gap-2 pl-4 md:flex-row">
           <SocialIcons />
           <div className="flex flex-col justify-end ">
