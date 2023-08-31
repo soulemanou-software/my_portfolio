@@ -1,7 +1,7 @@
 // 'use client';
 
 import { Footer } from 'flowbite-react';
-import s10Image from '../assets/profile1.png';
+import s10Image from 'https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/profile1.png?raw=true';
 import {  BsGithub, BsTwitter, BsMedium, BsFacebook , BsLinkedin } from 'react-icons/bs';
 
 const  FooterWithLogo= ()=> {
@@ -10,7 +10,7 @@ const  FooterWithLogo= ()=> {
       <div className="w-full text-center ">
         <div className="justify-between w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Brand 
-            alt="Soulemanou Logo"
+            alt="Mr SKB icon"
             href="/"
             name="Soulemanou"
             src={s10Image}

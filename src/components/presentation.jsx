@@ -31,7 +31,7 @@ const Presentation = () => {
         <div className="flex flex-col-reverse justify-start w-full gap-2 pl-4 md:flex-row">
           <SocialIcons />
           <div className="flex flex-col justify-end ">
-            <h1 data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')] md:bg-[left_bottom] bg-[left_bottom]  bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white]">
+            <h1 data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/A02.jpg?raw=true')] md:bg-[left_bottom] bg-[left_bottom]  bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white]">
               Hey There. <br />I&rsquo;m Babanou
             </h1>
             <h2 className="text-2xl font-bold text-start text">

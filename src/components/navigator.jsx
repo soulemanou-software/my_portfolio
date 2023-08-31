@@ -9,7 +9,7 @@ const Navigator = () => {
         <img
           alt="BABANOU ICON"
           className="h-6 mr-3 sm:h-9"
-          src="src/assets/profile1.png"
+          src="https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/profile1.png?raw=true"
         />
         <span className="self-center text-sm font-semibold md:text-xl whitespace-nowrap dark:text-white">
           Kunchiefuh
