@@ -1,8 +1,8 @@
-import githubIcon from "https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/github-2-4695719.png?raw=true";
-import twitterIcon from "https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/twitter-2-4695717-4695717@0.png?raw=true";
-import facebookIcon from "https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/facebook-2-4695694.png?raw=true";
-import mediumIcon from "https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/medium-4695754-4695754@0.png?raw=true";
-import linkedinIcon from "https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/linkedin-2-4695696.png?raw=true";
+import githubIcon from "https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/github-2-4695719.png?raw=true";
+import twitterIcon from "https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/twitter-2-4695717-4695717@0.png?raw=true";
+import facebookIcon from "https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/facebook-2-4695694.png?raw=true";
+import mediumIcon from "https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/medium-4695754-4695754@0.png?raw=true";
+import linkedinIcon from "https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/linkedin-2-4695696.png?raw=true";
 
 const SocialIcons = () => {
   return (

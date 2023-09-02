@@ -149,7 +149,7 @@ const Skills = () => {
     <>
       <section id="Skills" className="relative grid h-full p-5 text-white bg-black md:h-full place-items-center">
         <div className="text-center ">
-          <h2 className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/feature/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
+          <h2 className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
             # My Skills
           </h2>
         </div>
