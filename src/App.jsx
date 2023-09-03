@@ -8,12 +8,15 @@ import { useEffect } from 'react';
 import MainPage from './pages/mainPage';
 import Designs from './pages/Designs';
 import Project from './pages/Projects';
+// import {Cloudinary} from "@cloudinary/url-gen";
+
 
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
-
+// const cld = new Cloudinary({cloud: {cloudName: 'dn3axz2yj'}});
+  // console.log(cld);
   return (
     <Router>
       <Navigator />
