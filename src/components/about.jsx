@@ -8,8 +8,6 @@ import photoshop from "../assets/photoshop-4642752.png";
 import xd from "../assets/xd-4642736.png";
 import figma from "../assets/figma-4642727.png";
 import canva from "../assets/canva-4642728.png";
-import profile1 from "../assets/profile1.png";
-import profile2 from "../assets/profile2.png";
 import bgimg from "../assets/A02.jpg";
 import { aboutmedata } from "./Api/ProjectsData";
 
@@ -27,7 +25,7 @@ const About = () => {
 
   return (
     <section id="About" className="flex items-center justify-center pt-5 text-black bg-white md:h-screen md:pt-9 md:px-4 dark:bg-slate-300">
-      <div className={`md:bg-[url(${profile1})] bg-[url(${profile2})] h-full bg-no-repeat md:bg-[length:600px] bg-[length:28rem]  md:bg-[center_bottom] bg-[center_bottom_20rem] md:text-center flex flex-col md:justify-center justify-start md:items-center md:gap-10 px-4`}>
+      <div className="md:bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile1.png?raw=true')] bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/profile2.png?raw=true')] h-full bg-no-repeat md:bg-[length:600px] bg-[length:28rem]  md:bg-[center_bottom] bg-[center_bottom_20rem] md:text-center flex flex-col md:justify-center justify-start md:items-center md:gap-10 px-4">
         <div>
           <h2 data-aos="fade-in"
      data-aos-easing="linear"
