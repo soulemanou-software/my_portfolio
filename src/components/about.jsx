@@ -29,7 +29,7 @@ const About = () => {
         <div>
           <h2 data-aos="fade-in"
      data-aos-easing="linear"
-     data-aos-duration="4000" className={`bg-[url(${bgimg})]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  `}>
+     data-aos-duration="4000" className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:300px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
             # About Me
           </h2>
         </div>
