@@ -147,13 +147,13 @@ const Skills = () => {
 
   return (
     <>
-      <section id="Skills" className="relative bg-black text-white md:h-full  h-full grid place-items-center p-5">
-        <div className=" text-center">
-          <h2 className="bg-[url('src/assets/A02.jpg')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
+      <section id="Skills" className="relative grid h-full p-5 text-white bg-black md:h-full place-items-center">
+        <div className="text-center ">
+          <h2 className="bg-[url('https://github.com/soulemanou-software/my_portfolio/blob/master/src/assets/A02.jpg?raw=true')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
             # My Skills
           </h2>
         </div>
-        <div className="grid grid-cols-1 flex-wrap  md:grid-cols-2 justify-start items-start w-full py-5">
+        <div className="grid flex-wrap items-start justify-start w-full grid-cols-1 py-5 md:grid-cols-2">
           <SkillsContainer title="Full Stack Software Developer" skillsGroups={developerSkills} className="md:border-r-2 md:border-white " />
           <SkillsContainer title="Graphic Designer" skillsGroups={designerSkills} className=""/>
         </div>

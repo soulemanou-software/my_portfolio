@@ -1,7 +1,7 @@
 import LightGallery from 'lightgallery/react';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
-import thumbs from './api/DesignsData';
+import thumbs from './Api/DesignsData';
 
 const Gallery = ()=>{
   

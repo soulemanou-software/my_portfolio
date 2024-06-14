@@ -8,12 +8,15 @@ import { useEffect } from 'react';
 import MainPage from './pages/mainPage';
 import Designs from './pages/Designs';
 import Project from './pages/Projects';
+// import {Cloudinary} from "@cloudinary/url-gen";
+
 
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
-
+// const cld = new Cloudinary({cloud: {cloudName: 'dn3axz2yj'}});
+  // console.log(cld);
   return (
     <Router>
       <Navigator />
@@ -21,6 +24,7 @@ function App() {
         <Route path="/" element={<MainPage />} />
         <Route path="/Designs" element={<Designs />} />
         <Route path="/Projects" element={<Project />} />
+        <Route path="/About" element={<Navigate to="#About" />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <FooterWithLogo />
