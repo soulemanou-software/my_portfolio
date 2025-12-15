@@ -3,6 +3,16 @@ import Gallery from '../components/gallery';
 import { HiPhotograph, HiSparkles, HiEye, HiColorSwatch, HiCube } from 'react-icons/hi';
 import { FaPalette, FaPaintBrush, FaLayerGroup } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import allDesigns from '../components/Api/DesignsData';
+
+// Category mapping - which design IDs belong to each category
+const categoryMapping = {
+  "All": null,
+  "Logos": [1, 2, 3, 4, 5, 7, 13, 28, 29, 34, 35, 36],
+  "Posters": [8, 9, 10, 11, 16, 17, 30, 31],
+  "Social Media": [12, 14, 15, 18, 19, 20, 23, 37, 38, 27],
+  "Branding": [21, 22, 24, 25, 26, 32, 33, 6],
+};
 
 const designStats = [
   { value: "38+", label: "Design Works", icon: HiColorSwatch },
@@ -17,15 +27,21 @@ const designTools = [
 ];
 
 const designCategories = [
-  { name: "All", count: 38 },
-  { name: "Logos", count: 12 },
-  { name: "Posters", count: 8 },
-  { name: "Social Media", count: 10 },
-  { name: "Branding", count: 8 },
+  { name: "All", count: allDesigns.length },
+  { name: "Logos", count: categoryMapping["Logos"].length },
+  { name: "Posters", count: categoryMapping["Posters"].length },
+  { name: "Social Media", count: categoryMapping["Social Media"].length },
+  { name: "Branding", count: categoryMapping["Branding"].length },
 ];
 
 const Designs = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  // Filter designs based on active category
+  const filteredDesigns = activeCategory === "All" 
+    ? allDesigns 
+    : allDesigns.filter(design => categoryMapping[activeCategory]?.includes(design.id));
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -115,17 +131,18 @@ const Designs = () => {
 
           <div className={`mb-8 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <div className="flex flex-wrap items-center gap-2">
-              {designCategories.map((category, index) => (
+              {designCategories.map((category) => (
                 <button
-                  key={index}
+                  key={category.name}
+                  onClick={() => setActiveCategory(category.name)}
                   className={`px-4 py-2 rounded-full font-accent text-sm transition-all duration-300 ${
-                    index === 0 
+                    activeCategory === category.name 
                       ? 'bg-gradient-to-r from-savanna-400 to-sunset-400 text-night-600 font-semibold' 
                       : 'bg-night-700/30 border border-earth-700/30 text-earth-300 hover:border-savanna-400/30 hover:text-savanna-400'
                   }`}
                 >
                   {category.name}
-                  <span className={`ml-1.5 text-xs ${index === 0 ? 'text-night-600/60' : 'text-earth-500'}`}>
+                  <span className={`ml-1.5 text-xs ${activeCategory === category.name ? 'text-night-600/60' : 'text-earth-500'}`}>
                     ({category.count})
                   </span>
                 </button>
@@ -140,13 +157,13 @@ const Designs = () => {
                   <HiPhotograph className="w-5 h-5 text-sunset-400" />
                 </div>
                 <div>
-                  <h2 className="font-heading text-lg text-savanna-100">All Designs</h2>
-                  <p className="text-xs text-earth-400">38 creative works</p>
+                  <h2 className="font-heading text-lg text-savanna-100">{activeCategory} Designs</h2>
+                  <p className="text-xs text-earth-400">{filteredDesigns.length} creative works</p>
                 </div>
               </div>
             </div>
 
-            <Gallery />
+            <Gallery data={filteredDesigns} />
           </div>
 
           <div className={`mt-12 text-center transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>

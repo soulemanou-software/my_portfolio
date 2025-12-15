@@ -76,7 +76,7 @@ const Presentation = () => {
       backSpeed: 45,
       backDelay: 1800,
       loop: true,
-      cursorChar: '|',
+      cursorChar: '}',
     });
 
     return () => typed.destroy();
@@ -183,7 +183,7 @@ const Presentation = () => {
                 </span>
               </div>
 
-              <div className="absolute -top-2 -right-2 sm:top-2 sm:right-0 px-3 py-1.5 bg-baobab-400/20 border border-baobab-400/30 rounded-full">
+              <div className="absolute -top-2 -right-2 sm:top-2 sm:right-0 z-20 px-3 py-1.5 bg-baobab-400/20 border border-baobab-400/30 rounded-full">
                 <span className="text-baobab-400 text-[10px] font-accent font-semibold flex items-center gap-1">
                   <HiGlobe className="w-3 h-3" />
                   Cameroon
