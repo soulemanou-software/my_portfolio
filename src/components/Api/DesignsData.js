@@ -1,4 +1,6 @@
-  const thumbs = [
+  import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.png";
+
+const thumbs = [
     {
       id: 1,
       src: 'https://lh3.googleusercontent.com/pw/AIL4fc8hXTw7CRVcUjG18ABwvNuj08sQ58j4CXgAP6mtuqvec1ie-KLwO3skkVvLpnSjh7IGTEUt8uPEYq9U1-c8wSQuStFdqvz4BLQhHzvX1iJ0A0OX6Ey1XSVgDq7uxp_ymTM-NvnLLr5V7UMLj3oXfr6mZDC_heokjlfRuT-qnkxbbBUCC3tyG3BpL0CHOWih0dUh2qwxP4QBMH-gsXNqzZX513O5aePGvsSj2BcqHlaimNxIjWCM7Qd1sp4gzITLI8kufb3uP0p5a6DyfvmgAqo6naqFJ9ZPlFr3zPyaQdgEmzX_O02Szjq-YO2JDxgiqiJxZeQTGLLTV1ciH07AyoLsTGyDbEDXskg9akKwlw4cWAFoSjLeXFfyy7vQ6Dk8WW4SYowU3NUf3z6Hoj3-jkRJo-zAi4pcK7-lV-PCjYzNyShjSC09sMm0uyOmSub2EYO1c_TQSbyoDrjNrNnCqZde18cCylMRMCzCuwCpo7ba5KUqe4n-KmmM_6mSfL4bD1bvWe6dHGiX0w5WmZRM3p61UFJGKfwbzX_XqTvwLdc9ZOGXv3-MXrRJv2ck2JyNs7cFMwBHlUS3UYQS0rSc-tbxx0DonlkE8Hs8w4SLPfNtDu10PrGB1AVvZRNz7T-W7iFhGu9n94l0K55IC3KCiwSk046vxAW9Y4y9DylLU2IdEKVi6i6vUxOqjdm0Usx48daEaoKmE3GtBr8DIaCCUwpuqPvqK-cxscOtaJN4mPvXRhSApi4wjVp8ZDi9n_jb__MzxnrN8HUAu05zqJsg1yRDkxUYlP8Pk2e2tN8ZxPAd4q2DZYjaJIRSnzFTSnSp2eJAgGv8JzKafW_blHtbbDQ2eLqi_pd8X-ka7PZXxqrhXnObxb-Q-0Rs8P5hgqTVBqU2903Ae9jdn1on=w657-h657-s-no?authuser=0',
@@ -21,7 +23,7 @@
     },
     {
       id: 7,
-      src: 'src/assets/DesignsImages/fastdezlogo.png',
+      src: fastDezLogo,
     },
     {
       id: 8,

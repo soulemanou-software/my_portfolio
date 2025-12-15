@@ -1,8 +1,12 @@
+import project1Thumb from "../../assets/ProjectsImages/1.png";
+import project2Thumb from "../../assets/ProjectsImages/2.png";
+import project3Thumb from "../../assets/ProjectsImages/3.png";
+import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.png";
 
 const ProjectsData = [
  {
       id: "B1",
-      thumbnails: "src/assets/ProjectsImages/1.png",
+      thumbnails: project1Thumb,
       title: "Crypto Exchanger",
       livedemo: "https://deploy-preview-2--effulgent-blancmange-961cdb.netlify.app/",
       github: "https://github.com/soulemanou-software/React-capstone-crypto-Exchange-",
@@ -12,7 +16,7 @@ const ProjectsData = [
     },
  {
       id: "B2",
-      thumbnails: "src/assets/ProjectsImages/2.png",
+      thumbnails: project2Thumb,
       title: "My Portfolio",
       livedemo: "/",
       github: "https://github.com/soulemanou-software/my_portfolio",
@@ -32,7 +36,7 @@ const ProjectsData = [
     },
  {
       id: "B4",
-      thumbnails: "src/assets/ProjectsImages/3.png",
+      thumbnails: project3Thumb,
       title: "Bookstore",
       livedemo: "https://deploy-preview-5--bookstore-2112.netlify.app/",
       github: "https://github.com/soulemanou-software/bookstore-",
@@ -47,7 +51,7 @@ const ProjectRefData = [
   id: 1 ,
   Title: "A catalog of my Dev works.",
   Text: "As a full stack developer, this compilation represents my extensive work in the field. From front-end development to back-end programming, each project showcases my expertise and proficiency in building robust and dynamic web applications. With a keen eye for design and a strong foundation in coding languages, this portfolio demonstrates my ability to create seamless user experiences and efficient functionality. Explore this collection to witness the breadth and depth of my skills as a full stack developer.",
-  Image: "src/assets/DesignsImages/fastdezlogo.png",
+  Image: fastDezLogo,
   ImageAlt: "ProjectsImg",
   color: "black",
   Nav: "/Projects"
@@ -56,7 +60,7 @@ const ProjectRefData = [
   id: 2 ,
   Title: "A catalog of my Art works.",
   Text: "As a graphic designer, this collection showcases all of my artwork. Each piece is a reflection of my creativity and expertise in the field. From stunning visuals to captivating designs, this portfolio represents the culmination of my skills and passion for graphic design. Explore this collection to witness the artistry and innovation that defines my work as a graphic designer.",
-  Image: "src/assets/DesignsImages/fastdezlogo.png",
+  Image: fastDezLogo,
   ImageAlt: "DesignImg",
   color: "red-700",
   Nav: "/Designs"

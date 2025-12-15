@@ -1,81 +1,150 @@
+import { useState, useEffect } from "react";
 import { ProjectsData } from "../components/Api/ProjectsData";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { HiExternalLink, HiX } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
 
 const Project = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <>
-      <div className="flex flex-col items-center justify-start w-full h-full px-5 pt-32 bg-white dark:bg-slate-300">
-        <div className="grid justify-center place-items-center">
-          <h2 data-aos="fade-in"
-            data-aos-easing="linear"
-            data-aos-duration="4000" className="bg-[url('src/assets/A02.jpg')]  md:bg-[left_bottom] bg-[left_bottom] bg-no-repeat md:bg-[length:260px] bg-[length:300px] text-5xl font-bold bg-clip-text text-transparent drop-shadow-[1.5px_-1.5px_1px_white] h-20  ">
-            ./Projects
-          </h2>
-          <p className="text-xl">Selected projects I've worked on in the past</p>
+    <div className="min-h-screen pt-20 sm:pt-24 pb-12 sm:pb-16 bg-gradient-to-b from-night-500 via-night-600 to-earth-900/30">
+      <div className="fixed inset-0 opacity-5 pointer-events-none">
+        <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="projectPagePattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+              <circle cx="40" cy="40" r="1" fill="#D4A853" />
+              <rect x="35" y="35" width="10" height="10" fill="none" stroke="#E07A5F" strokeWidth="0.5" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#projectPagePattern)" />
+        </svg>
+      </div>
+
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12">
+        <div className="text-center mb-10 sm:mb-16">
+          <div className="chapter-indicator justify-center mb-6">
+            <span>Portfolio</span>
+          </div>
+          <h1 className="section-title-pattern mb-3 sm:mb-4">Development Projects</h1>
+          <p className="section-subtitle max-w-2xl mx-auto">
+            A collection of web applications and software solutions I've built,
+            each representing a unique challenge and creative solution.
+          </p>
         </div>
-        <div className="grid justify-center w-full grid-cols-1 gap-4 py-10 md:grid-cols-4 grid-rows-auto">
-          {ProjectsData.map((El) => (
-            <div key={El.id} className="grid bg-white border-none rounded-md shadow-2xl gridow-cols-1 grid-rows-auto">
-              <img src={El.thumbnails} alt="" className="w-full h-auto rounded-t-md" />
-              <div className="flex flex-col justify-between h-full p-3 border-b-4 rounded-md border-b-red-700">
-                <h2 className="text-2xl font-semibold text-center">{El.title}</h2>
-                <button
-                  data-modal-target={`modal-${El.id}`} data-modal-toggle={`modal-${El.id}`}
-                  className="my-2 items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 dark:text-gray-900 group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white w-full"
-                >
-                  <span className="relative flex flex-row items-center justify-around w-full px-5 py-1 text-xl font-light transition-all duration-75 ease-in bg-white md:px-16 md:py-2 group-hover:bg-opacity-0">
-                    <span>See Project</span>
-                    <AiOutlineArrowRight className="text-2xl" />
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+          {ProjectsData.map((project, index) => (
+            <div
+              key={project.id}
+              className="african-card group overflow-hidden cursor-pointer"
+              onClick={() => setSelectedProject(project)}
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <div className="relative h-44 sm:h-52 -mx-5 sm:-mx-6 -mt-5 sm:-mt-6 mb-3 sm:mb-4 overflow-hidden">
+                <img
+                  src={project.thumbnails}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-night-600 via-night-600/50 to-transparent" />
+                <div className="absolute inset-0 bg-savanna-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <span className="px-4 py-2 bg-night-600/90 text-savanna-400 rounded-lg font-accent text-sm">
+                    View Details
                   </span>
-                </button>
-                {/* modal */}
-
-                <div id={`modal-${El.id}`} tabIndex="-1" className="fixed top-0 left-0 right-0 z-50 hidden p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full m-5">
-                  <div className="relative w-full max-w-max max-h-max">
-                    <div className="relative w-full bg-white h-min border-red-800 rounded-lg shadow border-y-4 ">
-                      <button type="button" className="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-red-800 hover:text-red-900 rounded-lg text-sm w-8 h-8  ml-auto inline-flex justify-center items-center dark:hover:bg-red-600 dark:hover:text-white" data-modal-hide={`modal-${El.id}`}>
-                        <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-                          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
-                        </svg>
-                        <span className="sr-only">Close modal</span>
-                      </button>
-                      {/* content */}
-                      <div className="px-6 pt-12 my-0 ">
-                        <div className="flex items-center justify-between  flex-rows">
-                          <a href={El.livedemo} target="_blank" className="flex flex-row-reverse justify-center h-10 gap-2 p-2 font-semibold border-2 border-gray-700 rounded-md item-center w-max hover:bg-blue-700 hover:text-white hover:border-none" rel="noreferrer">
-                            <span>Live Demo</span>
-                          </a>
-                          <a href={El.github} target="_blank" className="flex flex-row justify-center h-10 gap-2 p-2 font-semibold border-2 border-gray-700 rounded-md item-center w-max hover:bg-blue-700 hover:text-white hover:border-none" rel="noreferrer">
-                            <span> GitHub </span>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="flex flex-row items-center justify-center place-content-center ">
-                        <img src={El.thumbnails} alt="" className="md:w-[24rem] my-2" />
-                      </div>
-                      <div className="flex flex-row justify-center flex-wrap-reverse gap-2 px-2 text-center w-fit">
-                        {
-                          El.languages.map((language) => (
-                            <span
-                              key={language}
-                              className=" bg-blue-700 text-white text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-700 dark:text-white"
-                            >
-                              {language}
-                            </span>
-                          ))
-                        }
-                      </div>
-                      <p className="p-6 text-center w-fit md:w-[30rem]">{El.description}</p>
-                    </div>
-                  </div>
                 </div>
+              </div>
 
+              <h3 className="font-heading text-lg sm:text-xl text-savanna-100 mb-2 sm:mb-3 group-hover:text-savanna-400 transition-colors">
+                {project.title}
+              </h3>
+              <p className="text-sm text-earth-300 mb-3 sm:mb-4 line-clamp-2">{project.description}</p>
+
+              <div className="flex flex-wrap gap-2">
+                {project.languages?.slice(0, 3).map((lang, idx) => (
+                  <span key={idx} className="text-xs px-2 py-1 bg-night-700/50 text-earth-300 rounded border border-earth-700/30">
+                    {lang}
+                  </span>
+                ))}
+                {project.languages?.length > 3 && (
+                  <span className="text-xs px-2 py-1 text-earth-400">+{project.languages.length - 3} more</span>
+                )}
               </div>
             </div>
           ))}
         </div>
       </div>
-    </>
+
+      {selectedProject && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-night-900/80 backdrop-blur-sm"
+          onClick={() => setSelectedProject(null)}
+        >
+          <div
+            className="relative w-full max-w-3xl max-h-[85vh] overflow-y-auto bg-night-600 rounded-xl sm:rounded-2xl border border-earth-700/30 mx-2 sm:mx-0"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setSelectedProject(null)}
+              className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-night-700/80 text-earth-300 hover:text-savanna-400 flex items-center justify-center transition-colors"
+            >
+              <HiX className="w-5 h-5" />
+            </button>
+
+            <div className="relative h-64 md:h-80">
+              <img
+                src={selectedProject.thumbnails}
+                alt={selectedProject.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-night-600 to-transparent" />
+            </div>
+
+            <div className="p-6 md:p-8">
+              <h2 className="font-heading text-2xl md:text-3xl text-savanna-100 mb-4">
+                {selectedProject.title}
+              </h2>
+              <p className="text-earth-200 mb-6 leading-relaxed">{selectedProject.description}</p>
+
+              <div className="mb-6">
+                <h4 className="font-accent text-sm text-earth-400 uppercase tracking-wider mb-3">Technologies Used</h4>
+                <div className="flex flex-wrap gap-2">
+                  {selectedProject.languages?.map((lang, idx) => (
+                    <span key={idx} className="px-3 py-1.5 bg-savanna-400/10 text-savanna-400 rounded-lg text-sm font-accent">
+                      {lang}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href={selectedProject.livedemo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-african flex items-center gap-2"
+                >
+                  <HiExternalLink className="w-5 h-5" />
+                  <span>Live Demo</span>
+                </a>
+                <a
+                  href={selectedProject.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn-african-outline flex items-center gap-2"
+                >
+                  <FaGithub className="w-5 h-5" />
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
   );
 };
 
