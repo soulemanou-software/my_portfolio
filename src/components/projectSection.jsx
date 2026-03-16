@@ -153,7 +153,7 @@ const CategoryCard = ({ category, index, isVisible }) => {
           <span className="inline-block text-xs font-accent text-earth-400 uppercase tracking-widest mb-3 px-2 py-1 bg-night-600/50 rounded-full">
             {category.subtitle}
           </span>
-          <h3 className="font-heading text-3xl sm:text-4xl md:text-5xl text-savanna-100 mb-3">{category.title}</h3>
+          <h3 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-savanna-100 mb-3">{category.title}</h3>
           <p className="text-sm text-earth-300 mb-2">{category.description}</p>
           <p className="text-xs text-earth-500 mb-6 italic">{category.longDescription}</p>
 
@@ -256,7 +256,7 @@ const ProjectSection = () => {
             <div className="h-px flex-1 max-w-[100px] bg-gradient-to-l from-transparent to-earth-700/50" />
           </div>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
             {ProjectsData.slice(0, 4).map((project, index) => (
               <ProjectCard key={project.id} project={project} index={index} isVisible={isVisible} />
             ))}

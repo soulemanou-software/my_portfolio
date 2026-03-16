@@ -133,7 +133,7 @@ const Contact = () => {
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2" />
-                <div className="font-heading text-xl sm:text-2xl text-savanna-100">{stat.value}</div>
+                <div className="font-heading text-lg sm:text-xl md:text-2xl text-savanna-100">{stat.value}</div>
                 <div className="text-xs text-earth-400 font-accent">{stat.label}</div>
               </div>
             ))}
@@ -144,7 +144,7 @@ const Contact = () => {
           <div className={`lg:col-span-2 transition-all duration-1000 delay-200 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}>
             <div className="mb-8">
               <span className="text-xs font-accent text-savanna-400 uppercase tracking-wider">Get in touch with</span>
-              <h3 className="font-heading text-2xl sm:text-3xl text-savanna-100 mt-1 mb-3">{ownerInfo.fullName}</h3>
+              <h3 className="font-heading text-xl sm:text-2xl md:text-3xl text-savanna-100 mt-1 mb-3">{ownerInfo.fullName}</h3>
               <p className="text-earth-300 leading-relaxed text-sm">
                 I'm always excited to connect with fellow creators, businesses looking to elevate their digital presence, 
                 or anyone who appreciates great design and solid engineering.

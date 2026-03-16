@@ -29,7 +29,7 @@ const Project = () => {
           <div className="chapter-indicator justify-center mb-6">
             <span>Portfolio</span>
           </div>
-          <h1 className="section-title-pattern mb-3 sm:mb-4">Development Projects</h1>
+          <h1 className="section-title-pattern mb-3 sm:mb-4 text-3xl sm:text-4xl md:text-5xl">Development Projects</h1>
           <p className="section-subtitle max-w-2xl mx-auto">
             A collection of web applications and software solutions I've built,
             each representing a unique challenge and creative solution.
@@ -94,7 +94,7 @@ const Project = () => {
               <HiX className="w-5 h-5" />
             </button>
 
-            <div className="relative h-64 md:h-80">
+            <div className="relative h-48 sm:h-64 md:h-80">
               <img
                 src={selectedProject.thumbnails}
                 alt={selectedProject.title}
@@ -103,7 +103,7 @@ const Project = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-night-600 to-transparent" />
             </div>
 
-            <div className="p-6 md:p-8">
+            <div className="p-4 sm:p-6 md:p-8">
               <h2 className="font-heading text-2xl md:text-3xl text-savanna-100 mb-4">
                 {selectedProject.title}
               </h2>

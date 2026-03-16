@@ -135,7 +135,7 @@ const Designs = () => {
                 <div className="chapter-indicator mb-4">
                   <span>Creative Gallery</span>
                 </div>
-                <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-savanna-100 mb-4">
+                <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-savanna-100 mb-4">
                   Design <span className="african-mask-text">Portfolio</span>
                 </h1>
                 <p className="text-earth-300 text-base sm:text-lg leading-relaxed mb-6 max-w-xl">
@@ -166,7 +166,7 @@ const Designs = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {designStats.map((stat, index) => (
                   <div 
                     key={index}

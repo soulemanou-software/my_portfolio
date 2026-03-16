@@ -106,13 +106,13 @@ const Presentation = () => {
               <span>Prologue</span>
             </div>
 
-            <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[4.5rem] xl:text-[5rem] font-bold leading-[1.08] mb-5">
+            <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.08] mb-5">
               <span className="block text-savanna-100">I build</span>
               <span className="block py-1 african-mask-text">products</span>
               <span className="block text-savanna-100">with designer taste.</span>
             </h1>
 
-            <div className="flex flex-wrap items-center gap-2 mb-6 text-lg sm:gap-3 sm:text-xl md:text-2xl">
+            <div className="flex flex-wrap items-center gap-2 mb-6 text-base sm:text-lg sm:gap-3 md:text-xl lg:text-2xl">
               <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 rounded-lg bg-savanna-400/10">
                 <HiOutlineSparkles className="w-4 h-4 text-savanna-400" />
               </div>
@@ -150,16 +150,16 @@ const Presentation = () => {
             </div>
           </div>
 
-          <div className={`relative flex justify-center lg:justify-end transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 translate-x-12 scale-95'}`}>
+          <div className={`relative flex justify-center lg:justify-end overflow-hidden transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 translate-x-12 scale-95'}`}>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="w-[320px] h-[320px] sm:w-[380px] sm:h-[380px] md:w-[450px] md:h-[450px] border border-savanna-400/10 rounded-full animate-spin" style={{ animationDuration: '40s' }}>
+              <div className="w-[280px] h-[280px] sm:w-[340px] sm:h-[340px] md:w-[400px] md:h-[400px] lg:w-[420px] lg:h-[420px] border border-savanna-400/10 rounded-full animate-spin" style={{ animationDuration: '40s' }}>
                 <div className="absolute top-0 w-3 h-3 -translate-x-1/2 -translate-y-1/2 rounded-full shadow-lg left-1/2 bg-savanna-400 shadow-savanna-400/50" />
                 <div className="absolute bottom-0 w-2 h-2 -translate-x-1/2 translate-y-1/2 rounded-full shadow-lg left-1/2 bg-sunset-400 shadow-sunset-400/50" />
               </div>
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <div className="w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] border border-sunset-400/10 rounded-full animate-spin" style={{ animationDuration: '25s', animationDirection: 'reverse' }}>
+              <div className="w-[230px] h-[230px] sm:w-[280px] sm:h-[280px] md:w-[330px] md:h-[330px] lg:w-[350px] lg:h-[350px] border border-sunset-400/10 rounded-full animate-spin" style={{ animationDuration: '25s', animationDirection: 'reverse' }}>
                 <div className="absolute right-0 w-2 h-2 translate-x-1/2 -translate-y-1/2 rounded-full shadow-lg top-1/2 bg-baobab-400 shadow-baobab-400/50" />
               </div>
             </div>
@@ -170,14 +170,14 @@ const Presentation = () => {
                 <div className="absolute inset-0 p-1 rounded-full bg-gradient-to-br from-savanna-400 to-sunset-400">
                   <div className="w-full h-full rounded-full bg-night-600" />
                 </div>
-                <div className="relative overflow-hidden border-2 rounded-full w-52 h-52 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 border-savanna-400/30">
+                <div className="relative overflow-hidden border-2 rounded-full w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 border-savanna-400/30">
                   <img src={profileImage} alt="Soulemanou Kunchiefuh Babanou" className="object-cover object-center w-full h-full" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night-600/60 via-transparent to-transparent" />
                 </div>
               </div>
               
-              <div className="absolute px-5 py-2 -translate-x-1/2 border rounded-full shadow-xl -bottom-2 left-1/2 bg-night-700/90 backdrop-blur-md border-earth-700/30 whitespace-nowrap">
-                <span className="flex items-center gap-2 text-xs font-semibold text-savanna-400 font-accent">
+              <div className="absolute px-3 sm:px-5 py-1.5 sm:py-2 -translate-x-1/2 border rounded-full shadow-xl -bottom-2 left-1/2 bg-night-700/90 backdrop-blur-md border-earth-700/30 whitespace-nowrap max-w-[90vw]">
+                <span className="flex items-center gap-1.5 sm:gap-2 text-[10px] sm:text-xs font-semibold text-savanna-400 font-accent">
                   <HiLightningBolt className="w-3 h-3" />
                   Full-Stack • UI/UX • Brand
                 </span>

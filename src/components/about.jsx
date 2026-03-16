@@ -133,7 +133,7 @@ const About = () => {
                   className="african-card !p-4 text-center group hover:border-savanna-400/50 transition-all"
                 >
                   <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2 group-hover:scale-110 transition-transform" />
-                  <div className="font-heading text-2xl text-savanna-100 mb-1">{stat.value}</div>
+                  <div className="font-heading text-xl sm:text-2xl text-savanna-100 mb-1">{stat.value}</div>
                   <div className="text-earth-400 text-xs font-accent">{stat.label}</div>
                 </div>
               ))}
