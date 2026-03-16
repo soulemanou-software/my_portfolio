@@ -1,4 +1,4 @@
-  import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.png";
+  import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.svg";
 
 const thumbs = [
     {

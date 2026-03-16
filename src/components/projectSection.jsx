@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { HiArrowRight, HiCode, HiColorSwatch, HiExternalLink, HiLightningBolt, HiStar, HiTrendingUp, HiClock } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
-import fastDezLogo from "../assets/DesignsImages/fastdezlogo.png";
-import project1Thumb from "../assets/ProjectsImages/1.png";
+import fastDezLogo from "../assets/DesignsImages/fastdezlogo.svg";
+import project1Thumb from "../assets/ProjectsImages/1.svg";
 import { ProjectsData } from "./Api/ProjectsData";
 
 const workStats = [

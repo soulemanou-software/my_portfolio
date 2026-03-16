@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#2d1b69"/>
+      <stop offset="100%" style="stop-color:#11001c"/>
+    </linearGradient>
+    <linearGradient id="book" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#92400e"/>
+      <stop offset="100%" style="stop-color:#78350f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <!-- Subtle dots pattern -->
+  <g opacity="0.04">
+    <circle cx="50" cy="50" r="3" fill="#fff"/><circle cx="150" cy="50" r="3" fill="#fff"/>
+    <circle cx="250" cy="50" r="3" fill="#fff"/><circle cx="350" cy="50" r="3" fill="#fff"/>
+    <circle cx="450" cy="50" r="3" fill="#fff"/><circle cx="550" cy="50" r="3" fill="#fff"/>
+    <circle cx="650" cy="50" r="3" fill="#fff"/><circle cx="750" cy="50" r="3" fill="#fff"/>
+    <circle cx="100" cy="150" r="3" fill="#fff"/><circle cx="200" cy="150" r="3" fill="#fff"/>
+    <circle cx="300" cy="150" r="3" fill="#fff"/><circle cx="400" cy="150" r="3" fill="#fff"/>
+    <circle cx="500" cy="150" r="3" fill="#fff"/><circle cx="600" cy="150" r="3" fill="#fff"/>
+    <circle cx="700" cy="150" r="3" fill="#fff"/>
+  </g>
+  <!-- Bookshelf -->
+  <rect x="150" y="310" width="500" height="12" rx="2" fill="url(#shelf)" opacity="0.8"/>
+  <!-- Books on shelf -->
+  <rect x="180" y="180" width="40" height="130" rx="3" fill="#8b5cf6" opacity="0.9"/>
+  <rect x="184" y="190" width="32" height="4" rx="1" fill="#c4b5fd" opacity="0.5"/>
+  <rect x="184" y="200" width="20" height="3" rx="1" fill="#c4b5fd" opacity="0.3"/>
+  <rect x="228" y="200" width="35" height="110" rx="3" fill="#ec4899" opacity="0.85"/>
+  <rect x="232" y="210" width="27" height="3" rx="1" fill="#fbcfe8" opacity="0.4"/>
+  <rect x="270" y="170" width="45" height="140" rx="3" fill="#3b82f6" opacity="0.9"/>
+  <rect x="275" y="182" width="35" height="5" rx="1" fill="#bfdbfe" opacity="0.5"/>
+  <rect x="275" y="192" width="22" height="3" rx="1" fill="#bfdbfe" opacity="0.3"/>
+  <rect x="322" y="210" width="38" height="100" rx="3" fill="#10b981" opacity="0.85"/>
+  <rect x="326" y="220" width="30" height="3" rx="1" fill="#a7f3d0" opacity="0.4"/>
+  <rect x="368" y="185" width="42" height="125" rx="3" fill="#f59e0b" opacity="0.9"/>
+  <rect x="373" y="196" width="32" height="4" rx="1" fill="#fde68a" opacity="0.5"/>
+  <rect x="373" y="206" width="20" height="3" rx="1" fill="#fde68a" opacity="0.3"/>
+  <rect x="418" y="195" width="36" height="115" rx="3" fill="#ef4444" opacity="0.85"/>
+  <rect x="422" y="205" width="28" height="3" rx="1" fill="#fecaca" opacity="0.4"/>
+  <rect x="462" y="175" width="44" height="135" rx="3" fill="#06b6d4" opacity="0.9"/>
+  <rect x="467" y="187" width="34" height="4" rx="1" fill="#a5f3fc" opacity="0.5"/>
+  <rect x="514" y="205" width="38" height="105" rx="3" fill="#d946ef" opacity="0.85"/>
+  <rect x="518" y="215" width="30" height="3" rx="1" fill="#f0abfc" opacity="0.4"/>
+  <rect x="560" y="190" width="40" height="120" rx="3" fill="#84cc16" opacity="0.9"/>
+  <rect x="564" y="200" width="32" height="4" rx="1" fill="#d9f99d" opacity="0.5"/>
+  <!-- Open book in center -->
+  <g transform="translate(400, 120)">
+    <path d="M-60,0 Q-30,-10 0,-5 Q30,-10 60,0 L60,70 Q30,60 0,65 Q-30,60 -60,70 Z" fill="#f5f5f4" opacity="0.9" stroke="#d6d3d1" stroke-width="1"/>
+    <line x1="0" y1="-5" x2="0" y2="65" stroke="#d6d3d1" stroke-width="1" opacity="0.5"/>
+    <rect x="-50" y="10" width="40" height="3" rx="1" fill="#a8a29e" opacity="0.5"/>
+    <rect x="-50" y="18" width="35" height="3" rx="1" fill="#a8a29e" opacity="0.4"/>
+    <rect x="-50" y="26" width="42" height="3" rx="1" fill="#a8a29e" opacity="0.5"/>
+    <rect x="-50" y="34" width="30" height="3" rx="1" fill="#a8a29e" opacity="0.3"/>
+    <rect x="-50" y="42" width="38" height="3" rx="1" fill="#a8a29e" opacity="0.4"/>
+    <rect x="10" y="10" width="40" height="3" rx="1" fill="#a8a29e" opacity="0.5"/>
+    <rect x="10" y="18" width="35" height="3" rx="1" fill="#a8a29e" opacity="0.4"/>
+    <rect x="10" y="26" width="42" height="3" rx="1" fill="#a8a29e" opacity="0.5"/>
+    <rect x="10" y="34" width="30" height="3" rx="1" fill="#a8a29e" opacity="0.3"/>
+    <rect x="10" y="42" width="38" height="3" rx="1" fill="#a8a29e" opacity="0.4"/>
+  </g>
+  <!-- UI mockup: search bar -->
+  <rect x="250" y="355" width="300" height="35" rx="18" fill="#1f1145" stroke="#4c1d95" stroke-width="1.5" opacity="0.8"/>
+  <text x="280" y="377" font-family="Arial, sans-serif" font-size="13" fill="#7c3aed" opacity="0.6">Search books...</text>
+  <circle cx="525" cy="372" r="10" fill="#7c3aed" opacity="0.3"/>
+  <text x="525" y="377" font-family="Arial, sans-serif" font-size="13" fill="#c4b5fd" text-anchor="middle">⌕</text>
+  <!-- Title -->
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle" opacity="0.9">Bookstore</text>
+  <text x="400" y="468" font-family="Arial, sans-serif" font-size="14" fill="#c4b5fd" text-anchor="middle" opacity="0.7">React • Redux Toolkit • CRUD</text>
+</svg>

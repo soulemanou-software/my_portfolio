@@ -1,7 +1,7 @@
-import project1Thumb from "../../assets/ProjectsImages/1.png";
-import project2Thumb from "../../assets/ProjectsImages/2.png";
-import project3Thumb from "../../assets/ProjectsImages/3.png";
-import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.png";
+import project1Thumb from "../../assets/ProjectsImages/1.svg";
+import project2Thumb from "../../assets/ProjectsImages/2.svg";
+import project3Thumb from "../../assets/ProjectsImages/3.svg";
+import fastDezLogo from "../../assets/DesignsImages/fastdezlogo.svg";
 
 const ProjectsData = [
  {
