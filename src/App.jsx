@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import Navigator from "./components/navigator";
+import AfricanMaskBackground from "./components/AfricanMaskBackground";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect } from 'react';
 import MainPage from './pages/mainPage';
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <Router>
+      <AfricanMaskBackground opacity={0.025} />
       <Navigator />
       <Routes>
         <Route path="/" element={<MainPage />} />

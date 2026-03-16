@@ -85,7 +85,7 @@ const Presentation = () => {
   return (
     <section
       id="landing"
-      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-night-500 via-night-600 to-earth-900"
+      className="relative flex items-center min-h-screen overflow-hidden bg-gradient-to-br from-night-500 via-night-600 to-earth-900"
     >
       <AfricanPattern />
       <FloatingParticles />
@@ -94,43 +94,43 @@ const Presentation = () => {
       <div className="absolute bottom-1/4 -right-32 w-[400px] h-[400px] bg-sunset-400/8 rounded-full blur-[100px] animate-pulse" style={{ animationDuration: '10s', animationDelay: '2s' }} />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-baobab-400/3 rounded-full blur-[120px]" />
 
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12 pt-24 pb-16 sm:pt-28 sm:pb-20">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="container relative z-10 px-4 pt-24 pb-16 mx-auto sm:px-6 lg:px-12 sm:pt-28 sm:pb-20">
+        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-night-700/50 border border-earth-700/30 mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 border rounded-full bg-night-700/50 border-earth-700/30">
               <div className="w-2 h-2 rounded-full bg-baobab-400 animate-pulse" />
-              <span className="text-xs font-accent text-earth-300 uppercase tracking-wider">Available for opportunities</span>
+              <span className="text-xs tracking-wider uppercase font-accent text-earth-300">Available for opportunities</span>
             </div>
 
-            <div className="chapter-indicator mb-4">
+            <div className="mb-4 chapter-indicator">
               <span>Prologue</span>
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] font-bold leading-[1.08] mb-5">
-              <span className="text-savanna-100 block">I build</span>
-              <span className="african-mask-text block py-1">products</span>
-              <span className="text-savanna-100 block">with designer taste.</span>
+              <span className="block text-savanna-100">I build</span>
+              <span className="block py-1 african-mask-text">products</span>
+              <span className="block text-savanna-100">with designer taste.</span>
             </h1>
 
-            <div className="flex items-center gap-2 sm:gap-3 text-lg sm:text-xl md:text-2xl mb-6 flex-wrap">
-              <div className="w-8 h-8 rounded-lg bg-savanna-400/10 flex items-center justify-center flex-shrink-0">
+            <div className="flex flex-wrap items-center gap-2 mb-6 text-lg sm:gap-3 sm:text-xl md:text-2xl">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 rounded-lg bg-savanna-400/10">
                 <HiOutlineSparkles className="w-4 h-4 text-savanna-400" />
               </div>
               <span className="text-earth-400">I'm a</span>
-              <span ref={typedRef} className="text-sunset-400 font-semibold" />
+              <span ref={typedRef} className="font-semibold text-sunset-400" />
             </div>
 
-            <p className="text-base sm:text-lg text-earth-300 max-w-lg leading-relaxed mb-8">
+            <p className="max-w-lg mb-8 text-base leading-relaxed sm:text-lg text-earth-300">
               Full-stack engineering with premium brand-level craft — blending African heritage,
               modern UI systems, and clean product thinking into experiences that feel alive.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-8">
-              <a href="#about" className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-savanna-400 to-sunset-400 text-night-600 font-accent font-semibold hover:shadow-lg hover:shadow-savanna-400/25 transition-all duration-300">
+              <a href="#about" className="inline-flex items-center gap-2 px-6 py-3 font-semibold transition-all duration-300 rounded-full group bg-gradient-to-r from-savanna-400 to-sunset-400 text-night-600 font-accent hover:shadow-lg hover:shadow-savanna-400/25">
                 Explore My Story
-                <FaArrowDown className="group-hover:translate-y-1 transition-transform" />
+                <FaArrowDown className="transition-transform group-hover:translate-y-1" />
               </a>
-              <a href="#Projects" className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-earth-700/50 text-earth-200 font-accent hover:border-savanna-400/50 hover:text-savanna-400 transition-all duration-300">
+              <a href="#Projects" className="inline-flex items-center gap-2 px-6 py-3 transition-all duration-300 border rounded-full border-earth-700/50 text-earth-200 font-accent hover:border-savanna-400/50 hover:text-savanna-400">
                 <FaPlay className="text-xs" />
                 View Work
               </a>
@@ -138,11 +138,11 @@ const Presentation = () => {
 
             <div className="flex items-center gap-6 mb-6">
               <SocialIcons />
-              <div className="hidden sm:block w-px h-8 bg-earth-700/30" />
-              <div className="hidden sm:flex items-center gap-4">
+              <div className="hidden w-px h-8 sm:block bg-earth-700/30" />
+              <div className="items-center hidden gap-4 sm:flex">
                 {quickStats.map((stat, index) => (
                   <div key={index} className="text-center">
-                    <div className="font-heading text-lg text-savanna-100">{stat.value}</div>
+                    <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
                     <div className="text-[10px] text-earth-500 font-accent uppercase">{stat.label}</div>
                   </div>
                 ))}
@@ -153,31 +153,31 @@ const Presentation = () => {
           <div className={`relative flex justify-center lg:justify-end transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0 scale-100' : 'opacity-0 translate-x-12 scale-95'}`}>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-[320px] h-[320px] sm:w-[380px] sm:h-[380px] md:w-[450px] md:h-[450px] border border-savanna-400/10 rounded-full animate-spin" style={{ animationDuration: '40s' }}>
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 bg-savanna-400 rounded-full shadow-lg shadow-savanna-400/50" />
-                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-2 h-2 bg-sunset-400 rounded-full shadow-lg shadow-sunset-400/50" />
+                <div className="absolute top-0 w-3 h-3 -translate-x-1/2 -translate-y-1/2 rounded-full shadow-lg left-1/2 bg-savanna-400 shadow-savanna-400/50" />
+                <div className="absolute bottom-0 w-2 h-2 -translate-x-1/2 translate-y-1/2 rounded-full shadow-lg left-1/2 bg-sunset-400 shadow-sunset-400/50" />
               </div>
             </div>
 
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
               <div className="w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] border border-sunset-400/10 rounded-full animate-spin" style={{ animationDuration: '25s', animationDirection: 'reverse' }}>
-                <div className="absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-baobab-400 rounded-full shadow-lg shadow-baobab-400/50" />
+                <div className="absolute right-0 w-2 h-2 translate-x-1/2 -translate-y-1/2 rounded-full shadow-lg top-1/2 bg-baobab-400 shadow-baobab-400/50" />
               </div>
             </div>
 
             <div className="relative z-10">
-              <div className="absolute inset-0 bg-gradient-to-br from-savanna-400 to-sunset-400 rounded-full blur-3xl opacity-25 scale-90" />
+              <div className="absolute inset-0 scale-90 rounded-full opacity-25 bg-gradient-to-br from-savanna-400 to-sunset-400 blur-3xl" />
               <div className="relative">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-savanna-400 to-sunset-400 p-1">
+                <div className="absolute inset-0 p-1 rounded-full bg-gradient-to-br from-savanna-400 to-sunset-400">
                   <div className="w-full h-full rounded-full bg-night-600" />
                 </div>
-                <div className="relative w-52 h-52 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-2 border-savanna-400/30">
-                  <img src={profileImage} alt="Soulemanou Kunchiefuh Babanou" className="w-full h-full object-cover object-center" />
+                <div className="relative overflow-hidden border-2 rounded-full w-52 h-52 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 border-savanna-400/30">
+                  <img src={profileImage} alt="Soulemanou Kunchiefuh Babanou" className="object-cover object-center w-full h-full" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night-600/60 via-transparent to-transparent" />
                 </div>
               </div>
               
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-5 py-2 bg-night-700/90 backdrop-blur-md border border-earth-700/30 rounded-full whitespace-nowrap shadow-xl">
-                <span className="text-savanna-400 font-accent text-xs font-semibold flex items-center gap-2">
+              <div className="absolute px-5 py-2 -translate-x-1/2 border rounded-full shadow-xl -bottom-2 left-1/2 bg-night-700/90 backdrop-blur-md border-earth-700/30 whitespace-nowrap">
+                <span className="flex items-center gap-2 text-xs font-semibold text-savanna-400 font-accent">
                   <HiLightningBolt className="w-3 h-3" />
                   Full-Stack • UI/UX • Brand
                 </span>
@@ -193,21 +193,21 @@ const Presentation = () => {
           </div>
         </div>
 
-        <div className="sm:hidden grid grid-cols-3 gap-4 mt-8">
+        <div className="grid grid-cols-3 gap-4 mt-8 sm:hidden">
           {quickStats.map((stat, index) => (
-            <div key={index} className="text-center p-3 rounded-xl bg-night-700/30 border border-earth-700/20">
-              <stat.icon className="w-4 h-4 text-savanna-400 mx-auto mb-1" />
-              <div className="font-heading text-lg text-savanna-100">{stat.value}</div>
+            <div key={index} className="p-3 text-center border rounded-xl bg-night-700/30 border-earth-700/20">
+              <stat.icon className="w-4 h-4 mx-auto mb-1 text-savanna-400" />
+              <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
               <div className="text-[9px] text-earth-500 font-accent uppercase">{stat.label}</div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-2">
-        <span className="text-earth-400 text-xs font-accent tracking-wider uppercase">Scroll</span>
+      <div className="absolute flex-col items-center hidden gap-2 -translate-x-1/2 bottom-8 left-1/2 sm:flex">
+        <span className="text-xs tracking-wider uppercase text-earth-400 font-accent">Scroll</span>
         <div className="w-5 h-8 border border-savanna-400/40 rounded-full flex justify-center pt-1.5">
-          <div className="w-1 h-2 bg-savanna-400 rounded-full animate-bounce" style={{ animationDuration: '1.5s' }} />
+          <div className="w-1 h-2 rounded-full bg-savanna-400 animate-bounce" style={{ animationDuration: '1.5s' }} />
         </div>
       </div>
 

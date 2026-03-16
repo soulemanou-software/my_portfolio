@@ -50,21 +50,76 @@ const Designs = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-night-500 via-earth-900/20 to-night-600">
-      <div className="fixed inset-0 opacity-[0.03] pointer-events-none">
+      {/* African Spiritual Mask Pattern Background */}
+      <div className="fixed inset-0 opacity-[0.05] pointer-events-none">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <pattern id="designPagePattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
-              <circle cx="40" cy="40" r="1.5" fill="#E07A5F" />
-              <path d="M20 40 L40 20 L60 40 L40 60 Z" fill="none" stroke="#D4A853" strokeWidth="0.3" />
-              <circle cx="40" cy="40" r="25" fill="none" stroke="#5C4033" strokeWidth="0.2" />
+            <pattern id="africanMaskPattern" x="0" y="0" width="200" height="240" patternUnits="userSpaceOnUse">
+              {/* Spiritual Mask Face */}
+              <path d="M100 20 Q130 40 135 80 Q140 120 130 160 Q120 200 100 220 Q80 200 70 160 Q60 120 65 80 Q70 40 100 20" fill="none" stroke="#D4A853" strokeWidth="0.6" />
+              {/* Mask Eyes - Spiritual almond eyes */}
+              <ellipse cx="80" cy="90" rx="15" ry="8" fill="none" stroke="#E07A5F" strokeWidth="0.5" />
+              <ellipse cx="120" cy="90" rx="15" ry="8" fill="none" stroke="#E07A5F" strokeWidth="0.5" />
+              <circle cx="80" cy="90" r="4" fill="none" stroke="#D4A853" strokeWidth="0.3" />
+              <circle cx="120" cy="90" r="4" fill="none" stroke="#D4A853" strokeWidth="0.3" />
+              {/* Nose - Triangular tribal style */}
+              <path d="M100 95 L95 130 L100 135 L105 130 Z" fill="none" stroke="#5C4033" strokeWidth="0.4" />
+              {/* Mouth - Stylized lips */}
+              <path d="M85 155 Q100 165 115 155" fill="none" stroke="#E07A5F" strokeWidth="0.5" />
+              <path d="M90 160 Q100 170 110 160" fill="none" stroke="#D4A853" strokeWidth="0.3" />
+              {/* Forehead markings - Tribal scarification */}
+              <path d="M85 50 L100 35 L115 50" fill="none" stroke="#D4A853" strokeWidth="0.4" />
+              <path d="M90 60 L100 50 L110 60" fill="none" stroke="#E07A5F" strokeWidth="0.3" />
+              <circle cx="100" cy="65" r="3" fill="none" stroke="#D4A853" strokeWidth="0.3" />
+              {/* Cheek markings - Traditional scarification lines */}
+              <path d="M55 100 L70 95 L55 90" fill="none" stroke="#5C4033" strokeWidth="0.3" />
+              <path d="M55 110 L70 105 L55 100" fill="none" stroke="#5C4033" strokeWidth="0.3" />
+              <path d="M145 100 L130 95 L145 90" fill="none" stroke="#5C4033" strokeWidth="0.3" />
+              <path d="M145 110 L130 105 L145 100" fill="none" stroke="#5C4033" strokeWidth="0.3" />
+              {/* Decorative dots around mask */}
+              <circle cx="60" cy="70" r="2" fill="#D4A853" opacity="0.5" />
+              <circle cx="140" cy="70" r="2" fill="#D4A853" opacity="0.5" />
+              <circle cx="50" cy="130" r="2" fill="#E07A5F" opacity="0.5" />
+              <circle cx="150" cy="130" r="2" fill="#E07A5F" opacity="0.5" />
+              <circle cx="70" cy="190" r="2" fill="#D4A853" opacity="0.5" />
+              <circle cx="130" cy="190" r="2" fill="#D4A853" opacity="0.5" />
+            </pattern>
+            {/* Kente-inspired geometric border pattern */}
+            <pattern id="kenteStripe" x="0" y="0" width="40" height="8" patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="10" height="8" fill="#D4A853" opacity="0.3" />
+              <rect x="10" y="0" width="10" height="8" fill="#E07A5F" opacity="0.3" />
+              <rect x="20" y="0" width="10" height="8" fill="#5C4033" opacity="0.3" />
+              <rect x="30" y="0" width="10" height="8" fill="#D4A853" opacity="0.3" />
             </pattern>
           </defs>
-          <rect width="100%" height="100%" fill="url(#designPagePattern)" />
+          <rect width="100%" height="100%" fill="url(#africanMaskPattern)" />
         </svg>
       </div>
 
-      <div className="absolute top-40 -left-20 w-[400px] h-[400px] bg-sunset-400/5 rounded-full blur-[100px]" />
-      <div className="absolute top-1/2 -right-20 w-[300px] h-[300px] bg-savanna-400/5 rounded-full blur-[100px]" />
+      {/* Floating Spiritual Mask Decorations */}
+      <div className="absolute top-20 left-10 w-32 h-40 opacity-[0.08] pointer-events-none hidden lg:block">
+        <svg viewBox="0 0 100 120" className="w-full h-full">
+          <ellipse cx="50" cy="60" rx="35" ry="50" fill="none" stroke="#D4A853" strokeWidth="1.5" />
+          <ellipse cx="35" cy="50" rx="10" ry="6" fill="none" stroke="#E07A5F" strokeWidth="1" />
+          <ellipse cx="65" cy="50" rx="10" ry="6" fill="none" stroke="#E07A5F" strokeWidth="1" />
+          <path d="M50 55 L45 80 L50 85 L55 80 Z" fill="none" stroke="#5C4033" strokeWidth="1" />
+          <path d="M35 95 Q50 105 65 95" fill="none" stroke="#E07A5F" strokeWidth="1" />
+        </svg>
+      </div>
+      
+      <div className="absolute bottom-40 right-10 w-28 h-36 opacity-[0.06] pointer-events-none hidden lg:block rotate-12">
+        <svg viewBox="0 0 100 120" className="w-full h-full">
+          <ellipse cx="50" cy="60" rx="35" ry="50" fill="none" stroke="#E07A5F" strokeWidth="1.5" />
+          <ellipse cx="35" cy="50" rx="10" ry="6" fill="none" stroke="#D4A853" strokeWidth="1" />
+          <ellipse cx="65" cy="50" rx="10" ry="6" fill="none" stroke="#D4A853" strokeWidth="1" />
+          <path d="M50 55 L45 80 L50 85 L55 80 Z" fill="none" stroke="#D4A853" strokeWidth="1" />
+          <path d="M35 95 Q50 105 65 95" fill="none" stroke="#5C4033" strokeWidth="1" />
+        </svg>
+      </div>
+
+      <div className="absolute top-40 -left-20 w-[400px] h-[400px] bg-sunset-400/8 rounded-full blur-[100px]" />
+      <div className="absolute top-1/2 -right-20 w-[300px] h-[300px] bg-savanna-400/8 rounded-full blur-[100px]" />
+      <div className="absolute bottom-20 left-1/3 w-[250px] h-[250px] bg-baobab-400/5 rounded-full blur-[80px]" />
 
       <div className="relative z-10 pt-24 sm:pt-28 pb-16 sm:pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-12">
