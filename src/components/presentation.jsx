@@ -106,7 +106,7 @@ const Presentation = () => {
               <span>Prologue</span>
             </div>
 
-            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] font-bold leading-[1.08] mb-5">
+            <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[4.5rem] xl:text-[5rem] font-bold leading-[1.08] mb-5">
               <span className="block text-savanna-100">I build</span>
               <span className="block py-1 african-mask-text">products</span>
               <span className="block text-savanna-100">with designer taste.</span>
