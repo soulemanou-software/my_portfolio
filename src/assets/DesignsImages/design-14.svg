@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg14" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fffbeb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg14)"/>
+  <!-- Large decorative quote mark -->
+  <text x="120" y="280" font-family="Georgia, serif" font-size="300" fill="#f59e0b" opacity="0.08" font-weight="700">"</text>
+  <!-- Vertical accent line -->
+  <rect x="100" y="250" width="4" height="300" fill="#f59e0b" opacity="0.6" rx="2"/>
+  <!-- Quote text -->
+  <text x="140" y="320" font-family="Georgia, serif" font-size="36" fill="#1c1917" font-weight="400" font-style="italic">Design is not just</text>
+  <text x="140" y="370" font-family="Georgia, serif" font-size="36" fill="#1c1917" font-weight="400" font-style="italic">what it looks like.</text>
+  <text x="140" y="430" font-family="Georgia, serif" font-size="36" fill="#92400e" font-weight="700">Design is how</text>
+  <text x="140" y="480" font-family="Georgia, serif" font-size="36" fill="#92400e" font-weight="700">it works.</text>
+  <!-- Attribution line -->
+  <rect x="140" y="520" width="80" height="2" fill="#f59e0b"/>
+  <text x="140" y="555" font-family="Arial, sans-serif" font-size="14" fill="#78716c" letter-spacing="2">— STEVE JOBS</text>
+  <!-- Bottom branding bar -->
+  <rect x="0" y="700" width="800" height="100" fill="#1c1917"/>
+  <circle cx="80" cy="750" r="20" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="80" y="756" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#f59e0b" font-weight="700">S</text>
+  <text x="120" y="748" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="white" font-weight="600">STUDIO CRAFT</text>
+  <text x="120" y="766" font-family="Arial, sans-serif" font-size="10" fill="#78716c" letter-spacing="2">DAILY INSPIRATION</text>
+  <!-- Decorative elements -->
+  <circle cx="650" cy="150" r="60" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.15"/>
+  <circle cx="680" cy="600" r="40" fill="#f59e0b" opacity="0.06"/>
+</svg>

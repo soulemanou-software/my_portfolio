@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g46a" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="50%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0c4a6e"/>
+    </linearGradient>
+    <linearGradient id="g46b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow46"><feGaussianBlur stdDeviation="6" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+    <radialGradient id="g46c" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g46a)"/>
+  <rect width="800" height="800" fill="url(#g46c)"/>
+  <!-- Digital wave visualization -->
+  <g filter="url(#glow46)">
+    <path d="M0,420 Q100,380 200,400 Q300,420 400,360 Q500,300 600,380 Q700,440 800,400" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.5"/>
+    <path d="M0,440 Q100,400 200,420 Q300,440 400,380 Q500,320 600,400 Q700,460 800,420" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.3"/>
+    <path d="M0,460 Q100,420 200,440 Q300,460 400,400 Q500,340 600,420 Q700,480 800,440" fill="none" stroke="#67e8f9" stroke-width="1" opacity="0.2"/>
+    <!-- Data points on wave -->
+    <circle cx="200" cy="400" r="4" fill="#22d3ee" opacity="0.7"/>
+    <circle cx="400" cy="360" r="5" fill="#67e8f9" opacity="0.8"/>
+    <circle cx="600" cy="380" r="4" fill="#22d3ee" opacity="0.7"/>
+    <!-- Vertical data lines -->
+    <line x1="200" y1="400" x2="200" y2="460" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+    <line x1="400" y1="360" x2="400" y2="460" stroke="#67e8f9" stroke-width="0.5" opacity="0.3"/>
+    <line x1="600" y1="380" x2="600" y2="460" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+    <!-- Second wave set -->
+    <path d="M0,480 Q100,460 200,470 Q300,480 400,450 Q500,420 600,460 Q700,490 800,470" fill="none" stroke="#22d3ee" stroke-width="0.8" opacity="0.15"/>
+    <path d="M0,500 Q100,480 200,490 Q300,500 400,470 Q500,440 600,480 Q700,510 800,490" fill="none" stroke="#06b6d4" stroke-width="0.5" opacity="0.1"/>
+  </g>
+  <!-- Floating data particles -->
+  <g fill="#67e8f9">
+    <circle cx="150" cy="200" r="2" opacity="0.3"/><circle cx="300" cy="150" r="1.5" opacity="0.25"/>
+    <circle cx="500" cy="180" r="2" opacity="0.35"/><circle cx="650" cy="220" r="1.5" opacity="0.2"/>
+    <circle cx="250" cy="280" r="1" opacity="0.2"/><circle cx="550" cy="260" r="1.5" opacity="0.25"/>
+    <circle cx="100" cy="340" r="1" opacity="0.15"/><circle cx="700" cy="300" r="1" opacity="0.2"/>
+  </g>
+  <!-- Header badge -->
+  <rect x="280" y="55" width="240" height="30" rx="15" fill="none" stroke="url(#g46b)" stroke-width="1" opacity="0.5"/>
+  <text x="400" y="76" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#67e8f9" letter-spacing="4">DATA SUMMIT 2025</text>
+  <!-- Title -->
+  <text x="400" y="185" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="88" fill="white" font-weight="800" letter-spacing="-2">SIGNAL</text>
+  <text x="400" y="185" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="88" fill="url(#g46b)" font-weight="800" letter-spacing="-2" opacity="0.2">SIGNAL</text>
+  <text x="400" y="250" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="40" fill="none" stroke="url(#g46b)" stroke-width="1" font-weight="200" letter-spacing="12">CONFERENCE</text>
+  <!-- Subtitle -->
+  <text x="400" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#a5f3fc" letter-spacing="3">Decoding the Future of Data Science</text>
+  <!-- Speaker blocks -->
+  <g transform="translate(100,540)">
+    <rect width="180" height="70" rx="10" fill="#0c4a6e" opacity="0.5" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#67e8f9" letter-spacing="2">KEYNOTE</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="white">AI at Scale</text>
+  </g>
+  <g transform="translate(310,540)">
+    <rect width="180" height="70" rx="10" fill="#0c4a6e" opacity="0.5" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#67e8f9" letter-spacing="2">WORKSHOP</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="white">ML Pipelines</text>
+  </g>
+  <g transform="translate(520,540)">
+    <rect width="180" height="70" rx="10" fill="#0c4a6e" opacity="0.5" stroke="#22d3ee" stroke-width="0.5" opacity="0.2"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#67e8f9" letter-spacing="2">DEEP DIVE</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="white">Edge Computing</text>
+  </g>
+  <!-- Bottom -->
+  <text x="400" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" letter-spacing="2" font-weight="600">OCTOBER 12-14 • BERLIN</text>
+  <rect x="260" y="700" width="280" height="48" rx="24" fill="url(#g46b)"/>
+  <text x="400" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#172554" letter-spacing="3" font-weight="700">REGISTER EARLY — $299</text>
+</svg>

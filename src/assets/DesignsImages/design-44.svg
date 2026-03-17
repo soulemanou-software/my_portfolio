@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g44a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="g44b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="50%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="g44c" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <filter id="fire44"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g44a)"/>
+  <!-- Fire glow from bottom -->
+  <rect x="0" y="400" width="800" height="400" fill="url(#g44c)"/>
+  <!-- Abstract fire/smoke shapes -->
+  <g opacity="0.06" filter="url(#fire44)">
+    <circle cx="200" cy="600" r="120" fill="#ef4444"/>
+    <circle cx="400" cy="550" r="150" fill="#f97316"/>
+    <circle cx="600" cy="620" r="130" fill="#eab308"/>
+    <circle cx="300" cy="500" r="100" fill="#ef4444"/>
+    <circle cx="500" cy="480" r="110" fill="#f97316"/>
+  </g>
+  <!-- Smoke wisps -->
+  <g fill="none" stroke="white" stroke-width="0.5" opacity="0.04">
+    <path d="M200,800 Q220,600 180,400 Q160,300 200,200"/>
+    <path d="M400,800 Q380,650 420,500 Q440,380 400,250"/>
+    <path d="M600,800 Q580,620 620,450 Q640,350 600,220"/>
+  </g>
+  <!-- Diagonal grid -->
+  <g stroke="white" stroke-width="0.3" opacity="0.03" transform="rotate(-30,400,400)">
+    <line x1="-200" y1="0" x2="1000" y2="0"/><line x1="-200" y1="60" x2="1000" y2="60"/>
+    <line x1="-200" y1="120" x2="1000" y2="120"/><line x1="-200" y1="180" x2="1000" y2="180"/>
+    <line x1="-200" y1="240" x2="1000" y2="240"/><line x1="-200" y1="300" x2="1000" y2="300"/>
+    <line x1="-200" y1="360" x2="1000" y2="360"/><line x1="-200" y1="420" x2="1000" y2="420"/>
+    <line x1="-200" y1="480" x2="1000" y2="480"/><line x1="-200" y1="540" x2="1000" y2="540"/>
+    <line x1="-200" y1="600" x2="1000" y2="600"/><line x1="-200" y1="660" x2="1000" y2="660"/>
+    <line x1="-200" y1="720" x2="1000" y2="720"/><line x1="-200" y1="780" x2="1000" y2="780"/>
+  </g>
+  <!-- Top presenter -->
+  <text x="400" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ef4444" letter-spacing="10">RED EMBER COLLECTIVE</text>
+  <!-- Massive display type -->
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="130" fill="white" font-weight="700" letter-spacing="-3">RISE</text>
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="130" fill="url(#g44b)" font-weight="700" letter-spacing="-3" opacity="0.15">RISE</text>
+  <!-- Outlined type -->
+  <text x="400" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="90" fill="none" stroke="url(#g44b)" stroke-width="1.5" font-weight="300" letter-spacing="8">ABOVE</text>
+  <!-- Divider spark -->
+  <rect x="340" y="410" width="120" height="2" rx="1" fill="url(#g44b)" opacity="0.5"/>
+  <circle cx="400" cy="411" r="4" fill="#f97316" opacity="0.6"/>
+  <!-- Info -->
+  <text x="400" y="465" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#fecaca" letter-spacing="3">A Multidisciplinary Art Experience</text>
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc2626" letter-spacing="2">IMMERSIVE INSTALLATION</text>
+  <!-- Date block -->
+  <g transform="translate(400,560)">
+    <rect x="-120" y="-25" width="240" height="50" rx="4" fill="none" stroke="#ef4444" stroke-width="1" opacity="0.3"/>
+    <text x="0" y="-2" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="20" fill="white" font-weight="700" letter-spacing="2">JAN 15 — FEB 28</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f87171" letter-spacing="3">2025 • LOS ANGELES</text>
+  </g>
+  <!-- Artist names stacked -->
+  <text x="400" y="650" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="white" letter-spacing="2">CHEN WEI • AMARA DIOP • LARS EKSTRÖM</text>
+  <text x="400" y="675" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#a8a29e" letter-spacing="2">YUKI TANAKA • ELENA VASQUEZ</text>
+  <!-- Bottom CTA -->
+  <rect x="250" y="720" width="300" height="48" rx="24" fill="url(#g44b)"/>
+  <text x="400" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#000" letter-spacing="3" font-weight="700">EXPERIENCE IT — TICKETS</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g43a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef9c3"/>
+    </linearGradient>
+    <linearGradient id="g43b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="g43c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#g43a)"/>
+  <!-- Botanical illustration style logo -->
+  <g transform="translate(400,310)">
+    <!-- Main stem -->
+    <path d="M0,120 Q-5,60 0,0 Q5,-60 0,-120" fill="none" stroke="#059669" stroke-width="2.5" opacity="0.6"/>
+    <!-- Left branch leaves -->
+    <path d="M0,-80 Q-50,-110 -80,-80 Q-50,-75 0,-80" fill="#059669" opacity="0.12"/>
+    <path d="M0,-80 Q-50,-110 -80,-80" fill="none" stroke="#059669" stroke-width="1.2" opacity="0.4"/>
+    <path d="M0,-40 Q-60,-65 -95,-30 Q-55,-30 0,-40" fill="#10b981" opacity="0.1"/>
+    <path d="M0,-40 Q-60,-65 -95,-30" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.35"/>
+    <path d="M0,10 Q-55,-20 -85,15 Q-50,10 0,10" fill="#059669" opacity="0.08"/>
+    <path d="M0,10 Q-55,-20 -85,15" fill="none" stroke="#059669" stroke-width="1" opacity="0.3"/>
+    <path d="M0,60 Q-45,35 -70,65 Q-40,55 0,60" fill="#10b981" opacity="0.07"/>
+    <path d="M0,60 Q-45,35 -70,65" fill="none" stroke="#10b981" stroke-width="1" opacity="0.25"/>
+    <!-- Right branch leaves -->
+    <path d="M0,-100 Q50,-130 85,-95 Q50,-90 0,-100" fill="#10b981" opacity="0.11"/>
+    <path d="M0,-100 Q50,-130 85,-95" fill="none" stroke="#10b981" stroke-width="1.2" opacity="0.4"/>
+    <path d="M0,-55 Q55,-85 90,-50 Q55,-45 0,-55" fill="#059669" opacity="0.09"/>
+    <path d="M0,-55 Q55,-85 90,-50" fill="none" stroke="#059669" stroke-width="1.2" opacity="0.35"/>
+    <path d="M0,-10 Q50,-40 80,-5 Q45,-5 0,-10" fill="#10b981" opacity="0.08"/>
+    <path d="M0,-10 Q50,-40 80,-5" fill="none" stroke="#10b981" stroke-width="1" opacity="0.3"/>
+    <path d="M0,40 Q40,15 65,45 Q35,40 0,40" fill="#059669" opacity="0.07"/>
+    <path d="M0,40 Q40,15 65,45" fill="none" stroke="#059669" stroke-width="1" opacity="0.25"/>
+    <!-- Flower at top -->
+    <g transform="translate(0,-130)">
+      <ellipse cx="0" cy="-15" rx="8" ry="18" fill="#f0abfc" opacity="0.3"/>
+      <ellipse cx="12" cy="-5" rx="8" ry="16" fill="#f0abfc" opacity="0.25" transform="rotate(35,12,-5)"/>
+      <ellipse cx="-12" cy="-5" rx="8" ry="16" fill="#f0abfc" opacity="0.25" transform="rotate(-35,-12,-5)"/>
+      <ellipse cx="8" cy="10" rx="7" ry="14" fill="#f0abfc" opacity="0.2" transform="rotate(70,8,10)"/>
+      <ellipse cx="-8" cy="10" rx="7" ry="14" fill="#f0abfc" opacity="0.2" transform="rotate(-70,-8,10)"/>
+      <circle cx="0" cy="0" r="5" fill="#fbbf24" opacity="0.4"/>
+    </g>
+    <!-- Small buds -->
+    <circle cx="-80" cy="-80" r="4" fill="#f0abfc" opacity="0.2"/>
+    <circle cx="85" cy="-95" r="5" fill="#f0abfc" opacity="0.18"/>
+    <circle cx="-95" cy="-30" r="3" fill="#fbbf24" opacity="0.15"/>
+    <!-- Root lines -->
+    <path d="M0,120 Q-20,140 -35,160" fill="none" stroke="#059669" stroke-width="1" opacity="0.15"/>
+    <path d="M0,120 Q10,145 25,155" fill="none" stroke="#059669" stroke-width="0.8" opacity="0.12"/>
+    <path d="M0,120 Q-5,150 -10,165" fill="none" stroke="#059669" stroke-width="0.6" opacity="0.1"/>
+  </g>
+  <!-- Circular frame -->
+  <circle cx="400" cy="310" r="185" fill="none" stroke="#059669" stroke-width="1" opacity="0.12"/>
+  <circle cx="400" cy="310" r="190" fill="none" stroke="#059669" stroke-width="0.5" opacity="0.08" stroke-dasharray="2 4"/>
+  <!-- Brand -->
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="#065f46" letter-spacing="8" font-weight="400">BLOOM</text>
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="38" fill="url(#g43c)" letter-spacing="8" font-weight="400" opacity="0.4">BLOOM</text>
+  <text x="400" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#10b981" letter-spacing="10" font-style="italic">botanicals</text>
+  <rect x="330" y="605" width="140" height="0.5" fill="#059669" opacity="0.2"/>
+  <text x="400" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6ee7b7" letter-spacing="5">ORGANIC SKINCARE</text>
+</svg>

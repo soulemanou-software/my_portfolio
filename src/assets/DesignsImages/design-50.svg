@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g50a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="g50b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="g50c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <filter id="glow50"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g50a)"/>
+  <!-- Background glow -->
+  <circle cx="400" cy="350" r="250" fill="#f97316" opacity="0.03" filter="url(#glow50)"/>
+  <!-- Before / After comparison split -->
+  <!-- Left side - "Before" -->
+  <g transform="translate(60,200)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ef4444" letter-spacing="4" font-weight="600">BEFORE</text>
+    <!-- Messy design mockup -->
+    <rect x="20" y="20" width="260" height="320" rx="12" fill="#1f1f1f" stroke="#333" stroke-width="1"/>
+    <!-- Cluttered elements -->
+    <rect x="35" y="40" width="230" height="30" fill="#333" rx="4"/>
+    <text x="150" y="62" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="14" fill="#888">My Cool Website!</text>
+    <rect x="35" y="85" width="100" height="60" rx="2" fill="#2a2a2a"/>
+    <rect x="145" y="85" width="120" height="25" rx="2" fill="#ef4444" opacity="0.3"/>
+    <rect x="145" y="115" width="80" height="25" rx="2" fill="#3b82f6" opacity="0.3"/>
+    <rect x="35" y="155" width="230" height="4" rx="2" fill="#333"/>
+    <rect x="35" y="168" width="200" height="4" rx="2" fill="#333"/>
+    <rect x="35" y="181" width="180" height="4" rx="2" fill="#333"/>
+    <rect x="35" y="200" width="110" height="80" rx="2" fill="#2a2a2a"/>
+    <rect x="155" y="200" width="110" height="35" rx="2" fill="#eab308" opacity="0.2"/>
+    <rect x="155" y="245" width="110" height="35" rx="2" fill="#22c55e" opacity="0.2"/>
+    <rect x="35" y="295" width="230" height="30" rx="2" fill="#222"/>
+    <!-- Red X overlay -->
+    <line x1="80" y1="100" x2="220" y2="280" stroke="#ef4444" stroke-width="2" opacity="0.15"/>
+    <line x1="220" y1="100" x2="80" y2="280" stroke="#ef4444" stroke-width="2" opacity="0.15"/>
+  </g>
+  <!-- Center divider with arrow -->
+  <line x1="400" y1="220" x2="400" y2="540" stroke="white" stroke-width="1" opacity="0.06"/>
+  <polygon points="400,240 390,260 410,260" fill="url(#g50b)" opacity="0.6"/>
+  <text x="400" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="url(#g50b)" font-weight="700" transform="rotate(-90,400,400)">VS</text>
+  <!-- Right side - "After" -->
+  <g transform="translate(440,200)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#22c55e" letter-spacing="4" font-weight="600">AFTER</text>
+    <!-- Clean design mockup -->
+    <rect x="20" y="20" width="260" height="320" rx="12" fill="#1f1f1f" stroke="#333" stroke-width="1"/>
+    <!-- Clean navigation -->
+    <rect x="35" y="40" width="230" height="25" fill="transparent"/>
+    <circle cx="50" cy="52" r="8" fill="#f97316" opacity="0.3"/>
+    <rect x="130" y="48" width="30" height="4" rx="2" fill="#555"/><rect x="170" y="48" width="30" height="4" rx="2" fill="#555"/>
+    <rect x="210" y="48" width="30" height="4" rx="2" fill="#555"/>
+    <!-- Hero section -->
+    <rect x="35" y="75" width="230" height="100" rx="8" fill="url(#g50b)" opacity="0.08"/>
+    <rect x="55" y="100" width="120" height="8" rx="4" fill="white" opacity="0.5"/>
+    <rect x="55" y="116" width="80" height="6" rx="3" fill="white" opacity="0.2"/>
+    <rect x="55" y="136" width="70" height="22" rx="11" fill="url(#g50b)" opacity="0.5"/>
+    <!-- Content grid -->
+    <rect x="35" y="190" width="70" height="70" rx="8" fill="#2a2a2a"/>
+    <rect x="115" y="190" width="70" height="70" rx="8" fill="#2a2a2a"/>
+    <rect x="195" y="190" width="70" height="70" rx="8" fill="#2a2a2a"/>
+    <!-- Footer -->
+    <rect x="35" y="280" width="230" height="40" rx="6" fill="#181818"/>
+    <rect x="100" y="295" width="100" height="4" rx="2" fill="#444"/>
+    <!-- Green check overlay -->
+    <circle cx="240" cy="45" r="10" fill="#22c55e" opacity="0.2"/>
+    <path d="M234,45 L238,49 L246,41" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.5"/>
+  </g>
+  <!-- Top header -->
+  <rect x="220" y="60" width="360" height="36" rx="18" fill="url(#g50b)" opacity="0.12" stroke="url(#g50b)" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="400" y="84" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f97316" letter-spacing="4" font-weight="700">WEBSITE REDESIGN SHOWCASE</text>
+  <!-- Main title below -->
+  <text x="400" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="white" font-weight="700">Good Design</text>
+  <text x="400" y="650" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="url(#g50b)" font-weight="300" font-style="italic">Changes Everything</text>
+  <!-- CTA -->
+  <text x="400" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a3a3a3" letter-spacing="2">Ready to transform your brand?</text>
+  <rect x="290" y="720" width="220" height="44" rx="22" fill="url(#g50b)"/>
+  <text x="400" y="748" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white" letter-spacing="3" font-weight="600">LET'S TALK</text>
+</svg>

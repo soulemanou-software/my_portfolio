@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f5f0"/>
+      <stop offset="100%" stop-color="#efe8dd"/>
+    </linearGradient>
+    <linearGradient id="dark2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2d2d2d"/>
+    </linearGradient>
+    <linearGradient id="rose2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4917b"/>
+      <stop offset="100%" stop-color="#d4a88e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg2)"/>
+  <!-- Subtle texture dots -->
+  <g opacity="0.04">
+    <circle cx="100" cy="100" r="2" fill="#1a1a1a"/><circle cx="200" cy="100" r="2" fill="#1a1a1a"/>
+    <circle cx="300" cy="100" r="2" fill="#1a1a1a"/><circle cx="400" cy="100" r="2" fill="#1a1a1a"/>
+    <circle cx="500" cy="100" r="2" fill="#1a1a1a"/><circle cx="600" cy="100" r="2" fill="#1a1a1a"/>
+    <circle cx="700" cy="100" r="2" fill="#1a1a1a"/>
+    <circle cx="100" cy="200" r="2" fill="#1a1a1a"/><circle cx="200" cy="200" r="2" fill="#1a1a1a"/>
+    <circle cx="300" cy="200" r="2" fill="#1a1a1a"/><circle cx="400" cy="200" r="2" fill="#1a1a1a"/>
+    <circle cx="500" cy="200" r="2" fill="#1a1a1a"/><circle cx="600" cy="200" r="2" fill="#1a1a1a"/>
+    <circle cx="700" cy="200" r="2" fill="#1a1a1a"/>
+  </g>
+  <!-- Monogram circle -->
+  <circle cx="400" cy="340" r="160" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="400" cy="340" r="155" fill="none" stroke="#c4917b" stroke-width="0.5" opacity="0.5"/>
+  <!-- Monogram letters: AV intertwined -->
+  <text x="400" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="160" fill="url(#dark2)" font-weight="400" letter-spacing="-8">AV</text>
+  <!-- Decorative laurel left -->
+  <g transform="translate(400,340)" opacity="0.15">
+    <path d="M-180,-80 Q-200,-40 -180,0 Q-200,40 -180,80" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+    <ellipse cx="-190" cy="-60" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-30,-190,-60)"/>
+    <ellipse cx="-195" cy="-30" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-20,-195,-30)"/>
+    <ellipse cx="-195" cy="0" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-10,-195,0)"/>
+    <ellipse cx="-195" cy="30" rx="12" ry="6" fill="#1a1a1a" transform="rotate(20,-195,30)"/>
+    <ellipse cx="-190" cy="60" rx="12" ry="6" fill="#1a1a1a" transform="rotate(30,-190,60)"/>
+    <path d="M180,-80 Q200,-40 180,0 Q200,40 180,80" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+    <ellipse cx="190" cy="-60" rx="12" ry="6" fill="#1a1a1a" transform="rotate(30,190,-60)"/>
+    <ellipse cx="195" cy="-30" rx="12" ry="6" fill="#1a1a1a" transform="rotate(20,195,-30)"/>
+    <ellipse cx="195" cy="0" rx="12" ry="6" fill="#1a1a1a" transform="rotate(10,195,0)"/>
+    <ellipse cx="195" cy="30" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-20,195,30)"/>
+    <ellipse cx="190" cy="60" rx="12" ry="6" fill="#1a1a1a" transform="rotate(-30,190,60)"/>
+  </g>
+  <!-- Divider -->
+  <rect x="320" y="540" width="160" height="1" fill="#1a1a1a" opacity="0.3"/>
+  <circle cx="400" cy="540" r="3" fill="#c4917b"/>
+  <!-- Brand name -->
+  <text x="400" y="590" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#1a1a1a" letter-spacing="14">ATELIER VOSS</text>
+  <text x="400" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a7a6a" letter-spacing="6">LUXURY FASHION HOUSE</text>
+</svg>

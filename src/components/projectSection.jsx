@@ -215,8 +215,8 @@ const ProjectSection = () => {
           </div>
           <h2 className="section-title-pattern mb-4">Selected Work</h2>
           <p className="section-subtitle max-w-2xl mx-auto mb-10">
-            Every project tells a story. Here's proof that great engineering 
-            and beautiful design aren't mutually exclusive.
+            Every project tells a story. Here&apos;s proof that great engineering 
+            and beautiful design aren&apos;t mutually exclusive.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g51a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="g51b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="blur51"><feGaussianBlur stdDeviation="25"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g51a)"/>
+  <!-- Ambient blobs -->
+  <circle cx="200" cy="200" r="200" fill="#a78bfa" opacity="0.04" filter="url(#blur51)"/>
+  <circle cx="600" cy="600" r="200" fill="#38bdf8" opacity="0.04" filter="url(#blur51)"/>
+  <!-- Year in review / wrapped style -->
+  <text x="400" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a78bfa" letter-spacing="8" font-weight="600">YOUR 2024 CREATIVE RECAP</text>
+  <!-- Big stat -->
+  <text x="400" y="220" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="120" fill="white" font-weight="900">247</text>
+  <text x="400" y="220" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="120" fill="url(#g51b)" font-weight="900" opacity="0.2">247</text>
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#a1a1aa" letter-spacing="4">projects completed</text>
+  <!-- Stats grid -->
+  <g transform="translate(80,310)">
+    <rect width="290" height="110" rx="16" fill="white" opacity="0.03" stroke="white" stroke-width="0.5" stroke-opacity="0.05"/>
+    <text x="145" y="42" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="40" fill="url(#g51b)" font-weight="800">89</text>
+    <text x="145" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#71717a" letter-spacing="2">BRAND IDENTITIES</text>
+    <text x="145" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#52525b">+34% from last year</text>
+  </g>
+  <g transform="translate(430,310)">
+    <rect width="290" height="110" rx="16" fill="white" opacity="0.03" stroke="white" stroke-width="0.5" stroke-opacity="0.05"/>
+    <text x="145" y="42" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="40" fill="url(#g51b)" font-weight="800">62</text>
+    <text x="145" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#71717a" letter-spacing="2">WEB EXPERIENCES</text>
+    <text x="145" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#52525b">+28% from last year</text>
+  </g>
+  <g transform="translate(80,440)">
+    <rect width="290" height="110" rx="16" fill="white" opacity="0.03" stroke="white" stroke-width="0.5" stroke-opacity="0.05"/>
+    <text x="145" y="42" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="40" fill="url(#g51b)" font-weight="800">1.2M</text>
+    <text x="145" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#71717a" letter-spacing="2">IMPRESSIONS</text>
+    <text x="145" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#52525b">Across all platforms</text>
+  </g>
+  <g transform="translate(430,440)">
+    <rect width="290" height="110" rx="16" fill="white" opacity="0.03" stroke="white" stroke-width="0.5" stroke-opacity="0.05"/>
+    <text x="145" y="42" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="40" fill="url(#g51b)" font-weight="800">18</text>
+    <text x="145" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#71717a" letter-spacing="2">AWARDS WON</text>
+    <text x="145" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#52525b">Industry recognition</text>
+  </g>
+  <!-- Progress bar -->
+  <text x="80" y="600" font-family="Arial, sans-serif" font-size="10" fill="#71717a" letter-spacing="2">CLIENT SATISFACTION</text>
+  <rect x="80" y="615" width="640" height="8" rx="4" fill="white" opacity="0.05"/>
+  <rect x="80" y="615" width="620" height="8" rx="4" fill="url(#g51b)" opacity="0.5"/>
+  <text x="720" y="610" text-anchor="end" font-family="'Helvetica Neue', sans-serif" font-size="14" fill="white" font-weight="700">98%</text>
+  <!-- CTA bottom -->
+  <text x="400" y="680" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="white" font-weight="300">Ready for an even bigger 2025?</text>
+  <rect x="270" y="710" width="260" height="48" rx="24" fill="url(#g51b)"/>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#09090b" letter-spacing="3" font-weight="700">START A PROJECT</text>
+</svg>

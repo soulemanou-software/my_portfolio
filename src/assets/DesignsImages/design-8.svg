@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="50%" stop-color="#16082a"/>
+      <stop offset="100%" stop-color="#0d0520"/>
+    </linearGradient>
+    <linearGradient id="neon8" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff006e"/>
+      <stop offset="50%" stop-color="#fb5607"/>
+      <stop offset="100%" stop-color="#ffbe0b"/>
+    </linearGradient>
+    <radialGradient id="glow8" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ff006e" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg8)"/>
+  <rect width="800" height="800" fill="url(#glow8)"/>
+  <!-- Stars -->
+  <g fill="white" opacity="0.3">
+    <circle cx="120" cy="80" r="1.5"/><circle cx="680" cy="120" r="1"/><circle cx="200" cy="200" r="1"/>
+    <circle cx="600" cy="180" r="1.5"/><circle cx="350" cy="100" r="1"/><circle cx="500" cy="250" r="1"/>
+    <circle cx="150" cy="350" r="1"/><circle cx="700" cy="400" r="1.5"/><circle cx="90" cy="500" r="1"/>
+  </g>
+  <!-- Abstract mountain/stage silhouette -->
+  <polygon points="0,600 100,450 200,520 350,380 500,480 600,350 700,440 800,380 800,800 0,800" fill="#0d0520" opacity="0.6"/>
+  <polygon points="0,650 150,550 300,600 450,500 550,560 700,480 800,520 800,800 0,800" fill="#0d0520" opacity="0.8"/>
+  <!-- Spotlight beams -->
+  <polygon points="400,300 350,800 450,800" fill="url(#neon8)" opacity="0.04"/>
+  <polygon points="300,350 200,800 350,800" fill="#ff006e" opacity="0.03"/>
+  <polygon points="500,350 450,800 600,800" fill="#ffbe0b" opacity="0.03"/>
+  <!-- Main title -->
+  <text x="400" y="180" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#ff006e" letter-spacing="8" font-weight="400">PRESENTS</text>
+  <text x="400" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="80" fill="white" font-weight="700" letter-spacing="4">ECHO</text>
+  <text x="400" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="url(#neon8)" font-weight="300" letter-spacing="6">FESTIVAL</text>
+  <!-- Date info -->
+  <rect x="260" y="400" width="280" height="1" fill="url(#neon8)" opacity="0.4"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e0e0e0" letter-spacing="4">AUGUST 15-17 • 2025</text>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888" letter-spacing="3">OPEN AIR ARENA • LOS ANGELES</text>
+  <!-- Artist lineup -->
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ff006e" letter-spacing="6">FEATURING</text>
+  <text x="400" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="white" letter-spacing="2">AURORA • ODESZA • KHRUANGBIN</text>
+  <text x="400" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#aaa" letter-spacing="2">BONOBO • LITTLE DRAGON • TASH SULTANA</text>
+  <!-- Bottom bar -->
+  <rect x="0" y="760" width="800" height="40" fill="url(#neon8)" opacity="0.9"/>
+  <text x="400" y="786" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1a0a2e" letter-spacing="4" font-weight="700">TICKETS ON SALE NOW — ECHOFEST.COM</text>
+</svg>

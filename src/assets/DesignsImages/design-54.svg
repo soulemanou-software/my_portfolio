@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g54a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="g54b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <filter id="sh54"><feDropShadow dx="2" dy="4" stdDeviation="8" flood-color="#0ea5e9" flood-opacity="0.08"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g54a)"/>
+  <!-- App UI/UX Case Study mockup -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6366f1" letter-spacing="8">APP UI/UX CASE STUDY</text>
+  <!-- Phone mockup 1 - Home screen -->
+  <g transform="translate(120,90)" filter="url(#sh54)">
+    <rect width="180" height="360" rx="24" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <!-- Notch -->
+    <rect x="55" y="8" width="70" height="6" rx="3" fill="#e2e8f0"/>
+    <!-- Status bar area -->
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">9:41</text>
+    <!-- Header -->
+    <rect x="15" y="40" width="150" height="50" rx="8" fill="url(#g54b)" opacity="0.1"/>
+    <text x="25" y="58" font-family="Arial, sans-serif" font-size="9" fill="#0ea5e9" font-weight="600">Good morning,</text>
+    <text x="25" y="73" font-family="Georgia, serif" font-size="13" fill="#0f172a" font-weight="700">Sarah</text>
+    <circle cx="145" cy="62" r="14" fill="url(#g54b)" opacity="0.2"/>
+    <!-- Cards -->
+    <rect x="15" y="100" width="150" height="70" rx="10" fill="url(#g54b)" opacity="0.08"/>
+    <rect x="25" y="112" width="60" height="6" rx="3" fill="#0ea5e9" opacity="0.4"/>
+    <rect x="25" y="125" width="100" height="5" rx="2.5" fill="#e2e8f0"/>
+    <rect x="25" y="136" width="80" height="5" rx="2.5" fill="#e2e8f0"/>
+    <rect x="25" y="150" width="50" height="14" rx="7" fill="url(#g54b)" opacity="0.3"/>
+    <rect x="15" y="180" width="150" height="70" rx="10" fill="white" stroke="#e2e8f0" stroke-width="0.5"/>
+    <rect x="25" y="192" width="50" height="6" rx="3" fill="#6366f1" opacity="0.4"/>
+    <rect x="25" y="205" width="110" height="5" rx="2.5" fill="#e2e8f0"/>
+    <rect x="25" y="216" width="90" height="5" rx="2.5" fill="#e2e8f0"/>
+    <rect x="25" y="230" width="50" height="14" rx="7" fill="#6366f1" opacity="0.2"/>
+    <!-- Bottom nav -->
+    <rect x="15" y="280" width="150" height="50" rx="10" fill="#f8fafc"/>
+    <g transform="translate(0,295)">
+      <circle cx="40" cy="0" r="4" fill="url(#g54b)"/><rect x="35" y="8" width="10" height="3" rx="1.5" fill="url(#g54b)" opacity="0.5"/>
+      <circle cx="75" cy="0" r="4" fill="#cbd5e1"/><rect x="70" y="8" width="10" height="3" rx="1.5" fill="#cbd5e1"/>
+      <circle cx="110" cy="0" r="4" fill="#cbd5e1"/><rect x="105" y="8" width="10" height="3" rx="1.5" fill="#cbd5e1"/>
+      <circle cx="145" cy="0" r="4" fill="#cbd5e1"/><rect x="140" y="8" width="10" height="3" rx="1.5" fill="#cbd5e1"/>
+    </g>
+    <!-- Home indicator -->
+    <rect x="60" y="340" width="60" height="4" rx="2" fill="#e2e8f0"/>
+  </g>
+  <!-- Phone mockup 2 - Detail screen -->
+  <g transform="translate(330,110)" filter="url(#sh54)">
+    <rect width="180" height="360" rx="24" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="55" y="8" width="70" height="6" rx="3" fill="#e2e8f0"/>
+    <!-- Back arrow + title -->
+    <text x="20" y="36" font-family="Arial, sans-serif" font-size="12" fill="#6366f1">&#8592;</text>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="600">Details</text>
+    <!-- Hero image area -->
+    <rect x="15" y="48" width="150" height="100" rx="10" fill="url(#g54b)" opacity="0.12"/>
+    <circle cx="90" cy="90" r="20" fill="url(#g54b)" opacity="0.15"/>
+    <text x="90" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="url(#g54b)" opacity="0.4">&#9654;</text>
+    <!-- Content -->
+    <text x="20" y="172" font-family="Georgia, serif" font-size="12" fill="#0f172a" font-weight="700">Project Alpha</text>
+    <rect x="20" y="180" width="140" height="4" rx="2" fill="#e2e8f0"/>
+    <rect x="20" y="190" width="120" height="4" rx="2" fill="#e2e8f0"/>
+    <rect x="20" y="200" width="130" height="4" rx="2" fill="#e2e8f0"/>
+    <!-- Progress bar -->
+    <text x="20" y="225" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Progress</text>
+    <rect x="20" y="232" width="140" height="6" rx="3" fill="#f1f5f9"/>
+    <rect x="20" y="232" width="105" height="6" rx="3" fill="url(#g54b)" opacity="0.5"/>
+    <text x="145" y="225" font-family="Arial, sans-serif" font-size="8" fill="#6366f1" font-weight="600">75%</text>
+    <!-- Action buttons -->
+    <rect x="20" y="260" width="65" height="28" rx="14" fill="url(#g54b)"/>
+    <text x="52" y="279" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white" font-weight="600">Continue</text>
+    <rect x="95" y="260" width="65" height="28" rx="14" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="127" y="279" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#64748b">Share</text>
+    <rect x="60" y="340" width="60" height="4" rx="2" fill="#e2e8f0"/>
+  </g>
+  <!-- Phone mockup 3 - Profile -->
+  <g transform="translate(540,90)" filter="url(#sh54)">
+    <rect width="180" height="360" rx="24" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <rect x="55" y="8" width="70" height="6" rx="3" fill="#e2e8f0"/>
+    <!-- Profile header -->
+    <rect x="0" y="25" width="180" height="80" rx="0" fill="url(#g54b)" opacity="0.08"/>
+    <circle cx="90" cy="85" r="25" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="90" cy="85" r="20" fill="url(#g54b)" opacity="0.15"/>
+    <text x="90" y="91" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#6366f1" font-weight="700">S</text>
+    <text x="90" y="128" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#0f172a" font-weight="700">Sarah Chen</text>
+    <text x="90" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Product Designer</text>
+    <!-- Stats row -->
+    <g transform="translate(15,155)">
+      <text x="25" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700">24</text>
+      <text x="25" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8">Projects</text>
+      <text x="75" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700">1.2k</text>
+      <text x="75" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8">Following</text>
+      <text x="125" y="10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0f172a" font-weight="700">847</text>
+      <text x="125" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#94a3b8">Followers</text>
+    </g>
+    <!-- Edit profile button -->
+    <rect x="30" y="190" width="120" height="24" rx="12" fill="url(#g54b)" opacity="0.1"/>
+    <text x="90" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6366f1" font-weight="600">Edit Profile</text>
+    <!-- Recent grid -->
+    <rect x="15" y="225" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.08"/>
+    <rect x="67" y="225" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.06"/>
+    <rect x="119" y="225" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.1"/>
+    <rect x="15" y="277" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.06"/>
+    <rect x="67" y="277" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.08"/>
+    <rect x="119" y="277" width="46" height="46" rx="6" fill="url(#g54b)" opacity="0.05"/>
+    <rect x="60" y="340" width="60" height="4" rx="2" fill="#e2e8f0"/>
+  </g>
+  <!-- Flow arrows between screens -->
+  <path d="M305,290 Q317,290 325,290" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.3" marker-end="none"/>
+  <polygon points="325,286 335,290 325,294" fill="#6366f1" opacity="0.3"/>
+  <path d="M515,290 Q527,290 535,290" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.3"/>
+  <polygon points="535,286 545,290 535,294" fill="#6366f1" opacity="0.3"/>
+  <!-- Bottom annotations -->
+  <g transform="translate(80,510)">
+    <rect width="200" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="700">Design System</text>
+    <text x="15" y="42" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">8px grid • 16pt type scale</text>
+  </g>
+  <g transform="translate(300,510)">
+    <rect width="200" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="700">Interactions</text>
+    <text x="15" y="42" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Micro-animations • Haptics</text>
+  </g>
+  <g transform="translate(520,510)">
+    <rect width="200" height="60" rx="10" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="10" fill="#0f172a" font-weight="700">Accessibility</text>
+    <text x="15" y="42" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">WCAG AA • Dynamic Type</text>
+  </g>
+  <!-- Results bar -->
+  <rect x="80" y="600" width="640" height="90" rx="16" fill="url(#g54b)" opacity="0.06" stroke="url(#g54b)" stroke-width="0.5" stroke-opacity="0.15"/>
+  <text x="400" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6366f1" letter-spacing="4" font-weight="600">RESULTS</text>
+  <text x="200" y="665" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="24" fill="#0f172a" font-weight="800">+180%</text>
+  <text x="200" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">User Engagement</text>
+  <text x="400" y="665" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="24" fill="#0f172a" font-weight="800">4.9/5</text>
+  <text x="400" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">App Store Rating</text>
+  <text x="600" y="665" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="24" fill="#0f172a" font-weight="800">-45%</text>
+  <text x="600" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">Bounce Rate</text>
+  <!-- Label -->
+  <text x="400" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" letter-spacing="4">MOBILE APP UI/UX DESIGN</text>
+</svg>

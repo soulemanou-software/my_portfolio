@@ -3,19 +3,19 @@ import Gallery from '../components/gallery';
 import { HiPhotograph, HiSparkles, HiEye, HiColorSwatch, HiCube } from 'react-icons/hi';
 import { FaPalette, FaPaintBrush, FaLayerGroup } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import allDesigns from '../components/Api/DesignsData';
+import allDesigns from '../components/Api/DesignsData.new';
 
 // Category mapping - which design IDs belong to each category
 const categoryMapping = {
   "All": null,
-  "Logos": [1, 2, 3, 4, 5, 7, 13, 28, 29, 34, 35, 36],
-  "Posters": [8, 9, 10, 11, 16, 17, 30, 31],
-  "Social Media": [12, 14, 15, 18, 19, 20, 23, 37, 38, 27],
-  "Branding": [21, 22, 24, 25, 26, 32, 33, 6],
+  "Logos": [1, 2, 3, 4, 5, 7, 13, 28, 29, 34, 35, 36, 39, 40, 41, 42, 43],
+  "Posters": [8, 9, 10, 11, 16, 17, 30, 31, 44, 45, 46, 47, 56, 63, 65],
+  "Social Media": [12, 14, 15, 18, 19, 20, 23, 37, 38, 27, 48, 49, 50, 51, 59, 60, 67, 70],
+  "Branding": [21, 22, 24, 25, 26, 32, 33, 6, 52, 53, 54, 55, 57, 58, 61, 62, 64, 66, 68, 69],
 };
 
 const designStats = [
-  { value: "38+", label: "Design Works", icon: HiColorSwatch },
+  { value: "70+", label: "Design Works", icon: HiColorSwatch },
   { value: "5+", label: "Brand Identities", icon: HiCube },
   { value: "3+", label: "Years Designing", icon: HiSparkles },
 ];
@@ -228,7 +228,7 @@ const Designs = () => {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-savanna-400 to-sunset-400 text-night-600 font-accent font-semibold hover:shadow-lg hover:shadow-savanna-400/20 transition-all"
             >
               <HiSparkles className="w-4 h-4" />
-              Let's Create Together
+              Let&apos;s Create Together
             </Link>
           </div>
         </div>

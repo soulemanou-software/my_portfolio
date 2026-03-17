@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg38" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef2f2"/>
+      <stop offset="100%" stop-color="#fff1f2"/>
+    </linearGradient>
+    <linearGradient id="grad38" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg38)"/>
+  <!-- Geometric shapes background -->
+  <circle cx="650" cy="150" r="200" fill="#e11d48" opacity="0.04"/>
+  <circle cx="200" cy="650" r="150" fill="#be123c" opacity="0.03"/>
+  <!-- Flash sale badge -->
+  <g transform="translate(400,100)">
+    <polygon points="0,-50 15,-20 50,-25 25,5 35,40 0,20 -35,40 -25,5 -50,-25 -15,-20" fill="#e11d48" opacity="0.1"/>
+  </g>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e11d48" letter-spacing="6" font-weight="700">FLASH SALE</text>
+  <!-- Main offer -->
+  <text x="400" y="250" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#1c1917" letter-spacing="4">THIS WEEKEND ONLY</text>
+  <text x="400" y="380" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="150" fill="url(#grad38)" font-weight="900">30%</text>
+  <text x="400" y="440" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#1c1917" letter-spacing="16" font-weight="300">OFF</text>
+  <rect x="280" y="465" width="240" height="1.5" fill="#e11d48" opacity="0.2"/>
+  <!-- Categories -->
+  <text x="400" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#44403c" letter-spacing="2">All Premium Templates</text>
+  <text x="400" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#78716c" letter-spacing="1">UI Kits • Icon Packs • Mockups • Fonts</text>
+  <!-- Code box -->
+  <rect x="250" y="590" width="300" height="50" rx="8" fill="white" stroke="#fecdd3" stroke-width="2"/>
+  <text x="400" y="622" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#e11d48" letter-spacing="6" font-weight="700">WEEKEND30</text>
+  <text x="400" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#a8a29e" letter-spacing="2">TAP TO COPY CODE</text>
+  <!-- CTA -->
+  <rect x="250" y="700" width="300" height="52" rx="26" fill="url(#grad38)"/>
+  <text x="400" y="733" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" letter-spacing="3" font-weight="700">GRAB THE DEAL</text>
+  <!-- Timer hint -->
+  <text x="400" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e11d48" letter-spacing="2">ENDS SUNDAY AT MIDNIGHT</text>
+</svg>

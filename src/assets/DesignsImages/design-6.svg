@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="gold6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4A853"/>
+      <stop offset="50%" stop-color="#f0d78c"/>
+      <stop offset="100%" stop-color="#D4A853"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg6)"/>
+  <!-- Business card mockup -->
+  <!-- Card front -->
+  <g transform="translate(120,180)">
+    <rect width="520" height="300" rx="12" fill="#0f0f1a" stroke="#D4A853" stroke-width="0.5" opacity="0.8"/>
+    <!-- Gold top accent -->
+    <rect y="0" width="520" height="4" rx="2" fill="url(#gold6)" opacity="0.6"/>
+    <!-- Logo mark -->
+    <circle cx="70" cy="150" r="30" fill="none" stroke="#D4A853" stroke-width="1.5"/>
+    <text x="70" y="158" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="#D4A853" font-weight="400">S</text>
+    <!-- Name -->
+    <text x="130" y="135" font-family="Georgia, serif" font-size="22" fill="white" letter-spacing="3">SOULEMANOU</text>
+    <text x="130" y="162" font-family="Georgia, serif" font-size="14" fill="#D4A853" letter-spacing="6">BABANOU</text>
+    <!-- Title -->
+    <rect x="130" y="175" width="60" height="1" fill="#D4A853" opacity="0.3"/>
+    <text x="130" y="200" font-family="Arial, sans-serif" font-size="10" fill="#8a8a9a" letter-spacing="3">FULL-STACK DEVELOPER</text>
+    <text x="130" y="218" font-family="Arial, sans-serif" font-size="10" fill="#8a8a9a" letter-spacing="3">UI/UX DESIGNER</text>
+    <!-- Contact -->
+    <text x="130" y="260" font-family="Arial, sans-serif" font-size="9" fill="#666" letter-spacing="1">hello@soulemanou.dev</text>
+    <text x="350" y="260" font-family="Arial, sans-serif" font-size="9" fill="#666" letter-spacing="1">github.com/soulemanou</text>
+    <!-- Pattern accent -->
+    <g opacity="0.04">
+      <rect x="400" y="60" width="80" height="80" fill="none" stroke="#D4A853" stroke-width="0.5"/>
+      <rect x="410" y="70" width="60" height="60" fill="none" stroke="#D4A853" stroke-width="0.5"/>
+      <circle cx="440" cy="100" r="15" fill="none" stroke="#D4A853" stroke-width="0.5"/>
+    </g>
+  </g>
+  <!-- Card back (tilted) -->
+  <g transform="translate(180,510) rotate(-3)">
+    <rect width="520" height="200" rx="12" fill="#D4A853" opacity="0.9"/>
+    <!-- Pattern on back -->
+    <g opacity="0.12">
+      <circle cx="60" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+      <circle cx="140" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+      <circle cx="220" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+      <circle cx="300" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+      <circle cx="380" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+      <circle cx="460" cy="100" r="30" fill="none" stroke="#0f0f1a" stroke-width="1"/>
+    </g>
+    <!-- Logo on back -->
+    <text x="260" y="108" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#0f0f1a" letter-spacing="10" font-weight="400">SB</text>
+    <rect x="200" y="120" width="120" height="1" fill="#0f0f1a" opacity="0.2"/>
+    <text x="260" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#0f0f1a" letter-spacing="6" opacity="0.5">CREATIVE STUDIO</text>
+  </g>
+  <!-- Label -->
+  <text x="400" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666" letter-spacing="4">BUSINESS CARD DESIGN</text>
+</svg>

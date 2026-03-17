@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g48a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f0f"/>
+      <stop offset="100%" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="g48b" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow48"><feGaussianBlur stdDeviation="15"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g48a)"/>
+  <!-- Ambient glow -->
+  <circle cx="400" cy="300" r="200" fill="#818cf8" opacity="0.04" filter="url(#glow48)"/>
+  <circle cx="300" cy="400" r="150" fill="#c084fc" opacity="0.03" filter="url(#glow48)"/>
+  <circle cx="500" cy="350" r="180" fill="#f472b6" opacity="0.03" filter="url(#glow48)"/>
+  <!-- App UI mockup - glassmorphism card -->
+  <g transform="translate(400,350)">
+    <!-- Glass card -->
+    <rect x="-160" y="-200" width="320" height="400" rx="24" fill="white" opacity="0.04" stroke="white" stroke-width="0.5" stroke-opacity="0.1"/>
+    <!-- Top status bar -->
+    <text x="-130" y="-170" font-family="Arial, sans-serif" font-size="11" fill="white" opacity="0.4">9:41</text>
+    <circle cx="110" cy="-175" r="4" fill="white" opacity="0.2"/>
+    <rect x="118" y="-179" width="22" height="8" rx="2" fill="white" opacity="0.2"/>
+    <!-- Profile area -->
+    <circle cx="-110" cy="-120" r="22" fill="url(#g48b)" opacity="0.3"/>
+    <text x="-110" y="-114" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="700">A</text>
+    <text x="-70" y="-128" font-family="Arial, sans-serif" font-size="13" fill="white" font-weight="600">Aurora Design</text>
+    <text x="-70" y="-112" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.4">@auroradesign</text>
+    <!-- Content area - gradient preview -->
+    <rect x="-140" y="-85" width="280" height="180" rx="16" fill="url(#g48b)" opacity="0.15"/>
+    <rect x="-140" y="-85" width="280" height="180" rx="16" fill="none" stroke="url(#g48b)" stroke-width="0.5" opacity="0.3"/>
+    <!-- Abstract shapes inside preview -->
+    <circle cx="-40" cy="0" r="50" fill="none" stroke="white" stroke-width="1" opacity="0.15"/>
+    <rect x="20" y="-40" width="80" height="80" rx="12" fill="none" stroke="white" stroke-width="1" opacity="0.12" transform="rotate(15,60,0)"/>
+    <polygon points="0,-60 30,-20 -30,-20" fill="none" stroke="white" stroke-width="1" opacity="0.1"/>
+    <text x="0" y="10" text-anchor="middle" font-family="Georgia, serif" font-size="24" fill="white" font-weight="700" opacity="0.7">Design</text>
+    <text x="0" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="white" font-weight="300" opacity="0.5">System v3.0</text>
+    <!-- Engagement bar -->
+    <g transform="translate(0,120)">
+      <text x="-120" y="0" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.3">2,847 likes</text>
+      <text x="30" y="0" font-family="Arial, sans-serif" font-size="10" fill="white" opacity="0.3">186 comments</text>
+    </g>
+    <!-- Caption -->
+    <text x="-130" y="150" font-family="Arial, sans-serif" font-size="11" fill="white" opacity="0.5">Introducing our new design system...</text>
+    <text x="-130" y="168" font-family="Arial, sans-serif" font-size="10" fill="#818cf8" opacity="0.5">#design #ui #creative</text>
+  </g>
+  <!-- Label outside -->
+  <rect x="230" y="60" width="340" height="32" rx="16" fill="url(#g48b)" opacity="0.15" stroke="url(#g48b)" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="400" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c084fc" letter-spacing="4" font-weight="600">INSTAGRAM POST CONCEPT</text>
+  <!-- Phone frame hint -->
+  <rect x="228" y="130" width="344" height="560" rx="30" fill="none" stroke="white" stroke-width="1" opacity="0.04"/>
+</svg>

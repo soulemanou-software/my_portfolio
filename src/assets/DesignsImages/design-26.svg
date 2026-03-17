@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg26" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="grad26" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg26)"/>
+  <!-- Email template mockup -->
+  <!-- Browser chrome -->
+  <rect x="80" y="40" width="640" height="720" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="80" y="40" width="640" height="40" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="108" cy="60" r="6" fill="#fca5a5"/><circle cx="128" cy="60" r="6" fill="#fde68a"/><circle cx="148" cy="60" r="6" fill="#86efac"/>
+  <!-- Email header -->
+  <rect x="80" y="80" width="640" height="180" fill="url(#grad26)"/>
+  <!-- Logo in header -->
+  <circle cx="400" cy="130" r="25" fill="white" opacity="0.2"/>
+  <text x="400" y="138" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="white" font-weight="700">V</text>
+  <text x="400" y="185" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="white" font-weight="400" letter-spacing="2">Welcome Aboard</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c7d2fe" letter-spacing="1">Thank you for joining our community</text>
+  <!-- Email body -->
+  <rect x="130" y="290" width="540" height="5" rx="2.5" fill="#e2e8f0"/>
+  <rect x="130" y="305" width="480" height="5" rx="2.5" fill="#e2e8f0"/>
+  <rect x="130" y="320" width="520" height="5" rx="2.5" fill="#e2e8f0"/>
+  <rect x="130" y="335" width="350" height="5" rx="2.5" fill="#e2e8f0"/>
+  <!-- CTA button -->
+  <rect x="280" y="375" width="240" height="45" rx="22" fill="url(#grad26)"/>
+  <text x="400" y="403" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white" letter-spacing="2" font-weight="600">GET STARTED</text>
+  <!-- Feature cards -->
+  <g transform="translate(130,450)">
+    <rect width="160" height="100" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="80" cy="35" r="15" fill="#ede9fe"/>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6366f1">01</text>
+    <text x="80" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#334155" font-weight="600">Quick Setup</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">5 min to start</text>
+  </g>
+  <g transform="translate(320,450)">
+    <rect width="160" height="100" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="80" cy="35" r="15" fill="#ede9fe"/>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6366f1">02</text>
+    <text x="80" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#334155" font-weight="600">Templates</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">100+ ready</text>
+  </g>
+  <g transform="translate(510,450)">
+    <rect width="160" height="100" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <circle cx="80" cy="35" r="15" fill="#ede9fe"/>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6366f1">03</text>
+    <text x="80" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#334155" font-weight="600">Support</text>
+    <text x="80" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8">24/7 available</text>
+  </g>
+  <!-- Footer -->
+  <rect x="130" y="590" width="540" height="1" fill="#e2e8f0"/>
+  <text x="400" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#94a3b8">Vertex Studio Inc. | 123 Creative Ave, New York</text>
+  <text x="400" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6366f1">Unsubscribe | Privacy Policy</text>
+  <!-- Social icons -->
+  <g transform="translate(355,670)" fill="#94a3b8">
+    <circle cx="0" cy="0" r="10" fill="#f1f5f9"/><text x="0" y="4" text-anchor="middle" font-size="10">f</text>
+    <circle cx="30" cy="0" r="10" fill="#f1f5f9"/><text x="30" y="4" text-anchor="middle" font-size="10">t</text>
+    <circle cx="60" cy="0" r="10" fill="#f1f5f9"/><text x="60" y="4" text-anchor="middle" font-size="10">in</text>
+  </g>
+  <!-- Label -->
+  <text x="400" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8" letter-spacing="4">EMAIL TEMPLATE DESIGN</text>
+</svg>

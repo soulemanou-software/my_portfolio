@@ -69,7 +69,7 @@ const FooterWithLogo = () => {
             </Link>
             <p className="text-earth-300 text-sm leading-relaxed max-w-xs mt-2">
               Crafting digital experiences that bridge African heritage with modern innovation.
-              Let's create something amazing together.
+              Let&apos;s create something amazing together.
             </p>
           </div>
 

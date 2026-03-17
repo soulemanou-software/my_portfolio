@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="grad27" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg27)"/>
+  <!-- Confetti/party elements -->
+  <g opacity="0.15">
+    <rect x="150" y="100" width="8" height="20" rx="2" fill="#c084fc" transform="rotate(30,154,110)"/>
+    <rect x="650" y="150" width="8" height="20" rx="2" fill="#f472b6" transform="rotate(-20,654,160)"/>
+    <rect x="200" y="500" width="6" height="16" rx="2" fill="#fbbf24" transform="rotate(45,203,508)"/>
+    <circle cx="600" cy="300" r="6" fill="#c084fc"/>
+    <circle cx="180" cy="300" r="4" fill="#f472b6"/>
+    <circle cx="700" cy="500" r="5" fill="#fbbf24"/>
+    <polygon points="500,120 505,135 520,135 508,145 512,160 500,150 488,160 492,145 480,135 495,135" fill="#c084fc"/>
+  </g>
+  <!-- Calendar icon -->
+  <g transform="translate(400,200)">
+    <rect x="-50" y="-40" width="100" height="90" rx="12" fill="white" opacity="0.1"/>
+    <rect x="-50" y="-40" width="100" height="25" rx="12" fill="url(#grad27)" opacity="0.4"/>
+    <text x="0" y="25" text-anchor="middle" font-family="'Helvetica Neue', sans-serif" font-size="36" fill="white" font-weight="700">24</text>
+    <text x="0" y="-22" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white" letter-spacing="2" font-weight="600">MAR</text>
+  </g>
+  <!-- Main text -->
+  <text x="400" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c084fc" letter-spacing="8">MARK YOUR CALENDARS</text>
+  <text x="400" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="white" font-weight="700">Launch</text>
+  <text x="400" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="url(#grad27)" font-weight="300" font-style="italic">Party</text>
+  <rect x="300" y="525" width="200" height="1" fill="url(#grad27)" opacity="0.3"/>
+  <text x="400" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#e0e7ff" letter-spacing="2">Join us for the big reveal</text>
+  <text x="400" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#a5b4fc" letter-spacing="1">March 24, 2025 • 7:00 PM EST</text>
+  <!-- CTA -->
+  <rect x="250" y="650" width="300" height="50" rx="25" fill="url(#grad27)"/>
+  <text x="400" y="681" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" letter-spacing="3" font-weight="600">RSVP NOW</text>
+  <!-- Bottom text -->
+  <text x="400" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6366f1" letter-spacing="3">LINK IN BIO</text>
+</svg>

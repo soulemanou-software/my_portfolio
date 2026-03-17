@@ -116,7 +116,7 @@ const Presentation = () => {
               <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 rounded-lg bg-savanna-400/10">
                 <HiOutlineSparkles className="w-4 h-4 text-savanna-400" />
               </div>
-              <span className="text-earth-400">I'm a</span>
+              <span className="text-earth-400">I&apos;m a</span>
               <span ref={typedRef} className="font-semibold text-sunset-400" />
             </div>
 
@@ -170,7 +170,7 @@ const Presentation = () => {
                 <div className="absolute inset-0 p-1 rounded-full bg-gradient-to-br from-savanna-400 to-sunset-400">
                   <div className="w-full h-full rounded-full bg-night-600" />
                 </div>
-                <div className="relative overflow-hidden border-2 rounded-full w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 border-savanna-400/30">
+                <div className="relative w-48 h-48 overflow-hidden border-2 rounded-full sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 border-savanna-400/30">
                   <img src={profileImage} alt="Soulemanou Kunchiefuh Babanou" className="object-cover object-center w-full h-full" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night-600/60 via-transparent to-transparent" />
                 </div>

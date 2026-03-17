@@ -2,7 +2,7 @@ import { useState } from 'react';
 import LightGallery from 'lightgallery/react';
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
-import allThumbs from './Api/DesignsData';
+import allThumbs from './Api/DesignsData.new';
 import { HiPhotograph } from 'react-icons/hi';
 
 const Gallery = ({ data = null }) => {

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg20" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#d1fae5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg20)"/>
+  <!-- Large quote marks -->
+  <text x="100" y="200" font-family="Georgia, serif" font-size="200" fill="#10b981" opacity="0.08" font-weight="700">"</text>
+  <text x="620" y="620" font-family="Georgia, serif" font-size="200" fill="#10b981" opacity="0.08" font-weight="700">"</text>
+  <!-- Star rating -->
+  <g transform="translate(400,140)">
+    <text x="-60" y="0" font-size="24" fill="#f59e0b">&#9733;</text>
+    <text x="-30" y="0" font-size="24" fill="#f59e0b">&#9733;</text>
+    <text x="0" y="0" font-size="24" fill="#f59e0b">&#9733;</text>
+    <text x="30" y="0" font-size="24" fill="#f59e0b">&#9733;</text>
+    <text x="60" y="0" font-size="24" fill="#f59e0b">&#9733;</text>
+  </g>
+  <!-- Testimonial text -->
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#064e3b" font-style="italic" font-weight="400">"Working with this team was</text>
+  <text x="400" y="305" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#064e3b" font-style="italic" font-weight="400">an absolute game-changer for</text>
+  <text x="400" y="350" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#064e3b" font-style="italic" font-weight="400">our brand. The attention to</text>
+  <text x="400" y="395" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#064e3b" font-style="italic" font-weight="400">detail and creative vision</text>
+  <text x="400" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#064e3b" font-style="italic" font-weight="400">exceeded all expectations."</text>
+  <!-- Divider -->
+  <rect x="350" y="480" width="100" height="2" fill="#10b981" opacity="0.4"/>
+  <!-- Client info -->
+  <circle cx="360" cy="545" r="30" fill="#059669" opacity="0.15"/>
+  <text x="360" y="552" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#059669" font-weight="700">JR</text>
+  <text x="410" y="537" font-family="'Helvetica Neue', sans-serif" font-size="16" fill="#064e3b" font-weight="700">James Rodriguez</text>
+  <text x="410" y="560" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" letter-spacing="1">CEO, Vertex Technologies</text>
+  <!-- Bottom brand bar -->
+  <rect x="0" y="700" width="800" height="100" fill="#064e3b"/>
+  <text x="400" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6ee7b7" letter-spacing="6">CLIENT TESTIMONIAL</text>
+  <text x="400" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34d399" letter-spacing="2">See more at studiocraft.com/reviews</text>
+</svg>

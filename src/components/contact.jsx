@@ -117,10 +117,10 @@ const Contact = () => {
           <div className="chapter-indicator justify-center mb-6">
             <span>Chapter 05</span>
           </div>
-          <h2 className="section-title-pattern mb-4">Let's Connect</h2>
+          <h2 className="section-title-pattern mb-4">Let&apos;s Connect</h2>
           <p className="section-subtitle max-w-2xl mx-auto mb-10">
             Every great collaboration starts with a conversation. 
-            Whether it's a project, opportunity, or just a friendly hello — I'm listening.
+            Whether it&apos;s a project, opportunity, or just a friendly hello — I&apos;m listening.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
@@ -205,7 +205,7 @@ const Contact = () => {
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h3 className="font-heading text-xl sm:text-2xl text-savanna-100">Send a Message</h3>
-                  <p className="text-xs text-earth-400 mt-1">I'll respond within 24 hours</p>
+                  <p className="text-xs text-earth-400 mt-1">I&apos;ll respond within 24 hours</p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-savanna-400/10 border border-savanna-400/30 flex items-center justify-center">
                   <HiSparkles className="w-5 h-5 text-savanna-400" />
@@ -234,7 +234,7 @@ const Contact = () => {
                     <HiPaperAirplane className="w-10 h-10 text-baobab-400 rotate-45" />
                   </div>
                   <h4 className="font-heading text-2xl text-savanna-100 mb-2">Message Sent!</h4>
-                  <p className="text-earth-300 mb-6">Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                  <p className="text-earth-300 mb-6">Thank you for reaching out. I&apos;ll get back to you within 24 hours.</p>
                   <button 
                     onClick={() => setFormStatus({ submitting: false, submitted: false })}
                     className="text-sm text-savanna-400 hover:text-savanna-300 transition-colors"

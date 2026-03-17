@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg25" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef7cd"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg25)"/>
+  <!-- Packaging design mockup - Coffee bag -->
+  <g transform="translate(400,400)">
+    <!-- Bag shape -->
+    <path d="M-140,-250 L140,-250 L160,250 L-160,250 Z" fill="#292524" rx="8"/>
+    <!-- Top fold -->
+    <path d="M-140,-250 L-120,-280 L120,-280 L140,-250 Z" fill="#1c1917"/>
+    <!-- Label area -->
+    <rect x="-110" y="-180" width="220" height="350" rx="6" fill="#fef3c7" opacity="0.9"/>
+    <!-- Brand circle -->
+    <circle cx="0" cy="-90" r="55" fill="none" stroke="#292524" stroke-width="2"/>
+    <circle cx="0" cy="-90" r="48" fill="none" stroke="#292524" stroke-width="0.5"/>
+    <!-- Mountain/bean icon inside circle -->
+    <path d="M-25,-75 L0,-110 L25,-75" fill="none" stroke="#292524" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-15,-80 L0,-100 L15,-80" fill="none" stroke="#78350f" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="0" cy="-70" r="4" fill="#292524"/>
+    <!-- Brand name -->
+    <text x="0" y="-25" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#292524" letter-spacing="6" font-weight="700">SUMMIT</text>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#78350f" letter-spacing="8">COFFEE ROASTERS</text>
+    <!-- Divider -->
+    <rect x="-60" y="20" width="120" height="1" fill="#292524" opacity="0.2"/>
+    <!-- Product info -->
+    <text x="0" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#292524" font-style="italic">Single Origin</text>
+    <text x="0" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#78350f" font-weight="600">Ethiopian Yirgacheffe</text>
+    <!-- Details -->
+    <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78716c" letter-spacing="2">LIGHT ROAST • FLORAL NOTES</text>
+    <text x="0" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#78716c" letter-spacing="2">NET WT. 12 OZ (340g)</text>
+    <!-- Barcode hint -->
+    <g transform="translate(-30,150)">
+      <rect width="3" height="20" fill="#292524" opacity="0.3"/><rect x="5" width="2" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="9" width="3" height="20" fill="#292524" opacity="0.3"/><rect x="14" width="1" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="17" width="3" height="20" fill="#292524" opacity="0.3"/><rect x="22" width="2" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="26" width="3" height="20" fill="#292524" opacity="0.3"/><rect x="31" width="1" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="34" width="2" height="20" fill="#292524" opacity="0.3"/><rect x="38" width="3" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="43" width="2" height="20" fill="#292524" opacity="0.3"/><rect x="47" width="3" height="20" fill="#292524" opacity="0.3"/>
+      <rect x="52" width="1" height="20" fill="#292524" opacity="0.3"/><rect x="55" width="3" height="20" fill="#292524" opacity="0.3"/>
+    </g>
+  </g>
+  <!-- Label -->
+  <text x="400" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#78716c" letter-spacing="4">PACKAGING DESIGN</text>
+</svg>

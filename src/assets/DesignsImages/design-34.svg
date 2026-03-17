@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg34" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="cyan34" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="blue34" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg34)"/>
+  <g opacity="0.03">
+    <circle cx="400" cy="320" r="150" fill="none" stroke="#22d3ee" stroke-width="0.5"/>
+    <circle cx="400" cy="320" r="250" fill="none" stroke="#22d3ee" stroke-width="0.5"/>
+    <circle cx="400" cy="320" r="350" fill="none" stroke="#22d3ee" stroke-width="0.5"/>
+  </g>
+  <!-- Abstract cursor/arrow digital agency mark -->
+  <g transform="translate(400,300)">
+    <!-- Outer square rotated -->
+    <rect x="-90" y="-90" width="180" height="180" fill="none" stroke="url(#cyan34)" stroke-width="2" transform="rotate(45)" rx="8"/>
+    <!-- Arrow/cursor -->
+    <polygon points="-50,-60 50,0 -10,0 -10,60 -50,60" fill="url(#blue34)"/>
+    <!-- Small accent dots -->
+    <circle cx="60" cy="-60" r="6" fill="#22d3ee"/>
+    <circle cx="70" cy="50" r="4" fill="#22d3ee" opacity="0.5"/>
+    <circle cx="-70" cy="-70" r="3" fill="#3b82f6" opacity="0.4"/>
+    <!-- Code brackets -->
+    <text x="80" y="10" font-family="'Courier New', monospace" font-size="40" fill="#22d3ee" opacity="0.2">&gt;</text>
+    <text x="-100" y="10" font-family="'Courier New', monospace" font-size="40" fill="#22d3ee" opacity="0.2">&lt;</text>
+  </g>
+  <!-- Glow -->
+  <circle cx="380" cy="280" r="60" fill="#3b82f6" opacity="0.04"/>
+  <!-- Brand -->
+  <text x="400" y="510" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="42" fill="#e2e8f0" letter-spacing="6" font-weight="700">PIXELCRAFT</text>
+  <rect x="280" y="525" width="240" height="1" fill="url(#cyan34)" opacity="0.3"/>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b" letter-spacing="6">DIGITAL AGENCY</text>
+</svg>

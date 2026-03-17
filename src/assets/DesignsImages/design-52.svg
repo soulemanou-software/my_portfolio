@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="g52a" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5f4"/>
+      <stop offset="100%" stop-color="#e7e5e4"/>
+    </linearGradient>
+    <linearGradient id="g52b" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </linearGradient>
+    <linearGradient id="g52c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="shadow52"><feDropShadow dx="4" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#g52a)"/>
+  <!-- Stationery mockup spread -->
+  <!-- Envelope (back, tilted) -->
+  <g transform="translate(480,220) rotate(6)" filter="url(#shadow52)">
+    <rect width="300" height="200" rx="4" fill="white"/>
+    <polygon points="0,0 150,80 300,0" fill="none" stroke="#e7e5e4" stroke-width="1"/>
+    <rect x="180" y="120" width="90" height="12" rx="2" fill="#e7e5e4"/>
+    <rect x="180" y="140" width="70" height="8" rx="2" fill="#e7e5e4" opacity="0.6"/>
+    <rect x="180" y="155" width="80" height="8" rx="2" fill="#e7e5e4" opacity="0.5"/>
+    <!-- Stamp area -->
+    <rect x="230" y="30" width="50" height="60" rx="2" fill="#fef2f2" stroke="#fecaca" stroke-width="0.5"/>
+    <circle cx="255" cy="55" r="12" fill="none" stroke="#c2410c" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  <!-- Business card stack -->
+  <g transform="translate(80,350) rotate(-3)" filter="url(#shadow52)">
+    <!-- Card behind -->
+    <rect x="8" y="8" width="280" height="170" rx="8" fill="#f5f5f4"/>
+    <!-- Card front -->
+    <rect width="280" height="170" rx="8" fill="url(#g52b)"/>
+    <rect x="0" y="0" width="280" height="5" rx="3" fill="url(#g52c)"/>
+    <!-- Logo -->
+    <circle cx="40" cy="85" r="18" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="40" y="91" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#ea580c">F</text>
+    <!-- Info -->
+    <text x="75" y="76" font-family="Georgia, serif" font-size="14" fill="white" letter-spacing="2">FORGE STUDIO</text>
+    <text x="75" y="95" font-family="Arial, sans-serif" font-size="8" fill="#78716c" letter-spacing="2">CREATIVE DIRECTOR</text>
+    <rect x="20" y="120" width="240" height="0.5" fill="#44403c" opacity="0.3"/>
+    <text x="20" y="145" font-family="Arial, sans-serif" font-size="8" fill="#a8a29e">hello@forgestudio.co</text>
+    <text x="180" y="145" font-family="Arial, sans-serif" font-size="8" fill="#a8a29e">+1 555 0123</text>
+  </g>
+  <!-- Letterhead -->
+  <g transform="translate(380,320) rotate(2)" filter="url(#shadow52)">
+    <rect width="240" height="340" rx="4" fill="white"/>
+    <rect x="0" y="0" width="240" height="3" fill="url(#g52c)"/>
+    <!-- Logo -->
+    <circle cx="30" cy="30" r="10" fill="none" stroke="#c2410c" stroke-width="1"/>
+    <text x="30" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#c2410c">F</text>
+    <text x="50" y="30" font-family="Georgia, serif" font-size="9" fill="#1c1917" letter-spacing="2">FORGE</text>
+    <!-- Content lines -->
+    <rect x="20" y="70" width="120" height="4" rx="2" fill="#d6d3d1"/>
+    <rect x="20" y="90" width="200" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="102" width="180" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="114" width="190" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="126" width="160" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="146" width="200" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="158" width="175" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="170" width="190" height="3" rx="1.5" fill="#e7e5e4"/>
+    <rect x="20" y="200" width="80" height="3" rx="1.5" fill="#d6d3d1"/>
+    <rect x="20" y="215" width="60" height="3" rx="1.5" fill="#d6d3d1" opacity="0.7"/>
+    <!-- Footer -->
+    <rect x="20" y="310" width="200" height="0.5" fill="#e7e5e4"/>
+    <text x="120" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#a8a29e" letter-spacing="1">FORGE STUDIO — FORGESTUDIO.CO</text>
+  </g>
+  <!-- Pen accessory -->
+  <g transform="translate(160,560) rotate(-25)">
+    <rect width="6" height="140" rx="3" fill="#1c1917" opacity="0.15"/>
+    <rect y="-8" width="6" height="15" rx="1" fill="#c2410c" opacity="0.2"/>
+  </g>
+  <!-- Label -->
+  <text x="400" y="760" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a8a29e" letter-spacing="6">STATIONERY SUITE DESIGN</text>
+</svg>

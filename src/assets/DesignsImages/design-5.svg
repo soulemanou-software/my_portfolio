@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+    <linearGradient id="purple5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="pink5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg5)"/>
+  <!-- Radial rings background -->
+  <g opacity="0.04">
+    <circle cx="400" cy="350" r="100" fill="none" stroke="#a78bfa" stroke-width="0.5"/>
+    <circle cx="400" cy="350" r="200" fill="none" stroke="#a78bfa" stroke-width="0.5"/>
+    <circle cx="400" cy="350" r="300" fill="none" stroke="#a78bfa" stroke-width="0.5"/>
+    <circle cx="400" cy="350" r="400" fill="none" stroke="#a78bfa" stroke-width="0.5"/>
+  </g>
+  <!-- Sound wave / audio logo mark -->
+  <g transform="translate(400,330)">
+    <!-- Outer vinyl ring -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="url(#purple5)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="135" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.3"/>
+    <!-- Sound wave bars -->
+    <rect x="-60" y="-30" width="12" height="60" rx="6" fill="url(#purple5)"/>
+    <rect x="-36" y="-55" width="12" height="110" rx="6" fill="url(#pink5)"/>
+    <rect x="-12" y="-75" width="12" height="150" rx="6" fill="url(#purple5)"/>
+    <rect x="12" y="-50" width="12" height="100" rx="6" fill="url(#pink5)"/>
+    <rect x="36" y="-65" width="12" height="130" rx="6" fill="url(#purple5)"/>
+    <rect x="60" y="-25" width="12" height="50" rx="6" fill="url(#pink5)"/>
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="80" fill="#8b5cf6" opacity="0.06"/>
+  </g>
+  <!-- Brand -->
+  <text x="400" y="540" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="44" fill="#e4e4e7" letter-spacing="8" font-weight="700">SONORA</text>
+  <rect x="310" y="555" width="180" height="1" fill="url(#purple5)" opacity="0.4"/>
+  <text x="400" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#71717a" letter-spacing="6">AUDIO PRODUCTION</text>
+  <!-- Decorative corner brackets -->
+  <path d="M50,50 L50,90 M50,50 L90,50" stroke="#a78bfa" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M750,50 L750,90 M750,50 L710,50" stroke="#a78bfa" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M50,750 L50,710 M50,750 L90,750" stroke="#a78bfa" stroke-width="1" fill="none" opacity="0.2"/>
+  <path d="M750,750 L750,710 M750,750 L710,750" stroke="#a78bfa" stroke-width="1" fill="none" opacity="0.2"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+    <linearGradient id="gld17" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4A853"/>
+      <stop offset="50%" stop-color="#f0d78c"/>
+      <stop offset="100%" stop-color="#D4A853"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg17)"/>
+  <!-- African pattern border -->
+  <g stroke="#D4A853" stroke-width="1" fill="none" opacity="0.15">
+    <rect x="30" y="30" width="740" height="740"/>
+    <path d="M30,30 L60,60 M770,30 L740,60 M30,770 L60,740 M770,770 L740,740"/>
+    <path d="M100,30 V50 M200,30 V50 M300,30 V50 M400,30 V50 M500,30 V50 M600,30 V50 M700,30 V50"/>
+    <path d="M100,770 V750 M200,770 V750 M300,770 V750 M400,770 V750 M500,770 V750 M600,770 V750 M700,770 V750"/>
+  </g>
+  <!-- Decorative African mask outline -->
+  <g transform="translate(400,250)" opacity="0.08">
+    <ellipse cx="0" cy="0" rx="80" ry="120" fill="none" stroke="#D4A853" stroke-width="2"/>
+    <ellipse cx="-30" cy="-20" rx="18" ry="10" fill="#D4A853"/>
+    <ellipse cx="30" cy="-20" rx="18" ry="10" fill="#D4A853"/>
+    <path d="M0,-5 L-8,30 L0,35 L8,30 Z" fill="#D4A853"/>
+    <path d="M-20,60 Q0,75 20,60" fill="none" stroke="#D4A853" stroke-width="2"/>
+  </g>
+  <!-- Content -->
+  <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#D4A853" letter-spacing="10">ANNUAL CELEBRATION</text>
+  <text x="400" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="68" fill="#f0d78c" font-weight="700" letter-spacing="3">AFRICAN</text>
+  <text x="400" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="url(#gld17)" font-weight="300" letter-spacing="8">Heritage</text>
+  <text x="400" y="445" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#D4A853" letter-spacing="6">FESTIVAL</text>
+  <rect x="280" y="465" width="240" height="1" fill="url(#gld17)" opacity="0.3"/>
+  <!-- Info -->
+  <text x="400" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fef3c7" letter-spacing="3">MUSIC • DANCE • ART • CUISINE</text>
+  <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" letter-spacing="2" font-weight="600">DECEMBER 5-7, 2025</text>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a8a29e" letter-spacing="2">CULTURAL CENTER • DOUALA, CAMEROON</text>
+  <!-- Featured artists -->
+  <g transform="translate(400,640)">
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#D4A853" letter-spacing="2">Featuring Traditional &amp; Contemporary Artists</text>
+    <text x="0" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#a8a29e" letter-spacing="1">Live Performances • Workshops • Exhibitions</text>
+  </g>
+  <!-- CTA -->
+  <rect x="260" y="700" width="280" height="45" rx="4" fill="url(#gld17)"/>
+  <text x="400" y="729" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#451a03" letter-spacing="4" font-weight="700">GET YOUR TICKETS</text>
+</svg>

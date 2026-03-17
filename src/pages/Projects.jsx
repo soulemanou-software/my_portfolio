@@ -31,7 +31,7 @@ const Project = () => {
           </div>
           <h1 className="section-title-pattern mb-3 sm:mb-4 text-3xl sm:text-4xl md:text-5xl">Development Projects</h1>
           <p className="section-subtitle max-w-2xl mx-auto">
-            A collection of web applications and software solutions I've built,
+            A collection of web applications and software solutions I&apos;ve built,
             each representing a unique challenge and creative solution.
           </p>
         </div>

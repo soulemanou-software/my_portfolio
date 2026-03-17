@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg16" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c0c"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+    <linearGradient id="amber16" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg16)"/>
+  <!-- Film strip borders -->
+  <g fill="#f59e0b" opacity="0.08">
+    <rect x="0" y="0" width="60" height="800"/>
+    <rect x="740" y="0" width="60" height="800"/>
+  </g>
+  <g fill="#0c0c0c">
+    <rect x="10" y="20" width="20" height="30" rx="3"/><rect x="10" y="70" width="20" height="30" rx="3"/>
+    <rect x="10" y="120" width="20" height="30" rx="3"/><rect x="10" y="170" width="20" height="30" rx="3"/>
+    <rect x="10" y="220" width="20" height="30" rx="3"/><rect x="10" y="270" width="20" height="30" rx="3"/>
+    <rect x="10" y="520" width="20" height="30" rx="3"/><rect x="10" y="570" width="20" height="30" rx="3"/>
+    <rect x="10" y="620" width="20" height="30" rx="3"/><rect x="10" y="670" width="20" height="30" rx="3"/>
+    <rect x="10" y="720" width="20" height="30" rx="3"/>
+    <rect x="770" y="20" width="20" height="30" rx="3"/><rect x="770" y="70" width="20" height="30" rx="3"/>
+    <rect x="770" y="120" width="20" height="30" rx="3"/><rect x="770" y="170" width="20" height="30" rx="3"/>
+    <rect x="770" y="220" width="20" height="30" rx="3"/><rect x="770" y="270" width="20" height="30" rx="3"/>
+    <rect x="770" y="520" width="20" height="30" rx="3"/><rect x="770" y="570" width="20" height="30" rx="3"/>
+    <rect x="770" y="620" width="20" height="30" rx="3"/><rect x="770" y="670" width="20" height="30" rx="3"/>
+    <rect x="770" y="720" width="20" height="30" rx="3"/>
+  </g>
+  <!-- Spotlight -->
+  <circle cx="400" cy="300" r="200" fill="#f59e0b" opacity="0.03"/>
+  <!-- Content -->
+  <text x="400" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b" letter-spacing="8">12TH ANNUAL</text>
+  <!-- Star icon -->
+  <polygon points="400,190 408,215 435,215 413,230 421,255 400,240 379,255 387,230 365,215 392,215" fill="#f59e0b" opacity="0.6"/>
+  <text x="400" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="90" fill="white" font-weight="700" letter-spacing="-1">CINEMA</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="url(#amber16)" letter-spacing="12">D'OR</text>
+  <rect x="300" y="435" width="200" height="1" fill="#f59e0b" opacity="0.3"/>
+  <text x="400" y="475" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#fef3c7" letter-spacing="4">International Film Festival</text>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#92400e" letter-spacing="3">NOVEMBER 8-15, 2025</text>
+  <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#78716c" letter-spacing="2">CANNES • FRANCE</text>
+  <!-- Film categories -->
+  <g transform="translate(400,610)">
+    <text x="-150" y="0" text-anchor="middle" font-size="10" font-family="Arial, sans-serif" fill="#f59e0b" letter-spacing="2">DOCUMENTARY</text>
+    <text x="0" y="0" text-anchor="middle" font-size="10" font-family="Arial, sans-serif" fill="#f59e0b" letter-spacing="2">NARRATIVE</text>
+    <text x="150" y="0" text-anchor="middle" font-size="10" font-family="Arial, sans-serif" fill="#f59e0b" letter-spacing="2">ANIMATION</text>
+  </g>
+  <!-- Bottom CTA -->
+  <rect x="250" y="680" width="300" height="45" rx="4" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="400" y="709" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#f59e0b" letter-spacing="5">SUBMIT YOUR FILM</text>
+</svg>

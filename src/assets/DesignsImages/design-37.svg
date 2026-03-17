@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <linearGradient id="bg37" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a09"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+    <linearGradient id="grad37" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4a853"/>
+      <stop offset="100%" stop-color="#f0d78c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg37)"/>
+  <!-- Luxury texture lines -->
+  <g stroke="#d4a853" stroke-width="0.3" opacity="0.06">
+    <line x1="0" y1="0" x2="800" y2="800"/><line x1="100" y1="0" x2="800" y2="700"/>
+    <line x1="200" y1="0" x2="800" y2="600"/><line x1="0" y1="100" x2="700" y2="800"/>
+    <line x1="0" y1="200" x2="600" y2="800"/>
+  </g>
+  <!-- Badge -->
+  <rect x="60" y="60" width="100" height="28" rx="14" fill="none" stroke="#d4a853" stroke-width="1"/>
+  <text x="110" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#d4a853" letter-spacing="3">NEW IN</text>
+  <!-- Product abstract - watch silhouette -->
+  <g transform="translate(400,340)">
+    <rect x="-80" y="-120" width="160" height="240" rx="35" fill="none" stroke="#d4a853" stroke-width="1.5" opacity="0.15"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#d4a853" stroke-width="1" opacity="0.12"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#d4a853" stroke-width="0.5" opacity="0.08"/>
+    <!-- Watch hands -->
+    <line x1="0" y1="0" x2="0" y2="-35" stroke="#d4a853" stroke-width="1.5" opacity="0.3"/>
+    <line x1="0" y1="0" x2="20" y2="10" stroke="#d4a853" stroke-width="1" opacity="0.25"/>
+    <circle cx="0" cy="0" r="3" fill="#d4a853" opacity="0.3"/>
+    <!-- Crown -->
+    <rect x="80" y="-8" width="15" height="16" rx="4" fill="none" stroke="#d4a853" stroke-width="1" opacity="0.15"/>
+  </g>
+  <!-- Content -->
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#d4a853" letter-spacing="8">INTRODUCING</text>
+  <text x="400" y="620" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="white" font-weight="300" letter-spacing="6">CHRONOS</text>
+  <text x="400" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="url(#grad37)" letter-spacing="10">HERITAGE</text>
+  <rect x="310" y="680" width="180" height="0.5" fill="#d4a853" opacity="0.3"/>
+  <text x="400" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#78716c" letter-spacing="3">AVAILABLE MARCH 2025</text>
+  <!-- Price -->
+  <text x="400" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#d4a853">From $2,450</text>
+</svg>
