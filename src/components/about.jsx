@@ -164,8 +164,8 @@ const About = () => {
 
               <div className="p-4 rounded-xl bg-night-700/50 border-l-4 border-savanna-400">
                 <p className="text-earth-200 italic text-sm">
-                  "I don't just write code or push pixels — I solve problems, 
-                  tell stories, and build products that people genuinely love to use."
+                  &ldquo;I don&apos;t just write code or push pixels — I solve problems,
+                  tell stories, and build products that people genuinely love to use.&rdquo;
                 </p>
               </div>
             </div>

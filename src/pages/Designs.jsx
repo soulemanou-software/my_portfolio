@@ -151,7 +151,7 @@ const Designs = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <span className="text-xs text-earth-500 font-accent uppercase tracking-wider">Tools:</span>
+                  <span className="text-xs text-earth-400 font-accent uppercase tracking-wider">Tools:</span>
                   <div className="flex items-center gap-2">
                     {designTools.map((tool, index) => (
                       <div 
@@ -197,7 +197,7 @@ const Designs = () => {
                   }`}
                 >
                   {category.name}
-                  <span className={`ml-1.5 text-xs ${activeCategory === category.name ? 'text-night-600/60' : 'text-earth-500'}`}>
+                  <span className={`ml-1.5 text-xs ${activeCategory === category.name ? 'text-night-600/60' : 'text-earth-400'}`}>
                     ({category.count})
                   </span>
                 </button>

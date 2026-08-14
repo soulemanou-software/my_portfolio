@@ -94,7 +94,7 @@ const ProjectCard = ({ project, index, isVisible }) => {
             </span>
           ))}
           {project.languages?.length > 3 && (
-            <span className="text-[10px] sm:text-xs px-2 py-0.5 text-earth-500">
+            <span className="text-[10px] sm:text-xs px-2 py-0.5 text-earth-400">
               +{project.languages.length - 3}
             </span>
           )}
@@ -155,7 +155,7 @@ const CategoryCard = ({ category, index, isVisible }) => {
           </span>
           <h3 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-savanna-100 mb-3">{category.title}</h3>
           <p className="text-sm text-earth-300 mb-2">{category.description}</p>
-          <p className="text-xs text-earth-500 mb-6 italic">{category.longDescription}</p>
+          <p className="text-xs text-earth-400 mb-6 italic">{category.longDescription}</p>
 
           <Link
             to={category.link}

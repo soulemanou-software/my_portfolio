@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { HiCode, HiColorSwatch, HiPencil, HiLightningBolt, HiDatabase, HiCube, HiChip, HiGlobe, HiSparkles, HiAcademicCap } from "react-icons/hi";
-import { FaReact, FaNodeJs, FaFigma, FaPython, FaAws } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiMongodb, SiPostgresql, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { FaReact, FaNodeJs, FaFigma } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
 const skillStats = [
   { value: "15+", label: "Technologies", icon: HiChip },
@@ -193,7 +193,7 @@ const SkillCard = ({ category, index, isVisible }) => {
       <p className="text-sm text-earth-300 mb-4 leading-relaxed">{category.description}</p>
       
       <div className="p-3 rounded-xl bg-night-600/30 border-l-2 border-earth-700/50 mb-6">
-        <p className="text-xs text-earth-400 italic">"{category.quote}"</p>
+        <p className="text-xs text-earth-400 italic">&ldquo;{category.quote}&rdquo;</p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
