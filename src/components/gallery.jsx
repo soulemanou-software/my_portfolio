@@ -38,7 +38,7 @@ const Gallery = ({ data = null }) => {
           
           {/* Error placeholder */}
           {imageErrors[thumb.id] ? (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-night-700/80 text-earth-500">
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-night-700/80 text-earth-400">
               <HiPhotograph className="w-8 h-8 mb-2 opacity-50" />
               <span className="text-xs font-accent">#{thumb.id}</span>
             </div>

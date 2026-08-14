@@ -12,7 +12,23 @@
   body {
     @apply font-body bg-night-500 text-savanna-100 antialiased;
     background-color: #1a1a2e;
-    font-family: Consolas, monospace;
+  }
+
+  :focus-visible {
+    outline: 2px solid #D4A853;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid #D4A853;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 4px rgba(212, 168, 83, 0.18);
   }
 
   body::-webkit-scrollbar {
@@ -48,7 +64,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/src/assets/patterns/african-pattern.svg');
+    background-image: url('/patterns/african-pattern.svg');
     background-repeat: repeat;
     opacity: 0.1;
     pointer-events: none;
@@ -214,16 +230,16 @@
   /* African Mask Pattern Text Effect - Traditional masks with tribal patterns */
   .african-mask-text {
     @apply relative font-heading font-bold;
-    background: 
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3C!-- Mask face outline --%3E%3Cellipse cx='40' cy='40' rx='18' ry='28' fill='none' stroke='%23D4A853' stroke-width='2'/%3E%3C!-- Eyes --%3E%3Cellipse cx='32' cy='32' rx='5' ry='3' fill='%23E07A5F'/%3E%3Cellipse cx='48' cy='32' rx='5' ry='3' fill='%23E07A5F'/%3E%3C!-- Nose --%3E%3Cpath d='M40 35 L37 45 L43 45 Z' fill='%23D4A853'/%3E%3C!-- Mouth --%3E%3Cpath d='M34 52 Q40 58 46 52' fill='none' stroke='%23E07A5F' stroke-width='2'/%3E%3C!-- Tribal markings --%3E%3Cpath d='M25 28 L22 35 M55 28 L58 35' stroke='%23606C38' stroke-width='1.5'/%3E%3Cpath d='M28 55 L32 60 M52 55 L48 60' stroke='%23606C38' stroke-width='1.5'/%3E%3C!-- Decorative dots --%3E%3Ccircle cx='40' cy='22' r='2' fill='%23D4A853'/%3E%3Ccircle cx='26' cy='40' r='1.5' fill='%23E07A5F'/%3E%3Ccircle cx='54' cy='40' r='1.5' fill='%23E07A5F'/%3E%3C/svg%3E"),
-      linear-gradient(135deg, #D4A853 0%, #E07A5F 40%, #D4A853 60%, #c9963e 100%);
-    background-size: 40px 40px, 100% 100%;
+    background:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg opacity='0.35'%3E%3Cellipse cx='40' cy='40' rx='18' ry='28' fill='none' stroke='%23FDF8F0' stroke-width='1.5'/%3E%3Cellipse cx='32' cy='32' rx='4' ry='2.5' fill='%23FDF8F0'/%3E%3Cellipse cx='48' cy='32' rx='4' ry='2.5' fill='%23FDF8F0'/%3E%3Cpath d='M40 35 L37 45 L43 45 Z' fill='%23FDF8F0'/%3E%3Cpath d='M34 52 Q40 58 46 52' fill='none' stroke='%23FDF8F0' stroke-width='1.5'/%3E%3Cpath d='M25 28 L22 35 M55 28 L58 35' stroke='%23FDF8F0' stroke-width='1.2'/%3E%3Ccircle cx='40' cy='22' r='1.6' fill='%23FDF8F0'/%3E%3C/g%3E%3C/svg%3E"),
+      linear-gradient(120deg, #E8D4A3 0%, #D4A853 35%, #E07A5F 65%, #D4A853 100%);
+    background-size: 80px 80px, 100% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    animation: maskShift 10s linear infinite;
-    filter: drop-shadow(0 2px 4px rgba(212, 168, 83, 0.3));
+    animation: maskShift 18s linear infinite;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
   }
 
   @keyframes maskShift {
@@ -289,15 +305,16 @@
   /* Section title with pattern */
   .section-title-pattern {
     @apply font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
-    background: 
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Ccircle cx='25' cy='25' r='10' fill='none' stroke='%23E07A5F' stroke-width='1.5' opacity='0.6'/%3E%3Cpath d='M10 25 L25 10 L40 25 L25 40 Z' fill='none' stroke='%23D4A853' stroke-width='1' opacity='0.8'/%3E%3Ccircle cx='25' cy='25' r='3' fill='%23D4A853'/%3E%3C/svg%3E"),
-      linear-gradient(135deg, #D4A853 0%, #ddb668 30%, #E07A5F 70%, #D4A853 100%);
-    background-size: 25px 25px, 100% 100%;
+    background:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Cg opacity='0.28' fill='none' stroke='%23FDF8F0'%3E%3Ccircle cx='25' cy='25' r='9' stroke-width='1.2'/%3E%3Cpath d='M10 25 L25 10 L40 25 L25 40 Z' stroke-width='1'/%3E%3C/g%3E%3Ccircle cx='25' cy='25' r='2' fill='%23FDF8F0' opacity='0.35'/%3E%3C/svg%3E"),
+      linear-gradient(120deg, #E8D4A3 0%, #D4A853 35%, #E07A5F 70%, #D4A853 100%);
+    background-size: 60px 60px, 100% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
-    animation: patternShift 12s linear infinite;
+    animation: patternShift 20s linear infinite;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
   }
 
   .decorative-dots {
@@ -333,5 +350,34 @@
   .mask-gradient-top {
     mask-image: linear-gradient(to top, black 70%, transparent);
     -webkit-mask-image: linear-gradient(to top, black 70%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .floating,
+  .african-mask-text,
+  .african-pattern-text,
+  .section-title-pattern,
+  .animate-spin,
+  .animate-pulse,
+  .animate-bounce {
+    animation: none !important;
+  }
+
+  .reveal {
+    @apply opacity-100 translate-y-0;
   }
 }

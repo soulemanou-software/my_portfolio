@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaArrowDown, FaPlay, FaCode, FaPalette, FaRocket } from "react-icons/fa";
 import { HiOutlineSparkles, HiLightningBolt, HiGlobe } from "react-icons/hi";
 import Typed from 'typed.js';
@@ -143,7 +143,7 @@ const Presentation = () => {
                 {quickStats.map((stat, index) => (
                   <div key={index} className="text-center">
                     <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
-                    <div className="text-[10px] text-earth-500 font-accent uppercase">{stat.label}</div>
+                    <div className="text-[10px] text-earth-400 font-accent uppercase">{stat.label}</div>
                   </div>
                 ))}
               </div>
@@ -198,7 +198,7 @@ const Presentation = () => {
             <div key={index} className="p-3 text-center border rounded-xl bg-night-700/30 border-earth-700/20">
               <stat.icon className="w-4 h-4 mx-auto mb-1 text-savanna-400" />
               <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
-              <div className="text-[9px] text-earth-500 font-accent uppercase">{stat.label}</div>
+              <div className="text-[9px] text-earth-400 font-accent uppercase">{stat.label}</div>
             </div>
           ))}
         </div>

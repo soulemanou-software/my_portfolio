@@ -146,7 +146,7 @@ const Contact = () => {
               <span className="text-xs font-accent text-savanna-400 uppercase tracking-wider">Get in touch with</span>
               <h3 className="font-heading text-xl sm:text-2xl md:text-3xl text-savanna-100 mt-1 mb-3">{ownerInfo.fullName}</h3>
               <p className="text-earth-300 leading-relaxed text-sm">
-                I'm always excited to connect with fellow creators, businesses looking to elevate their digital presence, 
+                I&apos;m always excited to connect with fellow creators, businesses looking to elevate their digital presence, 
                 or anyone who appreciates great design and solid engineering.
               </p>
             </div>
@@ -165,7 +165,7 @@ const Contact = () => {
                     <item.icon className={`w-5 h-5 ${item.highlight ? 'text-savanna-400' : 'text-earth-400'}`} />
                   </div>
                   <div>
-                    <span className="text-[10px] font-accent text-earth-500 uppercase tracking-wider">{item.label}</span>
+                    <span className="text-[10px] font-accent text-earth-400 uppercase tracking-wider">{item.label}</span>
                     {item.href ? (
                       <a href={item.href} className={`block font-medium transition-colors ${
                         item.highlight ? 'text-savanna-100 hover:text-savanna-400' : 'text-earth-200'
@@ -181,7 +181,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <h4 className="font-accent text-xs text-earth-500 uppercase tracking-wider mb-4">Connect on Social</h4>
+              <h4 className="font-accent text-xs text-earth-400 uppercase tracking-wider mb-4">Connect on Social</h4>
               <div className="flex flex-wrap gap-3">
                 {socialLinks.map((social, index) => (
                   <a
@@ -252,7 +252,7 @@ const Contact = () => {
                         id="name"
                         name="name"
                         required
-                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-400 focus:outline-none focus:border-savanna-400/60 focus:ring-2 focus:ring-savanna-400/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-savanna-400 hover:border-earth-700/60 transition-colors"
                         placeholder="John Doe"
                       />
                     </div>
@@ -264,7 +264,7 @@ const Contact = () => {
                         id="email"
                         name="email"
                         required
-                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-400 focus:outline-none focus:border-savanna-400/60 focus:ring-2 focus:ring-savanna-400/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-savanna-400 hover:border-earth-700/60 transition-colors"
                         placeholder="john@example.com"
                       />
                     </div>
@@ -276,7 +276,7 @@ const Contact = () => {
                       type="text"
                       id="subject"
                       name="subject"
-                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-400 focus:outline-none focus:border-savanna-400/60 focus:ring-2 focus:ring-savanna-400/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-savanna-400 hover:border-earth-700/60 transition-colors"
                       placeholder="What's this about?"
                     />
                   </div>
@@ -288,7 +288,7 @@ const Contact = () => {
                       name="message"
                       rows="5"
                       required
-                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors resize-none"
+                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-400 focus:outline-none focus:border-savanna-400/60 focus:ring-2 focus:ring-savanna-400/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-savanna-400 hover:border-earth-700/60 transition-colors resize-none"
                       placeholder="Tell me about your project, idea, or just say hello..."
                     />
                   </div>

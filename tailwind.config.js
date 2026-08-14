@@ -1,11 +1,6 @@
-/* eslint-disable no-undef */
-import flowbitePlugin from 'flowbite/plugin';
-
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}' ,
-  'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}', "./node_modules/flowbite/**/*.js"
-  /* src folder, for example */],
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -38,7 +33,7 @@ export default {
           100: '#E8DDD4',
           200: '#D1BAA8',
           300: '#B89780',
-          400: '#8B6B52',
+          400: '#A3846B',
           500: '#5C4033',
           600: '#4A3329',
           700: '#3B2921',
@@ -82,7 +77,7 @@ export default {
         accent: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        'african-pattern': "url('/src/assets/patterns/african-pattern.svg')",
+        'african-pattern': "url('/patterns/african-pattern.svg')",
         'savanna-gradient': 'linear-gradient(135deg, #F4E4C1 0%, #D4A853 50%, #E07A5F 100%)',
         'sunset-gradient': 'linear-gradient(180deg, #1A1A2E 0%, #5C4033 30%, #E07A5F 60%, #D4A853 100%)',
         'night-gradient': 'linear-gradient(180deg, #1A1A2E 0%, #2C1F18 50%, #5C4033 100%)',
@@ -148,5 +143,5 @@ export default {
       },
     },
   },
-  plugins: [flowbitePlugin],
+  plugins: [],
 }
