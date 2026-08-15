@@ -123,7 +123,7 @@ const Designs = () => {
 
       <div className="relative z-10 pt-24 sm:pt-28 pb-16 sm:pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-12">
-          <div className="flex items-center gap-2 text-earth-400 text-sm mb-8">
+          <div className="flex items-center gap-2 text-earth-300 text-sm mb-8">
             <Link to="/" className="hover:text-savanna-400 transition-colors">Home</Link>
             <span>/</span>
             <span className="text-savanna-400">Design Gallery</span>
@@ -151,12 +151,12 @@ const Designs = () => {
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <span className="text-xs text-earth-500 font-accent uppercase tracking-wider">Tools:</span>
+                  <span className="text-xs text-earth-300 font-accent uppercase tracking-wider">Tools:</span>
                   <div className="flex items-center gap-2">
                     {designTools.map((tool, index) => (
                       <div 
                         key={index}
-                        className="w-9 h-9 rounded-lg bg-night-700/50 border border-earth-700/30 flex items-center justify-center text-earth-400 hover:text-savanna-400 hover:border-savanna-400/30 transition-all"
+                        className="w-9 h-9 rounded-lg bg-night-700/50 border border-earth-700/30 flex items-center justify-center text-earth-300 hover:text-savanna-400 hover:border-savanna-400/30 transition-all"
                         title={tool.name}
                       >
                         <tool.icon className="w-4 h-4" />
@@ -177,7 +177,7 @@ const Designs = () => {
                   >
                     <stat.icon className="w-6 h-6 text-savanna-400 mx-auto mb-3" />
                     <div className="font-heading text-2xl sm:text-3xl text-savanna-100 mb-1">{stat.value}</div>
-                    <div className="text-xs text-earth-400 font-accent">{stat.label}</div>
+                    <div className="text-xs text-earth-300 font-accent">{stat.label}</div>
                   </div>
                 ))}
               </div>
@@ -197,7 +197,7 @@ const Designs = () => {
                   }`}
                 >
                   {category.name}
-                  <span className={`ml-1.5 text-xs ${activeCategory === category.name ? 'text-night-600/60' : 'text-earth-500'}`}>
+                  <span className={`ml-1.5 text-xs ${activeCategory === category.name ? 'text-night-600/60' : 'text-earth-300'}`}>
                     ({category.count})
                   </span>
                 </button>
@@ -213,7 +213,7 @@ const Designs = () => {
                 </div>
                 <div>
                   <h2 className="font-heading text-lg text-savanna-100">{activeCategory} Designs</h2>
-                  <p className="text-xs text-earth-400">{filteredDesigns.length} creative works</p>
+                  <p className="text-xs text-earth-300">{filteredDesigns.length} creative works</p>
                 </div>
               </div>
             </div>
@@ -222,7 +222,7 @@ const Designs = () => {
           </div>
 
           <div className={`mt-12 text-center transition-all duration-1000 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <p className="text-earth-400 text-sm mb-4">Want to see more or discuss a project?</p>
+            <p className="text-earth-300 text-sm mb-4">Want to see more or discuss a project?</p>
             <Link 
               to="/#Contacts"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-savanna-400 to-sunset-400 text-night-600 font-accent font-semibold hover:shadow-lg hover:shadow-savanna-400/20 transition-all"

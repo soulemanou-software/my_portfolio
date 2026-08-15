@@ -132,7 +132,7 @@ const Navigator = () => {
                   Soulemanou
                   <HiSparkles className="w-3 h-3 text-savanna-400 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </span>
-                <span className="block text-[10px] sm:text-xs text-earth-400 font-accent tracking-wider uppercase">Engineer • Designer</span>
+                <span className="block text-[10px] sm:text-xs text-earth-300 font-accent tracking-wider uppercase">Engineer • Designer</span>
               </div>
             </Link>
 
@@ -142,10 +142,11 @@ const Navigator = () => {
                   <button
                     key={item.name}
                     onClick={(e) => handleNavClick(e, item.sectionId)}
+                    aria-current={activeSection === item.sectionId ? 'true' : undefined}
                     className={`group relative px-3 xl:px-4 py-2 font-accent text-xs xl:text-sm transition-all duration-300 cursor-pointer rounded-full ${
                       activeSection === item.sectionId
                         ? 'text-night-600 bg-gradient-to-r from-savanna-400 to-sunset-400'
-                        : 'text-earth-300 hover:text-savanna-400'
+                        : 'text-earth-300 hover:text-savanna-400 hover:bg-night-700/60'
                     }`}
                   >
                     <span className="relative z-10 flex items-center gap-1.5">
@@ -167,7 +168,7 @@ const Navigator = () => {
                     href={social.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-8 h-8 rounded-lg bg-night-700/30 border border-earth-700/20 flex items-center justify-center text-earth-400 hover:text-savanna-400 hover:border-savanna-400/30 transition-all duration-300"
+                    className="w-8 h-8 rounded-lg bg-night-700/30 border border-earth-700/20 flex items-center justify-center text-earth-300 hover:text-savanna-400 hover:border-savanna-400/30 transition-all duration-300"
                     aria-label={social.label}
                   >
                     <social.icon className="w-3.5 h-3.5" />
@@ -186,6 +187,8 @@ const Navigator = () => {
 
             <button
               onClick={() => setIsMobileMenuOpen((v) => !v)}
+              aria-expanded={isMobileMenuOpen}
+              aria-controls="mobile-menu"
               className="lg:hidden p-2 rounded-lg bg-night-700/30 border border-earth-700/20 text-savanna-400 hover:text-savanna-300 hover:border-savanna-400/30 transition-all"
               aria-label="Toggle menu"
             >
@@ -195,10 +198,12 @@ const Navigator = () => {
         </div>
 
         <div
+          id="mobile-menu"
+          inert={isMobileMenuOpen ? undefined : ''}
           className={`lg:hidden absolute top-full left-0 right-0 bg-night-600/98 backdrop-blur-xl border-t border-earth-700/20 transition-all duration-500 overflow-hidden ${
             isMobileMenuOpen
               ? 'opacity-100 max-h-[80vh] pointer-events-auto'
-              : 'opacity-0 max-h-0 pointer-events-none'
+              : 'invisible opacity-0 max-h-0 pointer-events-none'
           }`}
         >
           <div className="container mx-auto px-4 py-4">
@@ -207,6 +212,7 @@ const Navigator = () => {
                 <button
                   key={item.name}
                   onClick={(e) => handleNavClick(e, item.sectionId)}
+                  aria-current={activeSection === item.sectionId ? 'true' : undefined}
                   className={`flex items-center gap-3 p-3 rounded-xl transition-all duration-300 w-full text-left ${
                     activeSection === item.sectionId
                       ? 'bg-gradient-to-r from-savanna-400/20 to-transparent border-l-2 border-savanna-400'
@@ -240,7 +246,7 @@ const Navigator = () => {
                   target="_blank"
                   rel="noreferrer"
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="w-10 h-10 rounded-xl bg-night-700/50 border border-earth-700/20 flex items-center justify-center text-earth-400 hover:text-savanna-400 transition-colors"
+                  className="w-10 h-10 rounded-xl bg-night-700/50 border border-earth-700/20 flex items-center justify-center text-earth-300 hover:text-savanna-400 transition-colors"
                   aria-label={social.label}
                 >
                   <social.icon className="w-4 h-4" />

@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import flowbitePlugin from 'flowbite/plugin';
 
 /** @type {import('tailwindcss').Config} */
@@ -82,7 +81,7 @@ export default {
         accent: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        'african-pattern': "url('/src/assets/patterns/african-pattern.svg')",
+        'african-pattern': "url('/patterns/african-pattern.svg')",
         'savanna-gradient': 'linear-gradient(135deg, #F4E4C1 0%, #D4A853 50%, #E07A5F 100%)',
         'sunset-gradient': 'linear-gradient(180deg, #1A1A2E 0%, #5C4033 30%, #E07A5F 60%, #D4A853 100%)',
         'night-gradient': 'linear-gradient(180deg, #1A1A2E 0%, #2C1F18 50%, #5C4033 100%)',

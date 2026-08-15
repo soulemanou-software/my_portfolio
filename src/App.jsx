@@ -1,7 +1,6 @@
 import FooterWithLogo from './components/footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import 'react-perfect-scrollbar/dist/css/styles.css';
 import Navigator from "./components/navigator";
 import AfricanMaskBackground from "./components/AfricanMaskBackground";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";

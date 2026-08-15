@@ -62,7 +62,7 @@ const FooterWithLogo = () => {
                 <span className="font-heading font-bold text-lg sm:text-xl text-savanna-100 group-hover:text-savanna-400 transition-colors">
                   Soulemanou Babanou
                 </span>
-                <span className="block text-xs text-earth-400 font-accent">
+                <span className="block text-xs text-earth-300 font-accent">
                   Digital Storyteller
                 </span>
               </div>
@@ -113,7 +113,7 @@ const FooterWithLogo = () => {
             </div>
             <button
               onClick={scrollToTop}
-              className="flex items-center gap-2 text-earth-400 hover:text-savanna-400 transition-colors text-sm group"
+              className="flex items-center gap-2 text-earth-300 hover:text-savanna-400 transition-colors text-sm group"
             >
               <span>Back to top</span>
               <HiArrowUp className="w-4 h-4 group-hover:-translate-y-1 transition-transform" />
@@ -124,10 +124,10 @@ const FooterWithLogo = () => {
         <div className="border-t border-earth-700/30 my-6 sm:my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-3 sm:gap-4 text-center md:text-left">
-          <p className="text-earth-400 text-sm">
+          <p className="text-earth-300 text-sm">
             © {new Date().getFullYear()} Soulemanou Kunchiefuh Babanou. All rights reserved.
           </p>
-          <p className="text-earth-400 text-sm flex items-center gap-1">
+          <p className="text-earth-300 text-sm flex items-center gap-1">
             Made with <FaHeart className="w-3 h-3 text-sunset-400" /> in Cameroon, Africa
           </p>
         </div>

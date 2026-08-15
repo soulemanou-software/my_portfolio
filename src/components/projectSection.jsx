@@ -82,7 +82,7 @@ const ProjectCard = ({ project, index, isVisible }) => {
         <h3 className="font-heading text-base sm:text-lg text-savanna-100 mb-2 group-hover:text-savanna-400 transition-colors line-clamp-1">
           {project.title}
         </h3>
-        <p className="text-xs sm:text-sm text-earth-400 mb-3 line-clamp-2">{project.description}</p>
+        <p className="text-xs sm:text-sm text-earth-300 mb-3 line-clamp-2">{project.description}</p>
 
         <div className="flex flex-wrap gap-1.5">
           {project.languages?.slice(0, 3).map((lang) => (
@@ -94,7 +94,7 @@ const ProjectCard = ({ project, index, isVisible }) => {
             </span>
           ))}
           {project.languages?.length > 3 && (
-            <span className="text-[10px] sm:text-xs px-2 py-0.5 text-earth-500">
+            <span className="text-[10px] sm:text-xs px-2 py-0.5 text-earth-300">
               +{project.languages.length - 3}
             </span>
           )}
@@ -145,17 +145,17 @@ const CategoryCard = ({ category, index, isVisible }) => {
           </div>
           <div className="text-right">
             <div className={`font-heading text-3xl ${colors.stat}`}>{category.stats.count}</div>
-            <div className="text-xs text-earth-400 font-accent">{category.stats.type}</div>
+            <div className="text-xs text-earth-300 font-accent">{category.stats.type}</div>
           </div>
         </div>
 
         <div className="mt-auto">
-          <span className="inline-block text-xs font-accent text-earth-400 uppercase tracking-widest mb-3 px-2 py-1 bg-night-600/50 rounded-full">
+          <span className="inline-block text-xs font-accent text-earth-300 uppercase tracking-widest mb-3 px-2 py-1 bg-night-600/50 rounded-full">
             {category.subtitle}
           </span>
           <h3 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-savanna-100 mb-3">{category.title}</h3>
           <p className="text-sm text-earth-300 mb-2">{category.description}</p>
-          <p className="text-xs text-earth-500 mb-6 italic">{category.longDescription}</p>
+          <p className="text-xs text-earth-300 mb-6 italic">{category.longDescription}</p>
 
           <Link
             to={category.link}
@@ -187,7 +187,7 @@ const ProjectSection = () => {
     <section
       id="Projects"
       ref={sectionRef}
-      className="relative py-20 sm:py-28 md:py-36 overflow-hidden bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600"
+      className="section-shell bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600"
     >
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -206,7 +206,7 @@ const ProjectSection = () => {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12">
         <div
-          className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${
+          className={`section-header transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -230,7 +230,7 @@ const ProjectSection = () => {
               >
                 <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2" />
                 <div className="font-heading text-2xl text-savanna-100">{stat.value}</div>
-                <div className="text-xs text-earth-400 font-accent">{stat.label}</div>
+                <div className="text-xs text-earth-300 font-accent">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -268,7 +268,7 @@ const ProjectSection = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <p className="text-earth-400 text-sm mb-4">Want to see more?</p>
+          <p className="text-earth-300 text-sm mb-4">Want to see more?</p>
           <Link to="/Projects" className="btn-african-outline inline-flex items-center gap-2">
             View Full Portfolio
             <HiArrowRight className="w-4 h-4" />
