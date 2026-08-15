@@ -74,7 +74,7 @@ const expertise = [
 
 const About = () => {
   return (
-    <section id="about" className="relative py-20 sm:py-28 md:py-36 bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600 overflow-hidden">
+    <section id="about" className="section-shell bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600">
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -88,7 +88,7 @@ const About = () => {
       </div>
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12">
-        <div className="text-center mb-16 sm:mb-20">
+        <div className="section-header">
           <div className="chapter-indicator justify-center mb-6">
             <span>Chapter 02</span>
           </div>
@@ -134,7 +134,7 @@ const About = () => {
                 >
                   <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2 group-hover:scale-110 transition-transform" />
                   <div className="font-heading text-xl sm:text-2xl text-savanna-100 mb-1">{stat.value}</div>
-                  <div className="text-earth-400 text-xs font-accent">{stat.label}</div>
+                  <div className="text-earth-300 text-xs font-accent">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -164,8 +164,8 @@ const About = () => {
 
               <div className="p-4 rounded-xl bg-night-700/50 border-l-4 border-savanna-400">
                 <p className="text-earth-200 italic text-sm">
-                  "I don't just write code or push pixels — I solve problems, 
-                  tell stories, and build products that people genuinely love to use."
+                  &ldquo;I don&apos;t just write code or push pixels — I solve problems,
+                  tell stories, and build products that people genuinely love to use.&rdquo;
                 </p>
               </div>
             </div>
@@ -215,7 +215,7 @@ const About = () => {
               <div className="grid sm:grid-cols-3 gap-4">
                 {expertise.map((group, index) => (
                   <div key={index} className="p-4 rounded-xl bg-night-700/30 border border-earth-700/30">
-                    <h4 className="font-accent text-xs uppercase tracking-wider text-earth-400 mb-3">{group.category}</h4>
+                    <h4 className="font-accent text-xs uppercase tracking-wider text-earth-300 mb-3">{group.category}</h4>
                     <div className="space-y-2">
                       {group.skills.map((skill, idx) => (
                         <div key={idx} className="flex items-center gap-2 text-earth-200">

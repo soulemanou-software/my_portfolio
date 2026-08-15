@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaArrowDown, FaPlay, FaCode, FaPalette, FaRocket } from "react-icons/fa";
 import { HiOutlineSparkles, HiLightningBolt, HiGlobe } from "react-icons/hi";
 import Typed from 'typed.js';
@@ -116,7 +116,7 @@ const Presentation = () => {
               <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 rounded-lg bg-savanna-400/10">
                 <HiOutlineSparkles className="w-4 h-4 text-savanna-400" />
               </div>
-              <span className="text-earth-400">I&apos;m a</span>
+              <span className="text-earth-300">I&apos;m a</span>
               <span ref={typedRef} className="font-semibold text-sunset-400" />
             </div>
 
@@ -143,7 +143,7 @@ const Presentation = () => {
                 {quickStats.map((stat, index) => (
                   <div key={index} className="text-center">
                     <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
-                    <div className="text-[10px] text-earth-500 font-accent uppercase">{stat.label}</div>
+                    <div className="text-[10px] text-earth-300 font-accent uppercase">{stat.label}</div>
                   </div>
                 ))}
               </div>
@@ -198,14 +198,14 @@ const Presentation = () => {
             <div key={index} className="p-3 text-center border rounded-xl bg-night-700/30 border-earth-700/20">
               <stat.icon className="w-4 h-4 mx-auto mb-1 text-savanna-400" />
               <div className="text-lg font-heading text-savanna-100">{stat.value}</div>
-              <div className="text-[9px] text-earth-500 font-accent uppercase">{stat.label}</div>
+              <div className="text-[9px] text-earth-300 font-accent uppercase">{stat.label}</div>
             </div>
           ))}
         </div>
       </div>
 
       <div className="absolute flex-col items-center hidden gap-2 -translate-x-1/2 bottom-8 left-1/2 sm:flex">
-        <span className="text-xs tracking-wider uppercase text-earth-400 font-accent">Scroll</span>
+        <span className="text-xs tracking-wider uppercase text-earth-300 font-accent">Scroll</span>
         <div className="w-5 h-8 border border-savanna-400/40 rounded-full flex justify-center pt-1.5">
           <div className="w-1 h-2 rounded-full bg-savanna-400 animate-bounce" style={{ animationDuration: '1.5s' }} />
         </div>

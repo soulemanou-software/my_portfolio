@@ -12,7 +12,10 @@
   body {
     @apply font-body bg-night-500 text-savanna-100 antialiased;
     background-color: #1a1a2e;
-    font-family: Consolas, monospace;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-savanna-400 ring-offset-2 ring-offset-night-500 rounded-sm;
   }
 
   body::-webkit-scrollbar {
@@ -48,7 +51,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('/src/assets/patterns/african-pattern.svg');
+    background-image: url('/patterns/african-pattern.svg');
     background-repeat: repeat;
     opacity: 0.1;
     pointer-events: none;
@@ -121,7 +124,15 @@
   }
 
   .section-subtitle {
-    @apply font-accent text-base sm:text-lg md:text-xl text-earth-200 leading-relaxed;
+    @apply font-accent text-base sm:text-lg md:text-xl text-earth-100 leading-relaxed;
+  }
+
+  .section-shell {
+    @apply relative py-20 sm:py-28 lg:py-36 overflow-hidden;
+  }
+
+  .section-header {
+    @apply text-center mb-14 sm:mb-20;
   }
 
   .african-card {
@@ -140,6 +151,10 @@
 
   .african-card:hover::before {
     @apply opacity-100;
+  }
+
+  .african-card:focus-within {
+    @apply border-savanna-500/50 shadow-african;
   }
 
   .chapter-indicator {
@@ -333,5 +348,33 @@
   .mask-gradient-top {
     mask-image: linear-gradient(to top, black 70%, transparent);
     -webkit-mask-image: linear-gradient(to top, black 70%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .floating,
+  .african-mask-text,
+  .african-pattern-text,
+  .section-title-pattern,
+  .parallax {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .reveal {
+    @apply opacity-100 translate-y-0;
   }
 }

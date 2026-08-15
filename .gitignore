@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 *.timestamp-*
+vite.config.js.timestamp-*
 
 # Editor directories and files
 .vscode/*

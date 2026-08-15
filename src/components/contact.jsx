@@ -94,7 +94,7 @@ const Contact = () => {
     <section
       id="Contacts"
       ref={sectionRef}
-      className="relative py-20 sm:py-28 md:py-36 overflow-hidden bg-gradient-to-b from-night-600 via-earth-900/30 to-night-500"
+      className="section-shell bg-gradient-to-b from-night-600 via-earth-900/30 to-night-500"
     >
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -113,7 +113,7 @@ const Contact = () => {
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-sunset-400/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12">
-        <div className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <div className={`section-header transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <div className="chapter-indicator justify-center mb-6">
             <span>Chapter 05</span>
           </div>
@@ -134,7 +134,7 @@ const Contact = () => {
               >
                 <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2" />
                 <div className="font-heading text-lg sm:text-xl md:text-2xl text-savanna-100">{stat.value}</div>
-                <div className="text-xs text-earth-400 font-accent">{stat.label}</div>
+                <div className="text-xs text-earth-300 font-accent">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -146,7 +146,7 @@ const Contact = () => {
               <span className="text-xs font-accent text-savanna-400 uppercase tracking-wider">Get in touch with</span>
               <h3 className="font-heading text-xl sm:text-2xl md:text-3xl text-savanna-100 mt-1 mb-3">{ownerInfo.fullName}</h3>
               <p className="text-earth-300 leading-relaxed text-sm">
-                I'm always excited to connect with fellow creators, businesses looking to elevate their digital presence, 
+                I&apos;m always excited to connect with fellow creators, businesses looking to elevate their digital presence, 
                 or anyone who appreciates great design and solid engineering.
               </p>
             </div>
@@ -162,10 +162,10 @@ const Contact = () => {
                   <div className={`w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0 ${
                     item.highlight ? 'bg-savanna-400/20' : 'bg-night-600/50'
                   }`}>
-                    <item.icon className={`w-5 h-5 ${item.highlight ? 'text-savanna-400' : 'text-earth-400'}`} />
+                    <item.icon className={`w-5 h-5 ${item.highlight ? 'text-savanna-400' : 'text-earth-300'}`} />
                   </div>
                   <div>
-                    <span className="text-[10px] font-accent text-earth-500 uppercase tracking-wider">{item.label}</span>
+                    <span className="text-[10px] font-accent text-earth-300 uppercase tracking-wider">{item.label}</span>
                     {item.href ? (
                       <a href={item.href} className={`block font-medium transition-colors ${
                         item.highlight ? 'text-savanna-100 hover:text-savanna-400' : 'text-earth-200'
@@ -181,7 +181,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <h4 className="font-accent text-xs text-earth-500 uppercase tracking-wider mb-4">Connect on Social</h4>
+              <h4 className="font-accent text-xs text-earth-300 uppercase tracking-wider mb-4">Connect on Social</h4>
               <div className="flex flex-wrap gap-3">
                 {socialLinks.map((social, index) => (
                   <a
@@ -189,7 +189,7 @@ const Contact = () => {
                     href={social.href}
                     target="_blank"
                     rel="noreferrer"
-                    className={`group w-11 h-11 rounded-xl bg-night-700/50 border border-earth-700/30 flex items-center justify-center text-earth-400 ${social.color} hover:border-savanna-400/30 transition-all duration-300`}
+                    className={`group w-11 h-11 rounded-xl bg-night-700/50 border border-earth-700/30 flex items-center justify-center text-earth-300 ${social.color} hover:border-savanna-400/30 transition-all duration-300`}
                     aria-label={social.label}
                     title={social.label}
                   >
@@ -205,7 +205,7 @@ const Contact = () => {
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h3 className="font-heading text-xl sm:text-2xl text-savanna-100">Send a Message</h3>
-                  <p className="text-xs text-earth-400 mt-1">I&apos;ll respond within 24 hours</p>
+                  <p className="text-xs text-earth-300 mt-1">I&apos;ll respond within 24 hours</p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-savanna-400/10 border border-savanna-400/30 flex items-center justify-center">
                   <HiSparkles className="w-5 h-5 text-savanna-400" />
@@ -246,49 +246,49 @@ const Contact = () => {
                 <form onSubmit={handleSubmit} className="space-y-5">
                   <div className="grid sm:grid-cols-2 gap-5">
                     <div>
-                      <label htmlFor="name" className="block text-xs font-accent text-earth-400 uppercase tracking-wider mb-2">Your Name</label>
+                      <label htmlFor="name" className="block text-xs font-accent text-earth-300 uppercase tracking-wider mb-2">Your Name</label>
                       <input
                         type="text"
                         id="name"
                         name="name"
                         required
-                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-300 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
                         placeholder="John Doe"
                       />
                     </div>
 
                     <div>
-                      <label htmlFor="email" className="block text-xs font-accent text-earth-400 uppercase tracking-wider mb-2">Email Address</label>
+                      <label htmlFor="email" className="block text-xs font-accent text-earth-300 uppercase tracking-wider mb-2">Email Address</label>
                       <input
                         type="email"
                         id="email"
                         name="email"
                         required
-                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                        className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-300 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
                         placeholder="john@example.com"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="subject" className="block text-xs font-accent text-earth-400 uppercase tracking-wider mb-2">Subject</label>
+                    <label htmlFor="subject" className="block text-xs font-accent text-earth-300 uppercase tracking-wider mb-2">Subject</label>
                     <input
                       type="text"
                       id="subject"
                       name="subject"
-                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
+                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-300 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors"
                       placeholder="What's this about?"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-xs font-accent text-earth-400 uppercase tracking-wider mb-2">Your Message</label>
+                    <label htmlFor="message" className="block text-xs font-accent text-earth-300 uppercase tracking-wider mb-2">Your Message</label>
                     <textarea
                       id="message"
                       name="message"
                       rows="5"
                       required
-                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-500 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors resize-none"
+                      className="w-full px-4 py-3 bg-night-600/30 border border-earth-700/30 rounded-xl text-savanna-100 placeholder-earth-300 focus:outline-none focus:border-savanna-400/50 focus:ring-1 focus:ring-savanna-400/20 transition-colors resize-none"
                       placeholder="Tell me about your project, idea, or just say hello..."
                     />
                   </div>
@@ -322,7 +322,7 @@ const Contact = () => {
         </div>
 
         <div className={`text-center mt-16 transition-all duration-1000 delay-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="text-earth-400 text-sm mb-2">Prefer a quick chat?</p>
+          <p className="text-earth-300 text-sm mb-2">Prefer a quick chat?</p>
           <a 
             href={`mailto:${ownerInfo.email}?subject=Quick Hello`}
             className="inline-flex items-center gap-2 text-savanna-400 hover:text-savanna-300 transition-colors font-accent"

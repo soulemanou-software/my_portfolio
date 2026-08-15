@@ -70,7 +70,7 @@ const Project = () => {
                   </span>
                 ))}
                 {project.languages?.length > 3 && (
-                  <span className="text-xs px-2 py-1 text-earth-400">+{project.languages.length - 3} more</span>
+                  <span className="text-xs px-2 py-1 text-earth-300">+{project.languages.length - 3} more</span>
                 )}
               </div>
             </div>
@@ -110,7 +110,7 @@ const Project = () => {
               <p className="text-earth-200 mb-6 leading-relaxed">{selectedProject.description}</p>
 
               <div className="mb-6">
-                <h4 className="font-accent text-sm text-earth-400 uppercase tracking-wider mb-3">Technologies Used</h4>
+                <h4 className="font-accent text-sm text-earth-300 uppercase tracking-wider mb-3">Technologies Used</h4>
                 <div className="flex flex-wrap gap-2">
                   {selectedProject.languages?.map((lang, idx) => (
                     <span key={idx} className="px-3 py-1.5 bg-savanna-400/10 text-savanna-400 rounded-lg text-sm font-accent">

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { HiCode, HiColorSwatch, HiPencil, HiLightningBolt, HiDatabase, HiCube, HiChip, HiGlobe, HiSparkles, HiAcademicCap } from "react-icons/hi";
-import { FaReact, FaNodeJs, FaFigma, FaPython, FaAws } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiMongodb, SiPostgresql, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { FaReact, FaNodeJs, FaFigma } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 
 const skillStats = [
   { value: "15+", label: "Technologies", icon: HiChip },
@@ -185,7 +185,7 @@ const SkillCard = ({ category, index, isVisible }) => {
           </div>
           <div>
             <h3 className="font-heading text-xl sm:text-2xl text-savanna-100">{category.title}</h3>
-            <span className="text-xs text-earth-400 font-accent uppercase tracking-wider">{category.subtitle}</span>
+            <span className="text-xs text-earth-300 font-accent uppercase tracking-wider">{category.subtitle}</span>
           </div>
         </div>
       </div>
@@ -193,7 +193,7 @@ const SkillCard = ({ category, index, isVisible }) => {
       <p className="text-sm text-earth-300 mb-4 leading-relaxed">{category.description}</p>
       
       <div className="p-3 rounded-xl bg-night-600/30 border-l-2 border-earth-700/50 mb-6">
-        <p className="text-xs text-earth-400 italic">"{category.quote}"</p>
+        <p className="text-xs text-earth-300 italic">&ldquo;{category.quote}&rdquo;</p>
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
@@ -241,7 +241,7 @@ const Skills = () => {
     <section
       id="Skills"
       ref={sectionRef}
-      className="relative py-20 sm:py-28 md:py-36 overflow-hidden bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600"
+      className="section-shell bg-gradient-to-b from-night-600 via-earth-900/20 to-night-600"
     >
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -260,7 +260,7 @@ const Skills = () => {
       <div className="absolute bottom-40 -right-20 w-96 h-96 bg-sunset-400/5 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }} />
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-12">
-        <div className={`text-center mb-12 sm:mb-16 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
+        <div className={`section-header transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <div className="chapter-indicator justify-center mb-6">
             <span>Chapter 03</span>
           </div>
@@ -281,7 +281,7 @@ const Skills = () => {
               >
                 <stat.icon className="w-5 h-5 text-savanna-400 mx-auto mb-2" />
                 <div className="font-heading text-2xl text-savanna-100">{stat.value}</div>
-                <div className="text-xs text-earth-400 font-accent">{stat.label}</div>
+                <div className="text-xs text-earth-300 font-accent">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -312,7 +312,7 @@ const Skills = () => {
                     <value.icon className={`w-7 h-7 ${styles.icon}`} />
                   </div>
                   <h4 className="font-heading text-lg text-savanna-100 mb-2">{value.name}</h4>
-                  <p className="text-sm text-earth-400 leading-relaxed">{value.description}</p>
+                  <p className="text-sm text-earth-300 leading-relaxed">{value.description}</p>
                 </div>
               );
             })}
@@ -320,7 +320,7 @@ const Skills = () => {
         </div>
 
         <div className={`text-center mt-12 sm:mt-16 transition-all duration-1000 delay-900 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <p className="text-earth-400 text-sm mb-4">Ready to see these skills in action?</p>
+          <p className="text-earth-300 text-sm mb-4">Ready to see these skills in action?</p>
           <a href="#Projects" className="btn-african inline-flex items-center gap-2">
             <span>Explore My Work</span>
             <HiSparkles className="w-4 h-4" />
